@@ -1,0 +1,13 @@
+the DAX function reference provides detailed information including syntax, parameters, return
+values, and examples for each of the over 250 functions used in Data Analysis Expression (DAX)
+formulas.
+in this section
+new DAX functions. These functions are new or are existing functions that have been singnificantly
+updated.
+
+Aggregation functions: These functions calculate a (scalar) values such as count, sum, average,
+minimun, or maximun for all rows in a columna or table as defined by the expresión.
+
+Date and time functions: These fucntions in DAX are similar to date and time functions in Microsoft
+Excel. However, DAX functions are based on the datetime data types used by Microsoft SQL Server.
+ 
