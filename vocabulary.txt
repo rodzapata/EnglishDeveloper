@@ -1,0 +1,41 @@
+approach: enfoque
+a simple but effective approach to object-oriented programming.
+un enfoque simple pero eficaz de programación orientado a objeto.
+
+make: hacer
+make it an ideal language for scripting.
+hacer un lenguaje ideal para scripts.
+
+many: muchas
+most: mayoría
+major: principales
+and rapid application development in many áreas on most platforms.
+y rápido desarrollo en muchas áreas en la mayoría de las plataformas.
+	
+available: disponible
+freely: libremente, gratuitamente
+
+The Python interpreter and the extensive standard library are freely available in source on binary form for all
+major platforms from the Python web site.
+
+El intérprete de Python y la extensa biblioteca estándar están disponibles gratuitamente en fuente en forma binaria para todos
+las principales plataformas del sitio web de Python.
+
+same: mismo
+also: también
+pointers : punteros
+third : terceros
+
+The same site also contains distributions of and pointers to many free third party.
+en el mismo sitio también contiene distribución de punteros y muchas parte de terceros libres.
+
+suitable: adecuado
+customizable: personalizable
+
+Pyhton is also suitable as an extensión language for customizable applications.
+Python tambien es adecuado como una extensión de leguaje para aplicaciones personalizables.
+
+
+
+
+
