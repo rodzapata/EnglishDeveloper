@@ -35,7 +35,35 @@ customizable: personalizable
 Pyhton is also suitable as an extensión language for customizable applications.
 Python tambien es adecuado como una extensión de leguaje para aplicaciones personalizables.
 
+cover: cubre
+feature: caracteristcicas
+every: cada, todo
+single: individuales, únicas
 
+cover every single features.
+cubre cada características individuales.
+
+
+attempt: pretende
+comprehensive: exhautivo
+even: incluso
+
+or even every commonly used feature.
+o incluso todas las característica comúnmente usadas.
+
+improve: mejorar
+every day I need to improve my english.
+cada dia necesito mejorar mi ingles.
+
+every day I need to improve my english more.
+cada dia necesito mejora mas mi ingles.
+
+towns: pueblos
+
+How security in the USA?
+R:/ some cities and neightborhoods are very safe.
+other can be dangerous, expecially at night.
+In general, tourist áreas and small towns are safe, but it's always Good to be careful.
 
 
 
