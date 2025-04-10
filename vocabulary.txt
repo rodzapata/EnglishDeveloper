@@ -93,4 +93,7 @@ intenta iniciar sesión en otro momento.
 Try to log in again later. (para sonar mas natural)
 intenta iniciar sesión mas tarde. 
 
+I've always struggled with learning JavaScript
+siempre he tenido dificultad con el aprendizaje de JavaScript.
+
 

@@ -19,3 +19,4 @@ comprehensive: exhautivo
 even: incluso
 improve: mejorar
 towns: pueblos
+give: dar
