@@ -29,6 +29,19 @@ third : terceros
 The same site also contains distributions of and pointers to many free third party.
 en el mismo sitio también contiene distribución de punteros y muchas parte de terceros libres.
 
+The cookies are only used within the same site.
+lose cookies solo son usado dentro del mismo sitio.
+
+she is the only person I trust.
+Ella es la única persona en la que confio.
+
+this room is for staff only.
+esta sala es solo para el personal.
+
+you can only enter with a ticket.
+solo puedes entrar con un boleto.
+
+
 suitable: adecuado
 customizable: personalizable
 
@@ -96,4 +109,36 @@ intenta iniciar sesión mas tarde.
 I've always struggled with learning JavaScript
 siempre he tenido dificultad con el aprendizaje de JavaScript.
 
+we need to equip the new office with computers.
+necesitamos equipoar la nueva oficina con computadores.
+
+this course Will equip you with the skills to analyze data.
+este curso te equipará con las habilidades para analizar datos.
+
+They are equipping the lab for new experiments.
+están equipando el laboratorio para nuevos experimentos.
+
+learn string manipulation by building a cipher.
+aprende manipulación de cadenas de texto construyendo un cifrado.
+
+Her statements were clear and convincing.
+sus declaraciones fueron claras y convincentes.
+
+SQL is a language used to execute database statements.
+SQL es un lenguaje usado para ejecutar sentencias en base de datos.
+
+If statements are used to make decisions in code.
+las sentencia If es usada para la toma de decisiones en el código.
+
+loops are control flow statements that repeat actions.
+los bucles son sentencias de control de flujo que repiten acciones.
+
+keep your code clean and easy to read.
+manten tu código limpio y fácil de leer.
+
+keep your functions short and focused on a single task.
+manten tus funciones cortas y enfocada e una sola tarea.
+
+that there’s some task you’d like to automate.
+hay algunas tareas que te gustaría automatizar.
 

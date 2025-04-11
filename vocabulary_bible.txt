@@ -18,6 +18,6 @@ surrendered:
 everithing:
 keeps:
 praise:
-
+trust: confiar
 strength: fuerza
 struggled: dificultad

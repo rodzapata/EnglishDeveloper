@@ -1,3 +1,4 @@
+Word: translater
 approach: enfoque
 make: hacer
 many: muchas
@@ -5,6 +6,8 @@ most: mayoría
 major: principal
 available: disponible
 same: mismo
+only: solo, único
+within: dentro
 also: también
 pointers: punteros
 third: terceros
@@ -14,9 +17,23 @@ cover: cubre
 feature: características
 every: cada
 single: individuales
-attempt: pretende
+attempt: intentar
 comprehensive: exhautivo
 even: incluso
 improve: mejorar
 towns: pueblos
 give: dar
+staff: personal
+curriculum: plan de estudio
+perform: realizar
+complex: complejo
+through: a través
+equip: equipar o proveer
+team: equipo
+Cipher: cifrado
+statements: declaraciones o enunciados o sentencias
+any: cualquier
+keep: seguir o mantener
+Whetting: estimular o abrir el apetito
+some: algunos
+wish: desear
