@@ -142,3 +142,20 @@ manten tus funciones cortas y enfocada e una sola tarea.
 that there’s some task you’d like to automate.
 hay algunas tareas que te gustaría automatizar.
 
+there are materials freely available through the library, and there is also merlot.com
+hay material disponible grautitamente a traves de la ligreria, y tambien hay en merlot.com
+
+and in third party Python extensions.
+y en la extension Pyhton de terceros.
+
+search: bucar
+The sub function can perform a search and replace action.
+such as, global search and replace.
+
+feast: fiesta, festin, banquete
+feast for the eyes
+festin para los ojos
+
+sea: mar
+at sea travel
+viaje en el mar

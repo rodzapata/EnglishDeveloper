@@ -1,39 +1,42 @@
-Word: translater
-approach: enfoque
-make: hacer
-many: muchas
-most: mayoría
-major: principal
-available: disponible
-same: mismo
-only: solo, único
-within: dentro
-also: también
-pointers: punteros
-third: terceros
-suitable: adecuado
-customizable: personalizable
-cover: cubre
-feature: características
-every: cada
-single: individuales
-attempt: intentar
-comprehensive: exhautivo
-even: incluso
-improve: mejorar
-towns: pueblos
-give: dar
-staff: personal
-curriculum: plan de estudio
-perform: realizar
-complex: complejo
-through: a través
-equip: equipar o proveer
-team: equipo
-Cipher: cifrado
-statements: declaraciones o enunciados o sentencias
-any: cualquier
-keep: seguir o mantener
-Whetting: estimular o abrir el apetito
-some: algunos
-wish: desear
+Word: translater: audio
+approach: enfoque: /_a-'proch/
+make: hacer: /meik/
+many: muchas: /'me-ni/
+most: mayoría: /moust/
+major: principal: /'mei-jor/
+available: disponible: /_a-vei'le-bol/
+same: mismo: /seim/
+only: solo, único: /'oun-li/
+within: dentro: /ue-'den/
+also: también: /'ol-sou/
+pointers: punteros: /'poin-d_r/
+third: terceros: /fer-d/
+suitable: adecuado: /'su-re-bl/
+customizable: personalizable: /'cas-to-mai-zebl/
+cover: cubre: /'kau-vr/
+feature: características: /'fi-ch_er/
+every: cada: /'e-vri/
+single: individuales : /'sin-g_l/
+attempt: intentar : /_a-'tempt/
+comprehensive: exhautivo: /cam-pr_e-'jen-siv/
+even: incluso : /'i-ven/
+improve: mejorar: /im-'pruv/
+towns: pueblos : /tauns/
+give: dar: /giv/
+staff: personal: /staf/
+curriculum: plan de estudio: /k_u-'r_i-c_u-l_on/
+perform: realizar : /pe-'form/
+complex: complejo: /k_om-'ples/
+through: a través: /fru/
+equip: equipar o proveer: /i-'kue/
+team: equipo: /tim/
+Cipher: cifrado: /'sai-fer/
+statements: declaraciones o enunciados o sentencias: /'stei-ments/
+any: cualquier: /'eni/
+keep: seguir o mantener: /kip/
+Whetting: estimular o abrir el apetito: /'ue-ding/
+some: algunos: /sam/
+wish: desear: /uich/
+library: libreria: /'lai-bre-ri/
+party: parte o fiesta : /'pa-ri/
+neighborhood: vecindario : /'nei-bor-ju/
