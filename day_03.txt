@@ -2,6 +2,11 @@ Word: translater: audio
 handle: manejo : /'han-d_ol/
 flesh: carne: /flesh/
 flesh out: dar mas cuerpo, detallar: /flesh aut/
-flesh something out: desarrollar algo: /flesh 'san-din aut/
 develop: desarrollar: /di-'ve-l_op/
 issue: emitir: /'is-ju/
+requests: solicitudes: /ri-'kwest/
+requirement: requerimiento: /ri-kwar-'m_ent/
+expose: exponer: /ik-'spounz/
+sample: muestra: /'sam-p_ol/
+retrieve: recuperar: /re-'triv/
+maintains: mantener: /'mein-'tein/
