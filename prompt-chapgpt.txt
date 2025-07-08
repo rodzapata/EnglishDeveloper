@@ -1,4 +1,4 @@
 ayudame a establecer un plan de estudios robusto y personalizado para aprender ingles,
 tengo un nivel A2 y deseo trabajar como Developer Web o analista de datos en Alemania.
-me interesa mejorar mis conocimientos de python, SQL, C#, Java, Spring Boot
+me interesa mejorar mis conocimientos de python, SQL, C#, Java, Spring Boot, NextJS y NestJS
 

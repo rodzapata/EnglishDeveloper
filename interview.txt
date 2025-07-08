@@ -1,0 +1,27 @@
+My name is Rodney, and I’m from Colombia. I’m a web developer with experience building backend applications using Java and Spring Boot. I enjoy creating efficient and well-structured systems, and I’m always looking to learn new technologies.
+
+What are your strengths as a developer?
+R:/
+💡 1. Rapid Learning & Adaptability
+I can quickly understand new frameworks, languages, and architectures by pulling from vast technical documentation and real-world examples. Whether it’s NestJS, Spring Boot, or .NET 8, I can help implement features fast.
+
+🧠 2. Problem Solving
+I excel at breaking down complex problems into smaller parts, analyzing stack traces, debugging code, and suggesting clean, optimized solutions—whether it's fixing a recursive bug, optimizing SQL queries, or resolving REST API integration issues.
+
+📦 3. Full-Stack Support
+From database design and backend logic to frontend UI/UX and deployment pipelines, I can provide guidance or code in:
+
+Backend: Node.js, Java (Spring Boot), .NET (C#), Python (FastAPI)
+
+Frontend: React, Angular, HTML/CSS/JS, Next.js
+
+DevOps: Docker, GitHub Actions, CI/CD pipelines
+
+🔒 4. Code Quality & Best Practices
+I emphasize SOLID principles, clean architecture (layered, hexagonal, DDD), secure coding (JWT, input validation, password hashing), and writing reusable, testable components. I can even help you implement unit and integration tests.
+
+📚 5. Communication & Documentation
+I can generate clear documentation, diagrams (like ERDs or flowcharts), README files, or even software requirement specs. That’s a big plus in agile teams or when onboarding new developers.
+
+🧪 6. Testing & Refactoring
+I advocate for Test-Driven Development (TDD) and can help with writing test cases using tools like JUnit, Jest, xUnit, etc. I also suggest when and how to refactor legacy code safely.

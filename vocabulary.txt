@@ -159,3 +159,7 @@ festin para los ojos
 sea: mar
 at sea travel
 viaje en el mar
+
+flesh out: desarrollar, detallar, dar cuerpo
+flesh something out
+detallar algo
