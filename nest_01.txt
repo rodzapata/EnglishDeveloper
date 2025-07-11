@@ -13,27 +13,8 @@ $ nest g service auth
 
 ads via Carbon
 Design and Development tips in your inbox. Every weekday.
-ads via Carbon
-Authentication
-Authentication is an essential part of most applications. There are many different approaches and strategies to handle authentication. The approach taken for any project depends on its particular application requirements. This chapter presents several approaches to authentication that can be adapted to a variety of different requirements.
-
-Let's flesh out our requirements. For this use case, clients will start by authenticating with a username and password. Once authenticated, the server will issue a JWT that can be sent as a bearer token in an authorization header on subsequent requests to prove authentication. We'll also create a protected route that is accessible only to requests that contain a valid JWT.
-
-We'll start with the first requirement: authenticating a user. We'll then extend that by issuing a JWT. Finally, we'll create a protected route that checks for a valid JWT on the request.
-
-Creating an authentication module#
-We'll start by generating an AuthModule and in it, an AuthService and an AuthController. We'll use the AuthService to implement the authentication logic, and the AuthController to expose the authentication endpoints.
-
-
-$ nest g module auth
-$ nest g controller auth
-$ nest g service auth
-As we implement the AuthService, we'll find it useful to encapsulate user operations in a UsersService, so let's generate that module and service now:
-
-
-$ nest g module users
-$ nest g service users
 
 Replace the default contents of these generated files as shown below. For our sample app, the UsersService simply maintains a hard-coded in-memory list of users, and a find method to retrieve one by username. In a real app, this is where you'd build your user model and persistence layer, using your library of choice (e.g., TypeORM, Sequelize, Mongoose, etc.).
 
-
+Implementing the "Sign in" endpoint
+Our AuthService has the job of retrieving a user and verifying the password. We create a signIn() method for this purpose. In the code below, we use a convenient ES6 spread operator to strip the password property from the user object before returning it. This is a common practice when returning user objects, as you don't want to expose sensitive fields like passwords or other security keys.

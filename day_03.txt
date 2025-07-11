@@ -10,3 +10,5 @@ expose: exponer: /ik-'spounz/
 sample: muestra: /'sam-p_ol/
 retrieve: recuperar: /re-'triv/
 maintains: mantener: /'mein-'tein/
+less: menor: /les/
+greater: mayor: /'grei-rer/

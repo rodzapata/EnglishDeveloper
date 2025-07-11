@@ -1,0 +1,8 @@
+Ciudad	Región	Características climáticas
+Friburgo (Freiburg im Breisgau)	Baden-Wurtemberg	☀️ La ciudad más cálida de Alemania. Veranos calurosos, inviernos suaves. Mucho sol todo el año.
+Karlsruhe	Baden-Wurtemberg	Muy calurosa en verano, baja precipitación. Se acerca a los 35 °C en julio-agosto.
+Mannheim	Baden-Wurtemberg / Renania-Palatinado	Cálida, con veranos intensos. Clima continental suave.
+Heidelberg	Baden-Wurtemberg	Clima templado, buena calidad de vida y mucho turismo. Muy agradable.
+Mainz	Renania-Palatinado	Veranos secos y calurosos. Buen acceso a Frankfurt.
+Wiesbaden	Hesse	Similar a Mainz. Invierno suave comparado con el norte y este.
+Stuttgart	Baden-Wurtemberg	Capital de región cálida. Veranos calurosos, inviernos moderados.

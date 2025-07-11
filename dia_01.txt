@@ -18,14 +18,14 @@ feature: características: /'fi-ch_er/
 every: cada: /'e-vri/
 single: individuales : /'sin-g_l/
 attempt: intentar : /_a-'tempt/
-comprehensive: exhautivo: /cam-pr_e-'jen-siv/
+comprehensive: exhautivo, completo: /cam-pr_e-'jen-siv/
 even: incluso : /'i-ven/
 improve: mejorar: /im-'pruv/
 towns: pueblos : /tauns/
 give: dar: /giv/
 staff: personal: /staf/
 curriculum: plan de estudio: /k_u-'r_i-c_u-l_on/
-perform: realizar : /pe-'form/
+perform: realizar : /per-'form/
 complex: complejo: /k_om-'ples/
 through: a través: /fru/
 equip: equipar o proveer: /i-'kue/
