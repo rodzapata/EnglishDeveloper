@@ -1,0 +1,66 @@
+🔈 1. Canales de YouTube con audios y pronunciación clara
+🧑‍💻Inglés para desarrolladores (con vocabulario técnico):
+Tech English by Codeacademy (vocabulario para devs con pronunciación)
+🔗 https://www.youtube.com/@Codecademy
+
+English for IT – Ideal para principiantes con enfoque en tecnología
+🔗 https://www.youtube.com/@englishforit
+
+🎧Inglés con enfoque auditivo (sin gramática):
+Speak English With Mr. Duncan – Tiene videos repetitivos para aprender escuchando.
+🔗 https://www.youtube.com/user/duncaninchina
+
+Speak English with Vanessa – Pronunciación natural y muchas frases útiles.
+🔗 https://www.youtube.com/@SpeakEnglishWithVanessa
+
+📱 2. Apps con enfoque en PRONUNCIACIÓN y vocabulario (para devs)
+📌 ELSA Speak (reconoce tu voz y corrige pronunciación)
+Puedes practicar palabras como: “function”, “variable”, “deployment”, etc.
+
+Tiene ejercicios solo de escucha y repetición.
+
+✅ Ideal si quieres mejorar tu pronunciación sin estudiar gramática.
+
+📌 Say It: English Pronunciation
+Tiene audios de alta calidad, repetición lenta y comparación de voz.
+
+Enfócate en palabras de tu trabajo diario como “server”, “client”, “repository”.
+
+🎧 3. Podcasts para empezar a escuchar inglés desde cero
+🗣️ English for Developers Podcast (nivel A1–B1)
+Explican palabras como "framework", "API", "debug", "loop", etc.
+
+Muy pausado y repetitivo.
+
+🔗 Puedes encontrarlos en:
+
+Spotify
+
+Google Podcasts
+
+🗣️ The English We Speak – by BBC Learning English
+Episodios de 3 minutos con frases útiles y pronunciación real.
+
+📘 4. Listado de palabras clave para desarrolladores (con audio)
+Empieza escuchando y repitiendo estas palabras con su pronunciación (útil desde el día 1):
+
+Español	Inglés	Audio de pronunciación
+Servidor	Server	🔊 server
+Cliente	Client	🔊 client
+Código	Code	🔊 code
+Depurar	Debug	🔊 debug
+Variable	Variable	🔊 variable
+Función	Function	🔊 function
+Interfaz	Interface	🔊 interface
+Repositorio	Repository	🔊 repository
+
+🟢 Usa https://forvo.com o howtopronounce.com para buscar cualquier palabra en inglés y oír cómo se pronuncia por hablantes nativos.
+
+🎯 Estrategia diaria sugerida (15 minutos)
+Escucha y repite 10 palabras al día desde Forvo.
+
+Practica con ELSA Speak para verificar tu pronunciación.
+
+Ve un video corto (3–5 minutos) en YouTube como "English for IT".
+
+Escucha un podcast breve en inglés mientras caminas o tomas café.
