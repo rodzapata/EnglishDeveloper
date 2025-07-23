@@ -1,4 +1,5 @@
 Word: translater: audio
+latest: ultimo: /'lei-res/
 library: libreria: /'lai-bre-ri/
 party: parte o fiesta : /'pa-ri/
 neighborhood: vecindario : /'nei-bor-ju/
@@ -30,18 +31,5 @@ achieved: logrado o alzanzado : /_a-'chif/
 luck: suerte o casualidad : /lack/
 come: venir /kam/
 long: largo o mucho tiempo: /long/
-ambiguty
-intricate
-articulate
-ingenuity
-resilence
-altruism
-introspection
-meticulous
-inevitable
-ephemeral
-serendipity
-austerity
-vindicate
-omnipotent
-perpicacious
+crash: intensivo o de choque: /krach/
+
