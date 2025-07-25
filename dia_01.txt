@@ -40,3 +40,5 @@ wish: desear: /uich/
 library: libreria: /'lai-bre-ri/
 party: parte o fiesta : /'pa-ri/
 neighborhood: vecindario : /'nei-bor-ju/
+approach taken: enfoque adoptado o método utilizado : /_a-'proch/ /ta-'ken/
+taken: tomó, participio pasaso de taken (tomar): /ta-'ken/

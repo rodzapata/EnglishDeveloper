@@ -1,0 +1,33 @@
+🧰 COMPARATIVA DE HERRAMIENTAS PARA GESTIÓN DE PROYECTOS
+Funcionalidad / Herramienta	🟦 Monday.com	🟨 ClickUp	🟫 Notion	🟩 Trello
+Plan gratuito	✅ Muy limitado	✅ Bastante completo	✅ Muy flexible	✅ Básico
+Vistas (Kanban, Gantt, Lista, Calendario)	✅ Todas (desde plan Standard)	✅ Todas en plan gratis	✅ Algunas (con plantillas)	✅ Solo Kanban en gratuito
+Automatizaciones	✅ Desde plan pago	✅ Gratis (limitadas)	⚠️ Solo con integraciones	✅ Desde plan pago
+Gestión de tareas subtareas	✅ Completa	✅ Completa	⚠️ Manual	⚠️ Limitada
+Time tracking (seguimiento de tiempo)	✅ Pro en adelante	✅ Gratis	❌ Nativo	❌ Nativo
+Base de conocimiento / documentación	❌ Débil	⚠️ Básico	✅ Potente	❌ No
+Gestión de permisos/roles avanzados	✅ Desde Standard	✅ Desde gratuito	✅ Desde gratuito	⚠️ Limitado
+Integraciones (GitHub, Slack, Google Calendar, etc.)	✅ Planes pagos	✅ Gratis y pagos	✅ Algunas gratuitas	✅ Limitadas gratis
+Móvil / App	✅ Sí	✅ Sí	✅ Sí	✅ Sí
+IA integrada	⚠️ Limitada	✅ Sí (desde plan gratuito)	✅ Sí (Notion AI)	❌ No
+Costo (desde)	$9 USD/usuario/mes	$5 USD/usuario/mes	$8 USD/mes (Notion Plus)	$5 USD/usuario/mes
+
+🏁 Recomendaciones según tu necesidad
+Necesidad	Recomendación
+✅ Gestión profesional de proyectos software con múltiples equipos, cronogramas y automatizaciones	ClickUp o Monday.com (Standard/Pro)
+✅ Documentación y gestión ligera de tareas en un solo lugar	Notion
+✅ Proyectos simples o personales en equipo pequeño	Trello (gratis o Standard)
+✅ Automatización potente sin pagar desde el inicio	ClickUp
+✅ Seguimiento del tiempo sin pagar extra	ClickUp (gratis)
+
+🔚 Conclusión rápida
+🏆 ClickUp → Mejor relación calidad/precio, muchas funciones en el plan gratuito.
+
+🧠 Notion → Ideal si tu equipo documenta mucho, más una wiki técnica.
+
+📌 Trello → Fácil y visual, pero limitado sin plan pago.
+
+🧑‍💼 Monday.com → Potente, corporativo, pero requiere pago desde temprano si tu equipo es mediano o grande.
+
+¿Quieres que te sugiera una configuración concreta para tu equipo de desarrollo de software (como plantillas o flujos de trabajo en ClickUp o Notion)?
+
