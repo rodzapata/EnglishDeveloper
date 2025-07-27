@@ -13,7 +13,7 @@ authorized: autorizado: /'a-z_e-rais/
 such as: como : /sach/
 search: buscar: /surch/
 feast: fiesta o festin o banquete : /fist/
-sea: mar ; /si/
+sea: mar : /si/
 travel: viaje: /'tr_a-vl/
 swedish: sueco: /'sui-desh/
 sweden: suecia: /sue-den/
@@ -29,7 +29,8 @@ ignite: prender o encender : /ig-'nait/
 proud: orgulloso: /praud/
 achieved: logrado o alzanzado : /_a-'chif/
 luck: suerte o casualidad : /lack/
-come: venir /kam/
+come: venir: /kam/
 long: largo o mucho tiempo: /long/
 crash: intensivo o de choque: /krach/
-
+faith: certeza, seguridad: /feith/
+straightforward: sencillo, directo, simple: /strei-'for-wed/
