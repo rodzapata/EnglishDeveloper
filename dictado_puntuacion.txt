@@ -1,0 +1,439 @@
+"Hey guys, welcome to my 2024 React crash course! So, this is something I do every two to three years — not just with React, but all the big frameworks — just to kind of keep up to date.
+
+This course is designed to get you up and running with React as quickly as possible, and it’s geared toward beginners. So, if you’ve never used React before, you’re in the right place.
+
+We’re going to build a front end for a job listing website, and you’ll be introduced to concepts like components, props, state, hooks, data fetching, and much more. We’ll also be using the React Router to create a multi-page application.
+
+Also, in the real world, you’re going to be working with backend data and APIs, so we’re going to use the JSON Server library to create a mock REST API as our back end.
+
+Now, one thing I want to mention real quick is that React 19 is right around the corner, and it does add some new features. Many of those features are under the hood, meaning that the concepts of React — when it comes to writing the code and the fundamentals — aren’t going to change as far as what we’re doing here.
+
+The biggest change to React 19 is that they’re adding a compiler, which will convert React code into regular JavaScript, potentially doubling performance. It’ll work in a similar way to frameworks like Svelte.
+
+Now, we’re going to be using version 18."**
+
+
+"In this video, as React 19 isn’t released yet, all the core concepts that we’re going to talk about are the same. So it doesn’t matter if you’re using version 18 or 19.
+
+I did do a video on React 19 a couple of weeks ago, and we used the experimental version of React to test out some of the new features. That might be something you want to watch after this, if you’re interested.
+
+Alright, so we’re going to take a look at some slides, and then we’ll get right into learning React.
+
+Okay, so like I said, we’re going to spend a little bit of time with some slides, just to kind of give you an overview of what React is and what it entails. I’m going to warn you that it may be overwhelming if this is your first introduction to the library, and that’s why I like to be more hands-on and jump right in. But it can be helpful to have an overview, just so you understand what React actually is and some of the terms we’ll be using.
+
+So, what is React?
+It’s a JavaScript library for building user interfaces, and it allows us to build user interfaces and front ends of websites and applications using components (which I’ll talk about soon). It was created and is maintained by Facebook and a community of individual developers and companies.
+
+You’ve probably heard React referred to as a framework — I refer to it as a framework all the time — but it’s actually a UI library, to be specific.
+The difference is that a framework is a complete solution. So, Angular, for instance, is a full-featured framework because it includes a router, an HTTP client, a state management library, and much more.
+
+The reason React is often referred to as a framework is because it operates like one, and it’s in direct competition with frameworks like Angular.
+In fact, it’s actually the most popular out of the major front-end frameworks, which are: React, Vue.js, Angular, and Svelte.
+
+It’s often used with other libraries — such as React Router — to create a full-featured solution. Also, the ecosystem of React is huge, so it can be used for a wide variety of applications, such as single-page..."
+
+"Apps, server-side rendered applications, and static websites — I’ll talk more about those in a few minutes as well.
+
+Alright, so why React?
+
+Now, back in the day, the web was very static. You would click on a link, and it would take you to another page — the entire page would refresh. This was the state of the web for a long time.
+
+Then came along AJAX, and this allowed us to make requests to the server and get data without having to refresh the page. This was kind of a game changer in terms of user interfaces. It allowed us to build single-page applications, where we could have a very dynamic user experience.
+
+But as this type of application and interface grows, it can become very hard to maintain — and this is where React and front-end frameworks come in. We can build dynamic UIs in a way that’s easy to maintain and scale.
+
+If you’ve ever tried to build a large-scale UI with vanilla JavaScript, you know that it’s quite a task, and the code gets very unorganized and messy — unless you build your own framework or something like that.
+
+So React, and these other frameworks, make this much easier.
+
+Now traditionally — just to talk about how it works under the hood — React used something called the Virtual DOM. The DOM meaning the Document Object Model, which you should be familiar with. If you’re not, I would definitely recommend learning more vanilla JavaScript first.
+
+The Virtual DOM is a lightweight copy of the actual DOM. When the state of a component changes, the Virtual DOM changes first. Then, React will compare the two — the Virtual DOM and the actual DOM — and it will update only the parts that need to be updated.
+
+So this is traditionally how React works. That’s how version 18 works (which we’re using now) and every version before it.
+
+However, with the upcoming version 19, React will have a compiler that (to my understanding) will replace the Virtual DOM. It’ll make things faster, and it will also automate some of the tedious tasks, making React easier to work with overall.
+
+Now, most of the reasons to use React also apply to other front-end frameworks as well. And if you ask me specifically: “Why React over the others?”, I would probably say jobs.
+
+There are definitely a lot more React jobs than the others. Also, the ecosystem is huge. When it comes to meta-frameworks like Next.js and Remix, or using React Native for mobile development — it’s just… it’s definitely the most popular.
+
+Now, I’m going to be 100% transparent with you guys:
+The reason I use React, and the reason I do most of my courses and videos on React, is because of its popularity.
+
+To me, Vue.js and Svelte do a lot of things in a much more straightforward way. So if you’re not caring about jobs — maybe you’re a freelancer, or maybe you’re just trying to build your own products — I would definitely look into other frameworks as well, especially Svelte and Vue.
+
+Because again, I think React just overcomplicates a lot of stuff. Don’t get me wrong — it’s a great framework. But if we’re just looking strictly at how we write our code using these frameworks..."**
+
+"I think that Svelte and Vue are easier.
+With that said, that is just my opinion, so take it with a grain of salt.
+
+Also, these frameworks basically do the same thing. Once you learn one — for example, if you learn React now and then want to jump to Vue — it’s going to be easy. It’s just the syntax that changes. The core of what you’re actually doing is the same: you’re still writing components, you’re still passing props, you’re still managing state — it’s just different syntax.
+
+Alright, so speaking of components...
+
+Components are the core concept of not just React but any front-end framework.
+A component is a reusable piece of code that can be used to build elements on a page.
+
+Components can kind of be thought of as custom HTML elements, and they can be broken down into smaller ones — this is called composition.
+Composition is a great way to build UIs because it allows you to break down complex interfaces into smaller, more manageable pieces. This makes your code easier to maintain and scale.
+
+Components can be either classes or functions. However, classes are kind of the older way of doing things in React. Nowadays, you're not really going to see class-based components — they’re almost all functional.
+
+We’ll be using functional components in this course and in any other course I do.
+
+Components can also take in props, which are basically like arguments or attributes, and they can also hold their own state — or their own data.
+
+Now, state is another thing that you’re going to have to wrap your head around when working in the front end.
+State represents the data that a component manages internally. It allows components to store and manage their own data, which can change over time. And it’ll change in response to user interactions or other factors."
+
+"Now, state is typically used for data that’s expected to change, such as user input, fetched data from APIs, or UI-related data like whether a modal is open or closed.
+
+To define state in a functional component, you can use a hook — and I’ll talk more about hooks in a second.
+You’ll use the useState hook, which is a built-in React hook, and this will return an array with two elements: the current state value and the function to update that state.
+
+Again, we’re going to get into this — I know that just hearing me say this doesn’t tell you much. We will get into examples.
+
+There’s also something called global state, which relates to the app as a whole, not just a single component.
+This would be something like the data you fetch from your database — you probably want to share that with multiple components. There are several ways to handle this, everything from keeping your global state in your main component and passing it down to child components, to using the React Context API, which is beyond the scope of this tutorial, but it is an option within React.
+
+You can also use a third-party state management system like Redux.
+
+Now, we’re not going to get into Context or Redux, but we will look at some global state later on.
+
+If you’ve never used React before, hooks can be really intimidating. They’re also difficult to explain, so bear with me.
+Once we start using them, it’ll be more clear.
+
+React hooks are functions that enable functional components to use state and other React features without writing a class.
+Because like I said, React components used to be classes, and they used to have something called lifecycle methods, which were methods that ran at specific times during the component rendering process.
+
+Functional components don’t have lifecycle methods, because they’re not a class.
+So, hooks allow us to do the same things we used to do in class components — such as setting state, performing effects like data fetching on load, and things like that.
+
+Right now, at this point in your learning, the two main hooks you need to know are:
+
+useState
+
+useEffect
+
+The others aren’t really essential for you to know — at least not right now.
+In fact, three of them are being phased out in React 19.
+
+As you can see, all hooks start with the word use.
+You can also create your own custom hooks to use within your components. That’s not something you need to know right now, but just know that it’s possible — you can create a hook that basically does anything.
+
+Now, I just want to give you a full picture of what a component looks like.
+We know that it can have state associated with it (which is just data), and it can also take in props.
+
+The other part of a component is the output, and the output is JSX — or JavaScript Syntax Extension.
+This is basically HTML (or HTML-like syntax) within your JavaScript, and that’s what is actually returned from a React component.
+
+So, this is an example right here:
+You can see there’s a function called Hero. It’s taking in some props — a title and a subtitle with a default — and then it’s returning what looks like HTML, but this is actually JSX.
+
+What’s great about JSX is that it’s dynamic — it’s basically what HTML would be if it were a programming language.
+You can see right here, we’re outputting title and subtitle, which are coming from these props.
+
+You can also have expressions, you can have loops, conditionals — you can basically do anything within your JSX.
+
+There are some differences when it comes to HTML.
+For example, you can’t use class, because that’s a reserved word in JavaScript — so instead, we use className.
+
+Also, if you have a label with a for attribute, that’s changed to htmlFor.
+
+So, there are some slight differences, but for the most part, it’s just HTML.
+
+Now, I was a little hesitant to even add this page, because I think it might confuse some people.
+So, if you don’t understand it — that’s fine, don’t worry about it at the moment.
+
+There are different types of applications and websites you can build using React.
+
+What we’re going to be doing today is an SPA — a Single Page Application.
+This is what these frameworks were initially created for.
+
+Basically, it loads a single HTML file — index.html — in the browser, and then it loads a JavaScript bundle that includes your entire UI, your entire application.
+
+This allows our interface to be very interactive.
+Even if you go to a specific page — let’s say you click on a link and go to “About” — it’s not actually loading the About page from the server. The JavaScript is loading that content for you.
+
+SPAs (Single Page Applications), like I said, are great for really fast, dynamic interfaces, but they can have some issues when it comes to initial page load times as well as SEO (Search Engine Optimization)."
+
+Since the content comes from JavaScript, the solution for that is to create a server-side rendered app, which you can do with a framework like Next.js or Remix.
+
+Now, these frameworks still use React — you can kind of think of it as a wrapper around React — and instead of everything being bundled in the JavaScript, the initial page load is rendered on the server. So this is good for SEO; it's also good for, you know, the initial page load time.
+
+Now, an SSR (server-side rendered) app is a little more difficult to deploy because you do need a server. A single-page app, you can pretty much deploy to any type of host. SSRs — you use something like Vercel or Netlify or something like that.
+
+Now, the third option is static site generation. A static site is where the server generates a bunch of HTML files at build time. So we have frameworks like Gatsby and Astro that can do this, and those frameworks also use React.
+
+So I know that this can get complicated because there are just so many damn frameworks, but just know that they're all using React. So what you learned today still applies — whether you're using Gatsby, whether you're using Next.js, Astro — you can actually use React, or Vue, or Svelte components.
+
+But yeah, what you're learning today is basically the core of all this other stuff. So don't worry about learning this other stuff right now. Just know that it is available, and just know that if you're confused, that's completely normal — you should be. It's JavaScript — you're always going to be confused.
+
+And I just realized — "React generates static HTML" — that's not really accurate. It would be the meta-framework, like Gatsby, that is generating it, not React itself.
+
+Now, there's a few ways to get started with React. We're going to be using a tool called Vite, along with the React plugin, and getting set up is as easy as running this npm command.
+
+Create React App was the most popular option to build a SPA with React, and it's been around for a long time, but it's no longer recommended. It's a bit bloated, it's slower, and as far as I know, it's not supported anymore.
+
+So Vite is a newer solution — it's faster, it has a better developer experience, and it's built on top of something called esbuild, which is a very fast JavaScript...
+
+
+Bundler, and it also has a built-in development server with hot module replacement, so it's a great solution for building SPAs with React — and other frameworks as well.
+
+So, that's it — let's jump in and get our hands dirty learning React.
+
+All right, guys, so real quick, I just want to explain how my crash courses go if you're new to them. Basically, the point of this is to teach you how to get up and running with React (in this case), and we want to go over all the fundamentals. But I also want to create a project and end up with something that you can have — something you built — by the end of it.
+
+So, this is what we're going to create: this React jobs website. It's just a job listings front end.
+
+Now, as far as the data itself, it's going to be coming from a mock backend that we're going to create with JSON Server. It's really simple — basically, we just create a JSON file with some data, and we can then send GET requests, PUT, POST, DELETE — and we're going to add CRUD functionality.
+
+All right, so as far as the template here — the design — this is a Tailwind theme that I created. In the repository, you'll have your src folder with all your components and React stuff. Then, the theme-files folder is going to be just the HTML files — basically just a theme. It's not going to actually fetch data or anything like that; it'll all be hardcoded, but it'll have all the classes and styles that we need for styling. So, we'll be copying some of that as we go along because I like it to look decent.
+
+Now, just to quickly go over this: the homepage has a Hero component, a Navbar component, some boxes, and then we're going to fetch our jobs and list three of them on the homepage. We can toggle the description here — just to give you an example of component state — and then, if you click "Read More", it'll take you to the details page with all the info, the company info, and buttons to edit and delete the jobs.
+
+Now, we're not going to get into authentication — that's something that would be separate from this crash course. I do have videos with all different types of authentication in React, but here we'll have full CRUD functionality.
+
+We have our Add page here to add a job, and we have our Jobs page, which will show all the jobs — again, with this little toggle here.
+
+So, it's a pretty simple project, but I think that it's a good one to just kind of break you into React and how everything works, as far as components, props, events, and things like that.
+
+All right, so yeah — that's what we'll be building. The repository link will be in the description.
+
+As far as what you need: you're just going to have to have Node.js installed, because we're using Vite, and we're using the Node Package Manager to set that up. NPM comes with Node.js, so just download that if you don't already have it.
+
+I would suggest installing the React Developer Tools in your browser — we'll probably use those at some point. You can see the components through your browser and see any props, state, and things like that, so it's helpful.
+
+Then, react.dev is the new React website, and this is where you can find all the documentation. You might want to use that as a supplement to the crash course.
+
+All right, so we can close this stuff up here. I'm just going to keep the React Dev website open. And I do have, in Sublime Text, the theme files, so if I need to copy something from here — to get the HTML and the classes — we'll go ahead and just grab that. So maybe just open the theme files up somewhere on your end.
+
+All right, so we're going to start off by opening the terminal, and just go to wherever you want to create your project folder. I have a folder called dev that I'm going to use.
+
+Then we're going to run:
+
+npm create vite@latest
+
+Again, make sure you have Node.js installed or npm won't work.
+
+So, we're going to say create vite@latest, and then just name the folder whatever you want. I'm going to call it react-crash-d224, but you might want to call it something like react-jobs or similar. I'm just naming it this for you guys, for the repository.
+
+As you can see, you can use Vanilla JavaScript, Vue, React, and other frameworks.
+
+
+We're going to go ahead and choose React, and you can choose to use TypeScript if you want — I'm going to go with just regular JavaScript.
+
+And that's it — that creates, basically, a boilerplate app for us. So we can cd into the folder that we just created. From here, I'm going to go ahead and open up Visual Studio Code with code . — and if you're using something else, that's fine. Just, you know, open the folder in your text editor or IDE.
+
+Let's just take a look at the file structure real quick. There's a vite.config.js file, and this is for any configurations for your dev server. As you can see, we're bringing in the React plugin and using it here, passing it into this array. That's because we chose React when we were asked the questions.
+
+One thing I like to do is change the port, because by default it's — I believe — 5173. I prefer to use 3000 for frontend stuff. So what we can do is add in a server object, and then in that server object, we can set the port like this:
+
+server: {
+  port: 3000
+}
+
+Now, if I open up my terminal within VS Code — my integrated terminal — and run npm install (because, as you can see, there's no node_modules folder), we need to install the dependencies, which are React, ReactDOM, and Vite.
+
+Then we have some plugins for ESLint, as well as some types for TypeScript.
+
+So once we do that, as you can see in the package.json, there's a dev script. So we can run:
+
+npm run dev
+
+And for me, it's going to open on port 3000 because I changed that value in the config. Let's open that up, and you should see a page like this — just a landing page.
+
+All right, so now we have the dev server running. Let's just talk about the structure here for a minute.
+
+The index.html — remember, this is a single-page application, and this file is the single page. This loads in the browser, and then everything else loads through JavaScript.
+
+As you can see here, we're actually including the main.jsx file from the src folder and including it as a module, which is really cool. It's different from how Create React App works with Webpack.
+
+So here, I'm just going to change the title to React Jobs, and that should change as soon as I save it — you can see it up here in the browser tab.
+
+Now, the way that this works — if you're not familiar with frontend frameworks — is pretty standard. They all pretty much do the same thing.
+
+We have a <div> — or I should say, single-page applications do this same type of thing — there's a <div> with an id="root".
+
+If we go into the src folder, this is our React application, and the entry point is this main.jsx file.
+
+In here, we're bringing in React and ReactDOM, which is the library that allows it to work with the DOM (Document Object Model), or the browser.
+
+Then, on that ReactDOM object, we have a createRoot() function. That gets passed an element — and as you can see, we’re selecting that root element by its ID.
+
+And then we're calling the render method, and you can render whatever you want as your application. In this case, we have this App component, which comes from the App.jsx file.
+
+Now, I could change this to anything I want — for example, if I put an <h1> here and say "Hello" and I save that, as you can see, that's what's rendering as my application. And it's styled because of this index.css.
+
+I want to just clean this up a bit — I'm going to undo that and put the App component back.
+
+You also have this StrictMode, which is a wrapper component that checks for potential problems in your app. It helps catch things like deprecated or unsafe lifecycle methods, legacy context API usage, and other issues.
+
+So what I want to do now is a little bit of cleanup.
+
+As far as CSS goes, you can see it comes with two CSS files: index.css and App.css. We're going to be using Tailwind, so we need to install and set that up. I'm just going to keep the index.css, so let's delete the App.css.
+
+The App.jsx file is our main component — basically, this is all the stuff you see right now on the homepage. So what I'm going to do is completely wipe that away and just create an empty component.
+
+Now, components are functions — and you can write them as regular functions, for instance:
+
+function App() { ... }
+
+Or you can use arrow functions, like:
+
+const App = () => { ... }
+
+You can type it out manually if you want, but I would suggest using this extension here — it's called ES7+ React/Redux/React-Native Snippets. It gives you easy snippets that you can use to generate components quickly.
+
+What I like to do is type rafce, which stands for React Arrow Function Component with Export. When I hit Tab or Enter, it gives me an arrow function with the export at the bottom.
+
+There are other snippets too:
+
+raae gives you an arrow function with named export.
+
+rafc gives you an arrow function, but with the export at the top instead of the bottom.
+
+rfc gives you a regular function component.
+
+So you can use whichever format you prefer, but I’ll be using rafce.
+
+If I save that, now we should just see App being rendered.
+
+I also want to get rid of all the CSS. As you can see, in main.jsx, it’s including the CSS file. I’m going to keep that import, but let’s just remove everything inside the CSS file (index.css) for now.
+
+Okay, so now we just have a completely unstyled website.
+
+So yeah, that’s pretty much how this works — we have a <div> with the id="root", and then we're inserting our App into that using the render method.
+
+All right, now let's get Tailwind set up. And there are some steps we can follow — if you just Google something like "Vite React Tailwind", you'll find instructions.
+
+Right here: Install Tailwind CSS with Vite.
+
+So basically, we need to install Tailwind, PostCSS, and Autoprefixer. We already created a Vite project, so now we just need to run this command:
+
+npm install -D tailwindcss postcss autoprefixer
+
+I'm going to grab that, open up a new terminal window (I'm going to let the other one keep running the dev server), and run that command.
+
+Then we want to initialize Tailwind with this command:
+
+npx tailwindcss init -p
+
+The -p flag will also generate a postcss.config.js file.
+
+So let's go ahead and run that.
+
+Now you can see we have two new config files:
+
+tailwind.config.js
+
+postcss.config.js
+
+In the tailwind.config.js, we want to specify where Tailwind should look for class names. I'm just going to copy this block from the docs and paste it in:
+
+content: [
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+],
+
+So Tailwind will look for classes in any .js, .ts, .jsx, or .tsx files in the src folder.
+
+Now, there are a couple of things I want to customize in the tailwind.config.js.
+
+Inside the extend block, I'm going to add:
+
+extend: {
+  fontFamily: {
+    sans: ['Roboto', 'sans-serif'],
+  },
+  gridTemplateColumns: {
+    '70-30': '70% 30%',
+  },
+}
+The fontFamily setting allows us to use the Roboto font with the font-sans utility.
+
+The gridTemplateColumns setting defines a custom grid column class called grid-cols-70-30, which will set two columns: one 70% wide and the other 30%.
+
+We'll leave a little bit of room there, okay? So that's going to allow us to add a class later on that we need. Now, my spell check is showing these blue squiggly lines, so I'm just going to disable that extension just to get rid of those, because that could be a little confusing. Okay, so that's the Tailwind config. Now we just need to go to our index.css and add these three lines, which is going to load Tailwind. So right here, index.css, add those, save it, and then we should be all set.
+
+So if we go back to our application—should... uh, let's see—we might have to reload. Let's just stop the server and run it again.
+
+Um, no utility classes were detected... Oh, we don't have any Tailwind classes, but that's the only reason it's saying this. But you can see the font has changed and there's no margin or padding, so Tailwind is being included. In fact, we can go to our App component..
+
+And remember, with JSX we can't use class; we use className. So let's say className, and we'll do text-5xl, which is a Tailwind class.
+
+And there we go — so Tailwind is now working. Let's close that up.
+
+And yeah, we'll just put this here, close that.
+
+Alright, so we're going to talk a little bit about JSX. Every React component is going to return JSX — that's what this is right here — which is an HTML-like syntax.
+
+I'm going to give you some examples of some things you can do here, because it is dynamic.
+
+But one rule that you have to remember is that you can only return a single element.
+
+Okay? You can have as much stuff inside that element as you want — like inside this div — but it can only return one.
+
+So if I try to, for instance — and you can put parentheses around this as well (whoops, parentheses) and, you know, put it on multiple lines — but if I were to add a paragraph here like that, you'll see I'm already getting an error in VS Code.
+
+It says: "JSX expressions must have one parent element."
+
+So if I save that, that's going to give us an error — same error over here — because I'm returning a div and a p (paragraph).
+
+Now, if I wanted this div and this paragraph, then I could simply wrap it in a single element. So I could say div — uh, whoops, I hate when it does this — so I could say div and then end that here.
+
+And that's absolutely fine.
+
+Okay, so just remember that it has to be wrapped in a single element.
+
+
+Now, you might not want an actual div here, so what you can do is use what's called a fragment, and it's just an empty HTML tag — so, just like this: <> </>.
+
+If I do that, you can see that still works, but now it doesn't have a surrounding div in the actual DOM.
+
+Alright, so just remember that.
+
+Now, to give you kind of a little JSX crash course — let's say we want to put a dynamic variable here.
+
+So, above the return, I can just write JavaScript. For instance, I'll create a variable called name. This isn't part of the project — it's just to give you some examples.
+
+So we'll do:
+
+const name = "John";  
+
+And then I can put that value anywhere within my JSX, wrapped in curly braces.
+
+So I could say:
+
+<p>Hello {name}</p>  
+And you see, I get "Hello John".
+
+And it doesn't have to be just a single variable — it could be an expression.
+
+So, for example, I could say:
+
+const x = 10;  
+const y = 20;  
+And then, I could go under that and put another paragraph:
+
+jsx
+<p>The sum of {x} and {y} is {x + y}</p>  
+And if I save that, I get: "The sum of 10 and 20 is 30."
+
+So basically, you can put whatever you want in these curly braces.
+
+Now, we can also use loops and render something called a list.
+
+So let's add up here:
+
+javascript
+const names = ["Brad", "Mary", "Joe", "Sarah"]; 
+ 
+So we get some names, and let's say I want to loop over these and output them in the browser.
+
+We can create a list by wrapping it in a ul (unordered list) — and it doesn't have to be a ul, it could be anything — but I basically want a li (list item) that has these names inside.
+
+
+
+

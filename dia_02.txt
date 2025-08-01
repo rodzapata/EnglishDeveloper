@@ -34,3 +34,8 @@ long: largo o mucho tiempo: /long/
 crash: intensivo o de choque: /krach/
 faith: certeza, seguridad: /feith/
 straightforward: sencillo, directo, simple: /strei-'for-wed/
+side effect: efecto secundario: /said _e'fek/
+side : lado : /said/
+performance: rendimiento, funcionamiento : /per-'for-m_ens/
+impact : impactar, afectar : /im-'p_ak/
+fetch: traer, obtener, buscar : /fech/
