@@ -55,6 +55,7 @@ The sun sets on the west side of the mountain. (el sol se pone en el lado oeste 
 They live on the other side of town. (ellos viven al otro lado del pueblo).
 He’s always on the winning side. (él siempres está del lado ganador).
 
+fetch data from apis
 
 
 
