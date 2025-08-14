@@ -1,0 +1,112 @@
+Colombia:
+https://www.magneto365.com/co/empleos/desarrollador-junior-java-plsql-modalidad-remota-543105?utm_source=linkedin_jobs_apply&utm_medium=referral&utm_campaign=indra
+----------------
+información sobre trabajo en Europa:
+https://www.trabajostecnologicoseuropa.com/blog/mejores-plataformas-empleo-tech-europa-desarrolladores?utm_source=chatgpt.com
+
+------
+1) Rutas de residencia que más te convienen
+Permiso de trabajo (empleo local): necesitas una oferta y la empresa patrocina tu permiso/permiso de residencia. Es la vía más estable si encuentras trabajo en Estonia. 
+Migration and Home Affairs
+Playroll
+
+Digital Nomad Visa: si vas a trabajar remoto para empresas fuera de Estonia (o tienes clientes fuera), puedes solicitar esta visa — requisito clave: ingresos mínimos declarados (oficialmente ~€4,500 netos/mes según la guía oficial). Permite traer familia como dependientes en la solicitud (ver abajo). Revisa el proceso oficial antes de aplicar. 
+e-Residency
+Pumble
+
+Reagrupación familiar: si tú obtienes residencia (por trabajo o por otra vía), tu esposa e hijos pueden solicitar residencia por reunificación familiar. Los procedimientos y documentos se presentan en embajada o en la Policía y Guardia de Fronteras. 
+Migration and Home Affairs
+
+2) Ciudades recomendadas (ventaja / por qué)
+Tallinn — mejor mercado de empleo tech (más empresas, startups y salarios más altos). Ideal si priorizas encontrar empleo rápido.
+
+Tartu — ciudad universitaria, comunidad tech activa, ambiente familiar y costes más bajos; buena opción si valoras calidad de vida y escuelas.
+
+Pärnu — opción tranquila, coste moderado, estilo de vida costero (si prefieres menos bullicio).
+(Resumen basado en tendencias del ecosistema y economía local; podemos profundizar en barrios concretos si quieres.)
+
+3) Coste de vida estimado (familia de 4)
+Las cifras varían según estilo de vida y ciudad, pero rangos realistas (2025):
+
+Gasto mensual total (familia 4): €3.400 – €4.700 (según fuentes como Numbeo / Expatistan). Esto puede excluir o incluir renta según la fuente — por eso conviene aclararlo al hacer cálculos. 
+Numbeo
+Expatistan, cost of living comparisons
+
+Alquiler (3 hab, centro) en Tallinn: aprox. €1.000 – €1.300/mes (en Tartu suele ser más barato). (Podemos buscar barrios específicos y ejemplos reales de alquiler cuando quieras.) 
+Numbeo
+
+4) Salarios orientativos para desarrolladores
+Salarios varían por stack y experiencia. Un software developer en Tallinn suele estar en un rango amplio; los datos agregados sugieren promedios en la gama de €2.5k – €4k/mes (y seniors o roles especializados pueden superar eso). Revisa ofertas concretas para tu perfil (Java/C#/React/Python) y negocia paquete (salud, impuestos, relocation). 
+Glassdoor
+Qubit Labs
+
+5) Educación — escuelas para tus hijos
+Para el hijo de 9 años: en Tartu y Tallinn hay escuelas internacionales que ofrecen PYP/IB y enseñanza en inglés (p. ej. Tartu International School; en Tallinn: International School of Estonia, Tallinn European School). Recomendado evaluar plazas, coste y transporte escolar. 
+Tartu International School
+State Department
+International Schools Database
+
+Para el hijo de 18 años: revisa opciones de bachillerato internacional (IB) y programas preuniversitarios en Tallinn/Tartu; la Universidad de Tartu también es una buena referencia si piensa estudiar en Estonia más adelante.
+
+6) Documentos y requisitos habituales (lista práctica)
+Pasaportes vigentes para todos.
+
+Contrato de trabajo / prueba de ingresos (para digital nomad: comprobantes de ingresos de últimos 6 meses). 
+e-Residency
+
+Seguro médico internacional que cubra Schengen (para nomad visa suele pedir cobertura mínima). 
+e-Residency
+
+Certificado de antecedentes penales (traducciones y legalizaciones según la embajada).
+
+Prueba de alojamiento (reserva inicial, contrato o carta de invitación).
+
+Títulos y certificados profesionales (en inglés), carta de referencia laboral.
+
+7) Presupuesto recomendado para la mudanza (estimado, euros)
+Vuelos (4 personas, ida): €2.000 – €4.000 (depende de temporada y aerolínea).
+
+Depósito + primer mes alquiler (3 hab en Tallinn): €2.000 – €3.000 (depósito + renta).
+
+Gastos iniciales (traslados, mobiliario básico, sim, papeleo): €1.000 – €2.000.
+
+Reservas para 3–6 meses (vivir sin ingresos locales mientras buscas): €9.000 – €18.000 (dependiendo de si quieres cubrir 3 o 6 meses).
+Total inicial recomendado (seguridad 3–6 meses): €14.000 – €27.000 (esto es una estimación prudente; si ya tienes contrato antes de llegar, mucho menor). Usa rangos porque cada familia tiene prioridades distintas.
+
+8) Estrategia de búsqueda de empleo (paso a paso)
+Optimiza CV y LinkedIn en inglés: destaca 20 años en Java, C#, SQL Server, React y Python; proyectos claves, cloud, microservicios y rol de liderazgo.
+
+Aplica a dos frentes:
+
+Empleo local en Estonia (Tallinn/Tartu) para permiso de trabajo.
+
+Posiciones remotas (Digital Nomad o empresas europeas) para entrada rápida si te interesa la visa nomad.
+
+Plataformas y portales: LinkedIn, CV.ee, MeetFrank, StackOverflow Jobs, Glassdoor, WeWorkRemotely, Jobbatical, Indeed.
+
+Contacta reclutadores locales (agencias IT de Estonia) y ofrece entrevista en zona horaria que les convenga.
+
+Prepara portfolio técnico (repos en GitHub, proyectos, pruebas de código) y entrevistas técnicas (preguntas Java/Spring, C#, SQL, React).
+
+Si consigues oferta, negocia relocation assistance (algunas empresas pagan vuelos, alojamiento temporal y soporte migratorio).
+
+9) Habilidades que te aumentan la probabilidad de contratación (prioriza)
+Cloud + Docker + Kubernetes (DevOps básico).
+
+Spring Boot + microservicios (muy buscado en Java).
+
+REST/GraphQL, React avanzado y pruebas automatizadas.
+
+Inglés fluido y, si es posible, algo de estonio básico (no obligatorio en tech, pero útil socialmente).
+(Esto coincide con lo que mostré antes sobre demanda tech.)
+
+10) Cronograma sugerido (si empiezas hoy)
+Semana 1–2: actualizar CV/LinkedIn, traducir documentos, pedir certificados de antecedentes.
+
+Semana 2–6: aplicar a 50+ posiciones (remotas y Estonia), contactar reclutadores.
+
+Mes 1–3: entrevistas técnicas; cerrar oferta o activar plan nomad.
+
+Mes 3–6: tramitar visa/permiso (si hay oferta, empresa te guía; si nomad, preparar comprobantes y cita en embajada). Tiempo típico de procesamiento: ~15–30 días, pero puede variar. 
+e-Residency
+Playroll
