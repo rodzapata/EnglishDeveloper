@@ -12,3 +12,4 @@ retrieve: recuperar: /re-'triv/
 maintains: mantener: /'mein-'tein/
 less: menor: /les/
 greater: mayor: /'grei-rer/
+slice: rebanar: /slais/
