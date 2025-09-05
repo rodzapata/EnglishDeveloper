@@ -197,4 +197,20 @@ She always wants to buy the latest fashion trends.
 
 That was the last time I saw him.
 
+nest: anidar
+Now that you've declared MyButton, you can nest it into another component.
+ahora que tu haz declarado Mybutton, tu puedes aninarlo dentro de otro componente.
+
+to use curly braces instead of quotes (usa llaves en lugar de comillas)
+
+upwards: hacia arriba
+closest: mas cercano
+you need to move the state from the invididual buttons "upwards" to the closest component containning all of them. (tu necesitas mover el estado de los botones individuales "hacia arriba" al componente mas cercano que contiene a todos ellos.
+
+Either candidate would be ideal for the job. (cualquiera de los dos candidatos debería ser ideal para el trabajo).
+
+able to do (capaz de hacer).
+
+
+
 

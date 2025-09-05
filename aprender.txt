@@ -1,0 +1,102 @@
+✅ Qué aprender en Spring Boot:
+
+REST APIs (con DTO, Services, Repositories).
+
+Seguridad con Spring Security + JWT.
+
+Integración con PostgreSQL y SQL Server.
+
+Testing con JUnit + MockMvc.
+
+Microservicios con Spring Cloud (muy valorado en Alemania).
+
+
+🔹 Nivel 1: Fundamentos de Spring Boot
+
+Creación de proyectos con Spring Initializr.
+
+Inyección de dependencias (IoC, DI) con @Component, @Service, @Repository, @Autowired.
+
+Configuration & Properties (application.properties o application.yml).
+
+Ciclo de vida de un bean (@Bean, @Configuration).
+
+REST APIs con @RestController, @RequestMapping, @GetMapping, @PostMapping.
+
+Manejo de JSON con Jackson.
+
+🔹 Nivel 2: Persistencia de Datos
+
+Spring Data JPA:
+
+JpaRepository, CrudRepository.
+
+Queries con @Query.
+
+Relaciones: @OneToMany, @ManyToOne, @ManyToMany.
+
+Hibernate: entidades, @Entity, @Id, @GeneratedValue.
+
+Conexión a bases de datos (PostgreSQL, MySQL, SQL Server).
+
+Migrations con Flyway o Liquibase.
+
+🔹 Nivel 3: Seguridad y Buenas Prácticas
+
+Spring Security:
+
+Autenticación y autorización.
+
+JWT (JSON Web Tokens).
+
+Roles y permisos.
+
+Validación de datos con @Valid, @NotNull, @Size.
+
+Manejo de excepciones globales (@ControllerAdvice, @ExceptionHandler).
+
+Logging con SLF4J / Logback.
+
+🔹 Nivel 4: Arquitectura y Escalabilidad
+
+Arquitectura en capas (Controller → Service → Repository → DTO → Entity).
+
+DTOs y MapStruct para transformar datos.
+
+Transacciones con @Transactional.
+
+Asincronía con @Async.
+
+Manejo de eventos con ApplicationEventPublisher.
+
+🔹 Nivel 5: Avanzado y Cloud
+
+Microservicios con Spring Cloud:
+
+Eureka, Config Server, API Gateway.
+
+Mensajería: Kafka, RabbitMQ.
+
+Dockerizar aplicaciones Spring Boot.
+
+Testing: JUnit 5, Mockito, Testcontainers.
+
+CI/CD con GitHub Actions, GitLab CI, Jenkins.
+
+✅ Si dominas hasta Nivel 3, ya estarías listo para un trabajo sólido como Spring Boot developer.
+✅ Si además llegas al Nivel 4 y 5, te destacas para roles senior o de arquitectura.
+
+
+=====================================================================================================
+
+✅ Qué aprender en NestJS:
+
+REST API con controladores, servicios y módulos.
+
+Autenticación con JWT/Passport.
+
+TypeORM con PostgreSQL.
+
+Integración con Microservicios y WebSockets.
+
+GraphQL (muy buscado en startups).

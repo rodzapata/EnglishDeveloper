@@ -13,3 +13,14 @@ maintains: mantener: /'mein-'tein/
 less: menor: /les/
 greater: mayor: /'grei-rer/
 slice: rebanar: /slais/
+nest: anidar: /nest/
+curly braces: llaves: /'kor-li breices/
+quotes: comillas: /cou-'tes/
+instead: en lugar de : /en-'sted/
+attribute: atributo: /'a-tri-biu/
+upwards: hacia arriba: /'ap-w_edz/
+closets: mas cercano: /'kla-zet/
+either: cualquiera de los dos: /'ai-der/
+able: capaz: /'ei-bl/
+you're welcome: de nada : /ior 'wel-ke_n/
+
