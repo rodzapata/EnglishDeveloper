@@ -6,7 +6,7 @@ neighborhood: vecindario : /'nei-bor-ju/
 laugh: reir: /laf/
 sun: sol : /san/
 explain: explicar: /ex-'plein/
-neighbor: vecino: //
+neighbor: vecino: /'nei-bor/
 challenge: desafio: /'cha-leng/
 disappointment: decepcion: /dis-_a'pont-m_ent/
 authorized: autorizado: /'a-z_e-rais/
@@ -19,7 +19,7 @@ swedish: sueco: /'sui-desh/
 sweden: suecia: /sue-den/
 avenue: avenida: /'a-ve-niu/
 becomes: comenzar o volverse : /be-'cam/
-just: solo : /yast/
+just: solo, simplemente : /yast/
 stepping : paso o etapa: /staping/
 reality : realidad : /ri-'ale-ri/
 carefully: cuidadosamente : /'ker-f_eri/

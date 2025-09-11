@@ -23,4 +23,13 @@ closets: mas cercano: /'kla-zet/
 either: cualquiera de los dos: /'ai-der/
 able: capaz: /'ei-bl/
 you're welcome: de nada : /ior 'wel-ke_n/
+to kind of : mas o menos, como que, en cierto modo / to kaidaf/
+picture: cuadro : /'pik-cha_/
+coin: moneda: /koin/
+resolve: resolver: /ri-'zolv/
+reject: rechazar: /ri-'jeck/
+pending: pendiente: /'pen-ding/
+
+
+
 
