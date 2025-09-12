@@ -18,4 +18,31 @@ especially JavaScript object basic. It would also be helpfull to have some famil
 HTML and CSS.
 
 
+========================== test OOP in javascript ===================
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills/Object-oriented_JavaScript
+
+
+OOJS1
+In this task we provide you with the start of a definition for a Shape class.
+It has three properties: name, sides, and sideLength. This class only models
+shapes for which all sides are the same length, like a square o an equillateral triangle.
+
+To complete the task:
+1. Add a constructor to this class. The constructor takes arguments for the name, sides, and
+   sideLength properties, and initializes them.
+2. Add a new method calcPerimeter() method to the class, which calculates its perimeter(the
+   length of the shape's outer edge) and logs the results to the console.
+3. Create a new instance of the Shape class called square. Give it a name of square, 4 sides,
+   and a sideLength of 5.
+4. Call your calcPerimeter() method on the instance, to see whether it logs the calculation
+   result to the browser's console as expected.
+5. Create a new instance of shape called triangle, with name of triangle, 3 sides and a
+   sideLength of 3.
+6. Call trinagle.calcPerimeter() to check that it works OK.
+
+OOJS 2
+
+
+
+
 
