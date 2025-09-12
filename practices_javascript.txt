@@ -1,0 +1,21 @@
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects
+
+
+advanced JavaScript objects
+
+In JavaScript, most things are objects, from core Javascrip feautures like arrays to the 
+browser APIS build on top of JavaScript. You cal also créate your own ojects to encapsulate
+related functions and variables into efficient packages and act as Handy data containers.
+
+having a deeper khowledge of how Javascrip objects work is useful as you build confidence with
+web development, start to build more complex apps, and créate your own libraries. This module
+Will help you by providing JavaScript object theory and object-oriented programming practice.
+
+Prerequsites
+
+Before starting this module, you should really have lernt the fundamentals of JavaScript, 
+especially JavaScript object basic. It would also be helpfull to have some familiarity with
+HTML and CSS.
+
+
+

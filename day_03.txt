@@ -29,6 +29,10 @@ coin: moneda: /koin/
 resolve: resolver: /ri-'zolv/
 reject: rechazar: /ri-'jeck/
 pending: pendiente: /'pen-ding/
+were: fui pasado de to be : /we_/
+where: donde: /wer/
+lay: colocar: /lei/
+paradigm: paradigma: /'pe-ra-daim/
 
 
 
