@@ -2,7 +2,7 @@ Goodness: bondad
 mercy: misericordia
 fails : fallar
 been: participio pasado de to be
-held:celebró
+held: celebró
 until:
 head:
 faithful: fiel
@@ -21,3 +21,5 @@ praise:
 trust: confiar
 strength: fuerza
 struggled: dificultad
+holy: sagrado
+die: morir
