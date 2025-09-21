@@ -43,6 +43,10 @@ trample: pisotear: /'tram-p_ol/
 ground: el suelo: /graund/
 staged: preparado: /steig/
 above all : sobre todo, ante todo, por encima de todo : / _e-bAl oll/
+natural: natural :/'ne-chu-r_ol/
+ice: hielo : /ais/
+trip: viaje: /trep/
+
 
 
 

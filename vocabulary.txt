@@ -2,6 +2,9 @@ approach: enfoque
 a simple but effective approach to object-oriented programming.
 un enfoque simple pero eficaz de programación orientado a objeto.
 
+we need a different approach to sove this issue. 
+necesitamos un enfoque diferente para resolver este problema.
+
 make: hacer
 make it an ideal language for scripting.
 hacer un lenguaje ideal para scripts.
@@ -249,6 +252,21 @@ Health is important, but above all, family comes firts. (la salud es importante,
 God is above all power. (Dios esta por encima de todo poder).
 
 there's a mirror above the sink. (hay un espejo encima del lavado).
+
+ice: hielo /ais/
+
+bag of ice. Bolsa de hielo
+I have to make bags of ice. Necesito hacer bolsas de hielo.
+
+last: ultimo /last/
+leg: pierna /leg/
+trip: viaje
+
+my last leg: my ultima etapa
+this is the last leg of my Little European trip.
+esta es mi ultima etapa de mi pequeño viaje europeo.
+
+https://www.youtube.com/watch?v=fHjguZ71OGU
 
 
 
