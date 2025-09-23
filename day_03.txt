@@ -49,6 +49,14 @@ trip: viaje: /trep/
 freedom: libertad: /'fri-dom/
 duty: deber obligacion: /'du-ri/
 heart: corazon: /jart/
+lie: tendido o acostado, situado, localizado, encuentra, mentira : /lai/
+success: exito: /sak-'ses/
+hug: abrazo: /hag/
+appointment: cita, nombramiento, designacion: /a_-'point-m_ent/ 
+already: ya :/'ol-redi/
+hurt: herido, lastimado : /he_rt/
+popup: ventana emergente, surgir, aparecer de repente: /po-'pap/
+minus: menos : /mai-'ne_s/
 
 
 
