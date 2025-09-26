@@ -291,6 +291,30 @@ I'd like to make an appointment with Dr. Evans, please. (Quisiera sacar una cita
 
 hurt: /jert/ herido o lastimado
 
+closure: cierre
+scope: ámbito
+often: a menudo, con frecuencia
+bug: error /bag/
+bag: bolsa /baeg/
+
+A closure allows a function to access variables from its outer scope even after the outer function has finished.
+Un cierre permite que una función acceda a variables desde su ámbito externo incluso después de que la función externa haya terminado.
+
+There is a bug in the code. (hay un error en el codigo)
+
+She bought a new bag. (Ella compró una bolsa nueva)
+
+far: lejos /far/
+far a away: (de lejos, por mucho, con gran diferencia )
+
+she is far and away the best programmer on the team. (ella es de lejos la mejor programadora del equipo).
+this is far and away the most popular restaurant in town. (este es de lejos el mejor restaurant del pueblo).
+learning English was far and away the most useful skill for my career. (aprender ingles fue con gran diferencia la habilidad mas util para mi carrera).
+
+brave: valiente /breiv/
+a brave soldier. Un soldado valiente
+
+
 
 
 

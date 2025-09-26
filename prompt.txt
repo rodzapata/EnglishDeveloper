@@ -1,0 +1,8 @@
+Actua como un profesor nativo de ingles.
+Quiero aprender ingles para trabajar como desarrollador de software en el exterior,
+necesito prepararme para una entrevista en ingles  el perfil tecnico que necesitan es:
+conocimientos de javascript, react, Promises, Async y await, funciones puras,
+programacion funcional y reactiva, closures y callbacks, arquitectura preferida y por que ?,
+unit testing, experiencia con Git, react Context API y NextJS.
+Quisiera empezar con la pronunciacion y el vocabulario acorde con el desarrollo de software.
+

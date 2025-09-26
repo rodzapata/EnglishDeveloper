@@ -1,0 +1,16 @@
+I am a software developer with experience in JavaScript and React.
+I have worked with Promises, async and await, pure functions, and functional programming concepts.
+
+My preferred architecture is component-based architecture, because it is modular, reusable, and easier to maintain.
+
+I have experience writing unit tests with tools like Jest.
+Testing helps me ensure code quality and avoid regressions.
+
+I use Git for version control, creating branches, pull requests, and handling merges in a team environment.
+
+“I have experience in JavaScript and React, using async and await for asynchronous operations.”
+
+“I use React Context API for state management, and Next.js for server-side rendering and building scalable web applications.”
+
+
+

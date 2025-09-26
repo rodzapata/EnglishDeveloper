@@ -57,8 +57,16 @@ already: ya :/'ol-redi/
 hurt: herido, lastimado : /he_rt/
 popup: ventana emergente, surgir, aparecer de repente: /po-'pap/
 minus: menos : /mai-'ne_s/
-
-
+destok:
+curly brackets: llaves: /'ke-li bra-'ket/
+equal: igual : /'i-kuol/
+dash: carrera, raya o guion: /dash/
+semicolon: punto y coma: /se'mi -colon/	
+subtitle: subtitulos: /'sa-tai-bo_l/
+variable: variable: /'ve-ri-bo_l
+value: valor: /'va-liu /
+feedback: retroalimentacion: /'fi-bak/
+however: sin embargo: /jau-'ever/
 
 
 

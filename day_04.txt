@@ -1,0 +1,29 @@
+Word: translater: audio
+JavaScritp: JavaScript : /'ya-va-skrip/
+Reat: React: /ri-'act/
+promise / promises: promesa , promesas : /'pra-mis/ /'pra-mises/
+Async : asincronico : /éiu-sink/
+pure function: funciones pura : /pi-'ur 'fank-shon/
+functional programming: programar funcional: /'fank-shonal 'pro-graming/
+reactive programming: pragramar reactive: /ri-'act 'pro-graming/
+closure: cierre: /'klou-sher/
+callback: llamada hacia atras: /'col-bak/
+arquitecture: arquitectura : /'ar-ki-tek-cher/
+unit testing: probar unidad: /'iu-nit 'tes-ting/
+git: git: /guit/
+context API: API de contexto: /'kan-text ei-pi-ai/
+Next.JS: Next.JS : /'nekst y'ei-'es/
+scope: ámbito: /skoup/
+often: a menudo, con frecuencia : /'aften/
+senior: superior o mayor rango: /'si-nier/
+bug: bicho, error, infeccion: /bag/
+click: click: /cleck/
+quantity: cantidad: /'kuan-re-ri/
+far: lejos: /far/
+message: mensage: /'me-seg/
+false: falso: /fols/
+link: link: /lengk/
+brave: valiente: /breiv/
+tied: atar: /tai/
+copy: copiar: /'ca-py/
+
