@@ -314,6 +314,20 @@ learning English was far and away the most useful skill for my career. (aprender
 brave: valiente /breiv/
 a brave soldier. Un soldado valiente
 
+take: tomar, hacer, recibir
+
+We need to take a backup of the database before deploying the new version. Necesitamos tomar/hacer un respaldo de la base de datos antes de desplegar la nueva versión.
+
+This function can take three parameters: id, name, and email. Esta función puede recibir/tomar tres parámetros: id, nombre y correo.
+
+It may take a few seconds for the server to respond to the request. Puede tardar unos segundos en que el servidor responda a la petición.
+
+take out: sacar
+
+squeeze: esprimir
+
+
+
 
 
 
