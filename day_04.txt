@@ -28,5 +28,9 @@ tied: atar: /tai/
 copy: copiar: /'ca-py/
 take: tomar,llevar , recibir, tardar: /teik/
 take out: sacar, quitar : /teik aut/
+solve: resolver: /'sav/
+issue: asunto : /'i-chu/
+misalingned: desalinueado: /misa-'lained/
+
 
 

@@ -2,8 +2,16 @@ approach: enfoque
 a simple but effective approach to object-oriented programming.
 un enfoque simple pero eficaz de programación orientado a objeto.
 
-we need a different approach to sove this issue. 
-necesitamos un enfoque diferente para resolver este problema.
+solve: resolver
+issue: asunto /'i-chu/
+
+
+we need a different approach to solve this issue. 
+necesitamos un enfoque diferente para resolver este asunto.
+
+There is an issue with the UI: the button text is misaligned.
+hay un asunto con la interfaz de usuario: el texto del boton está desalineado.
+
 
 make: hacer
 make it an ideal language for scripting.
