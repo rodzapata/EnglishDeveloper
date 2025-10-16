@@ -31,6 +31,8 @@ take out: sacar, quitar : /teik aut/
 solve: resolver: /'sav/
 issue: asunto : /'i-chu/
 misalingned: desalinueado: /misa-'lained/
-
+resolve: resolver: /ri-'solv/
+reject: rechazar: /ri-'jakt/
+response: respuesa: /ri-'spons/
 
 
