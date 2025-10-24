@@ -34,5 +34,18 @@ misalingned: desalinueado: /misa-'lained/
 resolve: resolver: /ri-'solv/
 reject: rechazar: /ri-'jakt/
 response: respuesa: /ri-'spons/
+Domain-Driven Design:  Diseño guiado por el Dominio : /dou-'mein 'dre-ven di-'zain/
+Bounded Context: contexto delimitado: / baunded 'kan-teks /
+billing: facturando : /billing/
+invoice: facturar : /in-'vois/
+amount: cantidad: /_a-'maunt/
+paid: pagado: /peid/
+active account: cuenta activa: /ak-'tiv e-'kaunt/
+properties: propiedades: /'pra-pe-tis/
+model: modelo: /'ma-del/
+withdraw: retirar: /ui-dra/
+deposit: depositar: /de-´pa-zit/
+quantity: cantidad: 'kuan-te-ti/
+overloading: sobrecarga: /ou-ve-'louding/
 
 
