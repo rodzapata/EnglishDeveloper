@@ -47,5 +47,8 @@ withdraw: retirar: /ui-dra/
 deposit: depositar: /de-´pa-zit/
 quantity: cantidad: 'kuan-te-ti/
 overloading: sobrecarga: /ou-ve-'louding/
+Command Query Responsibility Segregation: Segregacion de Responsabilidad entre Comando y Consulta: /ka-'mend query res-pon-sa-'be-liri/ segre-'ge-chon/
+
+  
 
 
