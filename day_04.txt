@@ -47,13 +47,8 @@ withdraw: retirar: /ui-dra/
 deposit: depositar: /de-´pa-zit/
 quantity: cantidad: 'kuan-te-ti/
 overloading: sobrecarga: /ou-ve-'louding/
-<<<<<<< HEAD
 Command Query Responsibility Segregation: Segregacion de Responsabilidad entre Comando y Consulta: /ka-'mend query res-pon-sa-'be-liri/ segre-'ge-chon/
-
-  
-=======
 middle wares: mercancía media: /'mi-d_ol werz/
 
->>>>>>> c94f6a8031c3d526492eba74c4113781b080b445
 
 
