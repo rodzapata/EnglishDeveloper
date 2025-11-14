@@ -1,0 +1,8 @@
+Word: translater: audio
+county: condado : /'kaun-ri/
+counties: condados: /'kau-ris/
+states: estados: /'steits/
+cities: ciuddes: /'sai-ris/
+supplier: proveedores: /s_e-plai-er/
+roles: funciones o papeles: /rouls/
+
