@@ -5,4 +5,21 @@ states: estados: /'steits/
 cities: ciuddes: /'sai-ris/
 supplier: proveedores: /s_e-plai-er/
 roles: funciones o papeles: /rouls/
+second: segundo: /'sa-kand/
+summary: resumen: /'sa-mari/
+border: borde: /'bo-rer/
+control: control: /kon-'troul/
+pixel: pixel: /'pi-x_ol/
+units: unidades: /'iu-nets/
+margin: margen: /'mar-yen/
+full: lleno: /'fol/
+equal: igual: /'i-kuol/
+top: parte de arriba: /'tap'
+botton: parte de abajo: /'ba-rom/
+shift: turno: /'sheft/
+box: caja: /baks/
+
+
+
+
 
