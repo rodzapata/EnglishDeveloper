@@ -18,6 +18,7 @@ top: parte de arriba: /'tap'
 botton: parte de abajo: /'ba-rom/
 shift: turno: /'sheft/
 box: caja: /baks/
+height: altura: /jait/
 
 
 
