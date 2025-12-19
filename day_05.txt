@@ -19,7 +19,9 @@ botton: parte de abajo: /'ba-rom/
 shift: turno: /'sheft/
 box: caja: /baks/
 height: altura: /jait/
-
+achievable: alcanzable: /a-'chi-ve-b_ol/
+goals: objetivos: /gos/
+behind me: detras de mi : /ba-'jai me/
 
 
 
