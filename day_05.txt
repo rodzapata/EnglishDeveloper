@@ -22,6 +22,7 @@ height: altura: /jait/
 achievable: alcanzable: /a-'chi-ve-b_ol/
 goals: objetivos: /gos/
 behind me: detras de mi : /ba-'jai me/
+module: modulo : /'ma-diul/
 
 
 
