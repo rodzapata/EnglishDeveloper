@@ -51,6 +51,8 @@ export const AnyNull = runtime.AnyNull
 
 
 export const ModelName = {
+  dictionary: 'dictionary',
+  part_of_speech: 'part_of_speech',
   vocabulary: 'vocabulary'
 } as const
 
@@ -61,10 +63,33 @@ export type ModelName = (typeof ModelName)[keyof typeof ModelName]
  */
 
 export const TransactionIsolationLevel = runtime.makeStrictEnum({
+  ReadUncommitted: 'ReadUncommitted',
+  ReadCommitted: 'ReadCommitted',
+  RepeatableRead: 'RepeatableRead',
   Serializable: 'Serializable'
 } as const)
 
 export type TransactionIsolationLevel = (typeof TransactionIsolationLevel)[keyof typeof TransactionIsolationLevel]
+
+
+export const DictionaryScalarFieldEnum = {
+  id: 'id',
+  word: 'word',
+  pronunciation: 'pronunciation',
+  translate: 'translate',
+  part_of_speech_id: 'part_of_speech_id',
+  week: 'week'
+} as const
+
+export type DictionaryScalarFieldEnum = (typeof DictionaryScalarFieldEnum)[keyof typeof DictionaryScalarFieldEnum]
+
+
+export const Part_of_speechScalarFieldEnum = {
+  id: 'id',
+  name: 'name'
+} as const
+
+export type Part_of_speechScalarFieldEnum = (typeof Part_of_speechScalarFieldEnum)[keyof typeof Part_of_speechScalarFieldEnum]
 
 
 export const VocabularyScalarFieldEnum = {
@@ -72,9 +97,7 @@ export const VocabularyScalarFieldEnum = {
   item: 'item',
   description: 'description',
   pronunciation: 'pronunciation',
-  translate: 'translate',
-  type: 'type',
-  day: 'day'
+  translate: 'translate'
 } as const
 
 export type VocabularyScalarFieldEnum = (typeof VocabularyScalarFieldEnum)[keyof typeof VocabularyScalarFieldEnum]
@@ -86,6 +109,14 @@ export const SortOrder = {
 } as const
 
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
+
+
+export const QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+} as const
+
+export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
 
 
 export const NullsOrder = {

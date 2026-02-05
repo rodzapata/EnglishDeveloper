@@ -8,5 +8,7 @@
  *
  * 🟢 You can import this file directly.
  */
+export type * from './models/dictionary.js'
+export type * from './models/part_of_speech.js'
 export type * from './models/vocabulary.js'
 export type * from './commonInputTypes.js'

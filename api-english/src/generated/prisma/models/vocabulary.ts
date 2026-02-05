@@ -29,15 +29,11 @@ export type AggregateVocabulary = {
 export type VocabularyAvgAggregateOutputType = {
   id: number | null
   item: number | null
-  type: number | null
-  day: number | null
 }
 
 export type VocabularySumAggregateOutputType = {
   id: number | null
   item: number | null
-  type: number | null
-  day: number | null
 }
 
 export type VocabularyMinAggregateOutputType = {
@@ -46,8 +42,6 @@ export type VocabularyMinAggregateOutputType = {
   description: string | null
   pronunciation: string | null
   translate: string | null
-  type: number | null
-  day: number | null
 }
 
 export type VocabularyMaxAggregateOutputType = {
@@ -56,8 +50,6 @@ export type VocabularyMaxAggregateOutputType = {
   description: string | null
   pronunciation: string | null
   translate: string | null
-  type: number | null
-  day: number | null
 }
 
 export type VocabularyCountAggregateOutputType = {
@@ -66,8 +58,6 @@ export type VocabularyCountAggregateOutputType = {
   description: number
   pronunciation: number
   translate: number
-  type: number
-  day: number
   _all: number
 }
 
@@ -75,15 +65,11 @@ export type VocabularyCountAggregateOutputType = {
 export type VocabularyAvgAggregateInputType = {
   id?: true
   item?: true
-  type?: true
-  day?: true
 }
 
 export type VocabularySumAggregateInputType = {
   id?: true
   item?: true
-  type?: true
-  day?: true
 }
 
 export type VocabularyMinAggregateInputType = {
@@ -92,8 +78,6 @@ export type VocabularyMinAggregateInputType = {
   description?: true
   pronunciation?: true
   translate?: true
-  type?: true
-  day?: true
 }
 
 export type VocabularyMaxAggregateInputType = {
@@ -102,8 +86,6 @@ export type VocabularyMaxAggregateInputType = {
   description?: true
   pronunciation?: true
   translate?: true
-  type?: true
-  day?: true
 }
 
 export type VocabularyCountAggregateInputType = {
@@ -112,8 +94,6 @@ export type VocabularyCountAggregateInputType = {
   description?: true
   pronunciation?: true
   translate?: true
-  type?: true
-  day?: true
   _all?: true
 }
 
@@ -209,8 +189,6 @@ export type VocabularyGroupByOutputType = {
   description: string
   pronunciation: string | null
   translate: string | null
-  type: number | null
-  day: number | null
   _count: VocabularyCountAggregateOutputType | null
   _avg: VocabularyAvgAggregateOutputType | null
   _sum: VocabularySumAggregateOutputType | null
@@ -242,8 +220,6 @@ export type vocabularyWhereInput = {
   description?: Prisma.StringFilter<"vocabulary"> | string
   pronunciation?: Prisma.StringNullableFilter<"vocabulary"> | string | null
   translate?: Prisma.StringNullableFilter<"vocabulary"> | string | null
-  type?: Prisma.IntNullableFilter<"vocabulary"> | number | null
-  day?: Prisma.IntNullableFilter<"vocabulary"> | number | null
 }
 
 export type vocabularyOrderByWithRelationInput = {
@@ -252,8 +228,6 @@ export type vocabularyOrderByWithRelationInput = {
   description?: Prisma.SortOrder
   pronunciation?: Prisma.SortOrderInput | Prisma.SortOrder
   translate?: Prisma.SortOrderInput | Prisma.SortOrder
-  type?: Prisma.SortOrderInput | Prisma.SortOrder
-  day?: Prisma.SortOrderInput | Prisma.SortOrder
 }
 
 export type vocabularyWhereUniqueInput = Prisma.AtLeast<{
@@ -265,8 +239,6 @@ export type vocabularyWhereUniqueInput = Prisma.AtLeast<{
   description?: Prisma.StringFilter<"vocabulary"> | string
   pronunciation?: Prisma.StringNullableFilter<"vocabulary"> | string | null
   translate?: Prisma.StringNullableFilter<"vocabulary"> | string | null
-  type?: Prisma.IntNullableFilter<"vocabulary"> | number | null
-  day?: Prisma.IntNullableFilter<"vocabulary"> | number | null
 }, "id">
 
 export type vocabularyOrderByWithAggregationInput = {
@@ -275,8 +247,6 @@ export type vocabularyOrderByWithAggregationInput = {
   description?: Prisma.SortOrder
   pronunciation?: Prisma.SortOrderInput | Prisma.SortOrder
   translate?: Prisma.SortOrderInput | Prisma.SortOrder
-  type?: Prisma.SortOrderInput | Prisma.SortOrder
-  day?: Prisma.SortOrderInput | Prisma.SortOrder
   _count?: Prisma.vocabularyCountOrderByAggregateInput
   _avg?: Prisma.vocabularyAvgOrderByAggregateInput
   _max?: Prisma.vocabularyMaxOrderByAggregateInput
@@ -293,8 +263,6 @@ export type vocabularyScalarWhereWithAggregatesInput = {
   description?: Prisma.StringWithAggregatesFilter<"vocabulary"> | string
   pronunciation?: Prisma.StringNullableWithAggregatesFilter<"vocabulary"> | string | null
   translate?: Prisma.StringNullableWithAggregatesFilter<"vocabulary"> | string | null
-  type?: Prisma.IntNullableWithAggregatesFilter<"vocabulary"> | number | null
-  day?: Prisma.IntNullableWithAggregatesFilter<"vocabulary"> | number | null
 }
 
 export type vocabularyCreateInput = {
@@ -302,8 +270,6 @@ export type vocabularyCreateInput = {
   description: string
   pronunciation?: string | null
   translate?: string | null
-  type?: number | null
-  day?: number | null
 }
 
 export type vocabularyUncheckedCreateInput = {
@@ -312,8 +278,6 @@ export type vocabularyUncheckedCreateInput = {
   description: string
   pronunciation?: string | null
   translate?: string | null
-  type?: number | null
-  day?: number | null
 }
 
 export type vocabularyUpdateInput = {
@@ -321,8 +285,6 @@ export type vocabularyUpdateInput = {
   description?: Prisma.StringFieldUpdateOperationsInput | string
   pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  type?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  day?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
 export type vocabularyUncheckedUpdateInput = {
@@ -331,8 +293,6 @@ export type vocabularyUncheckedUpdateInput = {
   description?: Prisma.StringFieldUpdateOperationsInput | string
   pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  type?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  day?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
 export type vocabularyCreateManyInput = {
@@ -341,8 +301,6 @@ export type vocabularyCreateManyInput = {
   description: string
   pronunciation?: string | null
   translate?: string | null
-  type?: number | null
-  day?: number | null
 }
 
 export type vocabularyUpdateManyMutationInput = {
@@ -350,8 +308,6 @@ export type vocabularyUpdateManyMutationInput = {
   description?: Prisma.StringFieldUpdateOperationsInput | string
   pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  type?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  day?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
 export type vocabularyUncheckedUpdateManyInput = {
@@ -360,8 +316,6 @@ export type vocabularyUncheckedUpdateManyInput = {
   description?: Prisma.StringFieldUpdateOperationsInput | string
   pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  type?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  day?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
 export type vocabularyCountOrderByAggregateInput = {
@@ -370,15 +324,11 @@ export type vocabularyCountOrderByAggregateInput = {
   description?: Prisma.SortOrder
   pronunciation?: Prisma.SortOrder
   translate?: Prisma.SortOrder
-  type?: Prisma.SortOrder
-  day?: Prisma.SortOrder
 }
 
 export type vocabularyAvgOrderByAggregateInput = {
   id?: Prisma.SortOrder
   item?: Prisma.SortOrder
-  type?: Prisma.SortOrder
-  day?: Prisma.SortOrder
 }
 
 export type vocabularyMaxOrderByAggregateInput = {
@@ -387,8 +337,6 @@ export type vocabularyMaxOrderByAggregateInput = {
   description?: Prisma.SortOrder
   pronunciation?: Prisma.SortOrder
   translate?: Prisma.SortOrder
-  type?: Prisma.SortOrder
-  day?: Prisma.SortOrder
 }
 
 export type vocabularyMinOrderByAggregateInput = {
@@ -397,39 +345,11 @@ export type vocabularyMinOrderByAggregateInput = {
   description?: Prisma.SortOrder
   pronunciation?: Prisma.SortOrder
   translate?: Prisma.SortOrder
-  type?: Prisma.SortOrder
-  day?: Prisma.SortOrder
 }
 
 export type vocabularySumOrderByAggregateInput = {
   id?: Prisma.SortOrder
   item?: Prisma.SortOrder
-  type?: Prisma.SortOrder
-  day?: Prisma.SortOrder
-}
-
-export type NullableIntFieldUpdateOperationsInput = {
-  set?: number | null
-  increment?: number
-  decrement?: number
-  multiply?: number
-  divide?: number
-}
-
-export type StringFieldUpdateOperationsInput = {
-  set?: string
-}
-
-export type NullableStringFieldUpdateOperationsInput = {
-  set?: string | null
-}
-
-export type IntFieldUpdateOperationsInput = {
-  set?: number
-  increment?: number
-  decrement?: number
-  multiply?: number
-  divide?: number
 }
 
 
@@ -440,8 +360,6 @@ export type vocabularySelect<ExtArgs extends runtime.Types.Extensions.InternalAr
   description?: boolean
   pronunciation?: boolean
   translate?: boolean
-  type?: boolean
-  day?: boolean
 }, ExtArgs["result"]["vocabulary"]>
 
 export type vocabularySelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -450,8 +368,6 @@ export type vocabularySelectCreateManyAndReturn<ExtArgs extends runtime.Types.Ex
   description?: boolean
   pronunciation?: boolean
   translate?: boolean
-  type?: boolean
-  day?: boolean
 }, ExtArgs["result"]["vocabulary"]>
 
 export type vocabularySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -460,8 +376,6 @@ export type vocabularySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Ex
   description?: boolean
   pronunciation?: boolean
   translate?: boolean
-  type?: boolean
-  day?: boolean
 }, ExtArgs["result"]["vocabulary"]>
 
 export type vocabularySelectScalar = {
@@ -470,11 +384,9 @@ export type vocabularySelectScalar = {
   description?: boolean
   pronunciation?: boolean
   translate?: boolean
-  type?: boolean
-  day?: boolean
 }
 
-export type vocabularyOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "item" | "description" | "pronunciation" | "translate" | "type" | "day", ExtArgs["result"]["vocabulary"]>
+export type vocabularyOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "item" | "description" | "pronunciation" | "translate", ExtArgs["result"]["vocabulary"]>
 
 export type $vocabularyPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "vocabulary"
@@ -485,8 +397,6 @@ export type $vocabularyPayload<ExtArgs extends runtime.Types.Extensions.Internal
     description: string
     pronunciation: string | null
     translate: string | null
-    type: number | null
-    day: number | null
   }, ExtArgs["result"]["vocabulary"]>
   composites: {}
 }
@@ -915,8 +825,6 @@ export interface vocabularyFieldRefs {
   readonly description: Prisma.FieldRef<"vocabulary", 'String'>
   readonly pronunciation: Prisma.FieldRef<"vocabulary", 'String'>
   readonly translate: Prisma.FieldRef<"vocabulary", 'String'>
-  readonly type: Prisma.FieldRef<"vocabulary", 'Int'>
-  readonly day: Prisma.FieldRef<"vocabulary", 'Int'>
 }
     
 
@@ -1122,6 +1030,7 @@ export type vocabularyCreateManyArgs<ExtArgs extends runtime.Types.Extensions.In
    * The data used to create many vocabularies.
    */
   data: Prisma.vocabularyCreateManyInput | Prisma.vocabularyCreateManyInput[]
+  skipDuplicates?: boolean
 }
 
 /**
@@ -1140,6 +1049,7 @@ export type vocabularyCreateManyAndReturnArgs<ExtArgs extends runtime.Types.Exte
    * The data used to create many vocabularies.
    */
   data: Prisma.vocabularyCreateManyInput | Prisma.vocabularyCreateManyInput[]
+  skipDuplicates?: boolean
 }
 
 /**

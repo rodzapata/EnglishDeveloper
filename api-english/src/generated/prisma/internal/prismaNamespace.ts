@@ -384,6 +384,8 @@ type FieldRefInputType<Model, FieldType> = Model extends never ? never : FieldRe
 
 
 export const ModelName = {
+  dictionary: 'dictionary',
+  part_of_speech: 'part_of_speech',
   vocabulary: 'vocabulary'
 } as const
 
@@ -400,10 +402,158 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "vocabulary"
+    modelProps: "dictionary" | "part_of_speech" | "vocabulary"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
+    dictionary: {
+      payload: Prisma.$dictionaryPayload<ExtArgs>
+      fields: Prisma.dictionaryFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.dictionaryFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.dictionaryFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        findFirst: {
+          args: Prisma.dictionaryFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.dictionaryFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        findMany: {
+          args: Prisma.dictionaryFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>[]
+        }
+        create: {
+          args: Prisma.dictionaryCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        createMany: {
+          args: Prisma.dictionaryCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.dictionaryCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>[]
+        }
+        delete: {
+          args: Prisma.dictionaryDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        update: {
+          args: Prisma.dictionaryUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        deleteMany: {
+          args: Prisma.dictionaryDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.dictionaryUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.dictionaryUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>[]
+        }
+        upsert: {
+          args: Prisma.dictionaryUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$dictionaryPayload>
+        }
+        aggregate: {
+          args: Prisma.DictionaryAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateDictionary>
+        }
+        groupBy: {
+          args: Prisma.dictionaryGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.DictionaryGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.dictionaryCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.DictionaryCountAggregateOutputType> | number
+        }
+      }
+    }
+    part_of_speech: {
+      payload: Prisma.$part_of_speechPayload<ExtArgs>
+      fields: Prisma.part_of_speechFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.part_of_speechFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.part_of_speechFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        findFirst: {
+          args: Prisma.part_of_speechFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.part_of_speechFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        findMany: {
+          args: Prisma.part_of_speechFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>[]
+        }
+        create: {
+          args: Prisma.part_of_speechCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        createMany: {
+          args: Prisma.part_of_speechCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.part_of_speechCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>[]
+        }
+        delete: {
+          args: Prisma.part_of_speechDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        update: {
+          args: Prisma.part_of_speechUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        deleteMany: {
+          args: Prisma.part_of_speechDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.part_of_speechUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.part_of_speechUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>[]
+        }
+        upsert: {
+          args: Prisma.part_of_speechUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$part_of_speechPayload>
+        }
+        aggregate: {
+          args: Prisma.Part_of_speechAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePart_of_speech>
+        }
+        groupBy: {
+          args: Prisma.part_of_speechGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Part_of_speechGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.part_of_speechCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.Part_of_speechCountAggregateOutputType> | number
+        }
+      }
+    }
     vocabulary: {
       payload: Prisma.$vocabularyPayload<ExtArgs>
       fields: Prisma.vocabularyFieldRefs
@@ -508,10 +658,33 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
  */
 
 export const TransactionIsolationLevel = runtime.makeStrictEnum({
+  ReadUncommitted: 'ReadUncommitted',
+  ReadCommitted: 'ReadCommitted',
+  RepeatableRead: 'RepeatableRead',
   Serializable: 'Serializable'
 } as const)
 
 export type TransactionIsolationLevel = (typeof TransactionIsolationLevel)[keyof typeof TransactionIsolationLevel]
+
+
+export const DictionaryScalarFieldEnum = {
+  id: 'id',
+  word: 'word',
+  pronunciation: 'pronunciation',
+  translate: 'translate',
+  part_of_speech_id: 'part_of_speech_id',
+  week: 'week'
+} as const
+
+export type DictionaryScalarFieldEnum = (typeof DictionaryScalarFieldEnum)[keyof typeof DictionaryScalarFieldEnum]
+
+
+export const Part_of_speechScalarFieldEnum = {
+  id: 'id',
+  name: 'name'
+} as const
+
+export type Part_of_speechScalarFieldEnum = (typeof Part_of_speechScalarFieldEnum)[keyof typeof Part_of_speechScalarFieldEnum]
 
 
 export const VocabularyScalarFieldEnum = {
@@ -519,9 +692,7 @@ export const VocabularyScalarFieldEnum = {
   item: 'item',
   description: 'description',
   pronunciation: 'pronunciation',
-  translate: 'translate',
-  type: 'type',
-  day: 'day'
+  translate: 'translate'
 } as const
 
 export type VocabularyScalarFieldEnum = (typeof VocabularyScalarFieldEnum)[keyof typeof VocabularyScalarFieldEnum]
@@ -533,6 +704,14 @@ export const SortOrder = {
 } as const
 
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
+
+
+export const QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+} as const
+
+export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
 
 
 export const NullsOrder = {
@@ -557,6 +736,13 @@ export type IntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'In
 
 
 /**
+ * Reference to a field of type 'Int[]'
+ */
+export type ListIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int[]'>
+    
+
+
+/**
  * Reference to a field of type 'String'
  */
 export type StringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String'>
@@ -564,9 +750,23 @@ export type StringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 
 
 
 /**
+ * Reference to a field of type 'String[]'
+ */
+export type ListStringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String[]'>
+    
+
+
+/**
  * Reference to a field of type 'Float'
  */
 export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float'>
+    
+
+
+/**
+ * Reference to a field of type 'Float[]'
+ */
+export type ListFloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float[]'>
     
 
 /**
@@ -664,6 +864,8 @@ export type PrismaClientOptions = ({
   comments?: runtime.SqlCommenterPlugin[]
 }
 export type GlobalOmitConfig = {
+  dictionary?: Prisma.dictionaryOmit
+  part_of_speech?: Prisma.part_of_speechOmit
   vocabulary?: Prisma.vocabularyOmit
 }
 

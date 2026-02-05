@@ -19,8 +19,8 @@ const config: runtime.GetPrismaClientConfig = {
   "previewFeatures": [],
   "clientVersion": "7.3.0",
   "engineVersion": "9d6ad21cbbceab97458517b147a6a09ff43aa735",
-  "activeProvider": "sqlite",
-  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\ngenerator client {\n  provider     = \"prisma-client\"\n  output       = \"../src/generated/prisma\"\n  moduleFormat = \"cjs\"\n}\n\ndatasource db {\n  provider = \"sqlite\"\n}\n\nmodel vocabulary {\n  id            Int     @id @default(autoincrement())\n  item          Int?\n  description   String\n  pronunciation String?\n  translate     String?\n  type          Int?    @default(2)\n  day           Int?\n}\n",
+  "activeProvider": "postgresql",
+  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\ngenerator client {\n  provider     = \"prisma-client\"\n  output       = \"../src/generated/prisma\"\n  moduleFormat = \"cjs\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel dictionary {\n  id                Int     @id @default(autoincrement())\n  word              String  @unique\n  pronunciation     String?\n  translate         String?\n  part_of_speech_id Int\n  week              Int?\n}\n\nmodel part_of_speech {\n  id   Int    @id @default(autoincrement())\n  name String @unique\n}\n\nmodel vocabulary {\n  id            Int     @id @default(autoincrement())\n  item          Int?\n  description   String\n  pronunciation String?\n  translate     String?\n}\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
@@ -28,7 +28,7 @@ const config: runtime.GetPrismaClientConfig = {
   }
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"vocabulary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"item\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"description\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pronunciation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"translate\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"type\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"day\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"dictionary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"word\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pronunciation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"translate\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"part_of_speech_id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"week\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null},\"part_of_speech\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"}],\"dbName\":null},\"vocabulary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"item\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"description\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pronunciation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"translate\",\"kind\":\"scalar\",\"type\":\"String\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
 
 async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Module> {
   const { Buffer } = await import('node:buffer')
@@ -37,10 +37,10 @@ async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Modul
 }
 
 config.compilerWasm = {
-  getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.js"),
+  getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.postgresql.js"),
 
   getQueryCompilerWasmModule: async () => {
-    const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.js")
+    const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.postgresql.wasm-base64.js")
     return await decodeBase64AsWasm(wasm)
   },
 
@@ -60,8 +60,8 @@ export interface PrismaClientConstructor {
    * @example
    * ```
    * const prisma = new PrismaClient()
-   * // Fetch zero or more Vocabularies
-   * const vocabularies = await prisma.vocabulary.findMany()
+   * // Fetch zero or more Dictionaries
+   * const dictionaries = await prisma.dictionary.findMany()
    * ```
    * 
    * Read more in our [docs](https://pris.ly/d/client).
@@ -82,8 +82,8 @@ export interface PrismaClientConstructor {
  * @example
  * ```
  * const prisma = new PrismaClient()
- * // Fetch zero or more Vocabularies
- * const vocabularies = await prisma.vocabulary.findMany()
+ * // Fetch zero or more Dictionaries
+ * const dictionaries = await prisma.dictionary.findMany()
  * ```
  * 
  * Read more in our [docs](https://pris.ly/d/client).
@@ -177,6 +177,26 @@ export interface PrismaClient<
   }>>
 
       /**
+   * `prisma.dictionary`: Exposes CRUD operations for the **dictionary** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more Dictionaries
+    * const dictionaries = await prisma.dictionary.findMany()
+    * ```
+    */
+  get dictionary(): Prisma.dictionaryDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.part_of_speech`: Exposes CRUD operations for the **part_of_speech** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more Part_of_speeches
+    * const part_of_speeches = await prisma.part_of_speech.findMany()
+    * ```
+    */
+  get part_of_speech(): Prisma.part_of_speechDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
    * `prisma.vocabulary`: Exposes CRUD operations for the **vocabulary** model.
     * Example usage:
     * ```ts
