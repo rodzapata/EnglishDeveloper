@@ -4,7 +4,7 @@
 // biome-ignore-all lint: generated file
 // @ts-nocheck 
 /*
- * This file exports the `dictionary` model and its related types.
+ * This file exports the `Dictionary` model and its related types.
  *
  * 🟢 You can import this file directly.
  */
@@ -13,10 +13,10 @@ import type * as $Enums from "../enums.js"
 import type * as Prisma from "../internal/prismaNamespace.js"
 
 /**
- * Model dictionary
+ * Model Dictionary
  * 
  */
-export type dictionaryModel = runtime.Types.Result.DefaultSelection<Prisma.$dictionaryPayload>
+export type DictionaryModel = runtime.Types.Result.DefaultSelection<Prisma.$DictionaryPayload>
 
 export type AggregateDictionary = {
   _count: DictionaryCountAggregateOutputType | null
@@ -28,118 +28,86 @@ export type AggregateDictionary = {
 
 export type DictionaryAvgAggregateOutputType = {
   id: number | null
-  part_of_speech_id: number | null
-  week: number | null
 }
 
 export type DictionarySumAggregateOutputType = {
   id: number | null
-  part_of_speech_id: number | null
-  week: number | null
 }
 
 export type DictionaryMinAggregateOutputType = {
   id: number | null
   word: string | null
-  pronunciation: string | null
-  translate: string | null
-  part_of_speech_id: number | null
-  week: number | null
 }
 
 export type DictionaryMaxAggregateOutputType = {
   id: number | null
   word: string | null
-  pronunciation: string | null
-  translate: string | null
-  part_of_speech_id: number | null
-  week: number | null
 }
 
 export type DictionaryCountAggregateOutputType = {
   id: number
   word: number
-  pronunciation: number
-  translate: number
-  part_of_speech_id: number
-  week: number
   _all: number
 }
 
 
 export type DictionaryAvgAggregateInputType = {
   id?: true
-  part_of_speech_id?: true
-  week?: true
 }
 
 export type DictionarySumAggregateInputType = {
   id?: true
-  part_of_speech_id?: true
-  week?: true
 }
 
 export type DictionaryMinAggregateInputType = {
   id?: true
   word?: true
-  pronunciation?: true
-  translate?: true
-  part_of_speech_id?: true
-  week?: true
 }
 
 export type DictionaryMaxAggregateInputType = {
   id?: true
   word?: true
-  pronunciation?: true
-  translate?: true
-  part_of_speech_id?: true
-  week?: true
 }
 
 export type DictionaryCountAggregateInputType = {
   id?: true
   word?: true
-  pronunciation?: true
-  translate?: true
-  part_of_speech_id?: true
-  week?: true
   _all?: true
 }
 
 export type DictionaryAggregateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Filter which dictionary to aggregate.
+   * Filter which Dictionary to aggregate.
    */
-  where?: Prisma.dictionaryWhereInput
+  where?: Prisma.DictionaryWhereInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
    * 
-   * Determine the order of dictionaries to fetch.
+   * Determine the order of Dictionaries to fetch.
    */
-  orderBy?: Prisma.dictionaryOrderByWithRelationInput | Prisma.dictionaryOrderByWithRelationInput[]
+  orderBy?: Prisma.DictionaryOrderByWithRelationInput | Prisma.DictionaryOrderByWithRelationInput[]
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
    * 
    * Sets the start position
    */
-  cursor?: Prisma.dictionaryWhereUniqueInput
+  cursor?: Prisma.DictionaryWhereUniqueInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Take `±n` dictionaries from the position of the cursor.
+   * Take `±n` Dictionaries from the position of the cursor.
    */
   take?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Skip the first `n` dictionaries.
+   * Skip the first `n` Dictionaries.
    */
   skip?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
    * 
-   * Count returned dictionaries
+   * Count returned Dictionaries
   **/
   _count?: true | DictionaryCountAggregateInputType
   /**
@@ -179,11 +147,11 @@ export type GetDictionaryAggregateType<T extends DictionaryAggregateArgs> = {
 
 
 
-export type dictionaryGroupByArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
-  where?: Prisma.dictionaryWhereInput
-  orderBy?: Prisma.dictionaryOrderByWithAggregationInput | Prisma.dictionaryOrderByWithAggregationInput[]
+export type DictionaryGroupByArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.DictionaryWhereInput
+  orderBy?: Prisma.DictionaryOrderByWithAggregationInput | Prisma.DictionaryOrderByWithAggregationInput[]
   by: Prisma.DictionaryScalarFieldEnum[] | Prisma.DictionaryScalarFieldEnum
-  having?: Prisma.dictionaryScalarWhereWithAggregatesInput
+  having?: Prisma.DictionaryScalarWhereWithAggregatesInput
   take?: number
   skip?: number
   _count?: DictionaryCountAggregateInputType | true
@@ -196,10 +164,6 @@ export type dictionaryGroupByArgs<ExtArgs extends runtime.Types.Extensions.Inter
 export type DictionaryGroupByOutputType = {
   id: number
   word: string
-  pronunciation: string | null
-  translate: string | null
-  part_of_speech_id: number
-  week: number | null
   _count: DictionaryCountAggregateOutputType | null
   _avg: DictionaryAvgAggregateOutputType | null
   _sum: DictionarySumAggregateOutputType | null
@@ -207,7 +171,7 @@ export type DictionaryGroupByOutputType = {
   _max: DictionaryMaxAggregateOutputType | null
 }
 
-type GetDictionaryGroupByPayload<T extends dictionaryGroupByArgs> = Prisma.PrismaPromise<
+type GetDictionaryGroupByPayload<T extends DictionaryGroupByArgs> = Prisma.PrismaPromise<
   Array<
     Prisma.PickEnumerable<DictionaryGroupByOutputType, T['by']> &
       {
@@ -222,254 +186,245 @@ type GetDictionaryGroupByPayload<T extends dictionaryGroupByArgs> = Prisma.Prism
 
 
 
-export type dictionaryWhereInput = {
-  AND?: Prisma.dictionaryWhereInput | Prisma.dictionaryWhereInput[]
-  OR?: Prisma.dictionaryWhereInput[]
-  NOT?: Prisma.dictionaryWhereInput | Prisma.dictionaryWhereInput[]
-  id?: Prisma.IntFilter<"dictionary"> | number
-  word?: Prisma.StringFilter<"dictionary"> | string
-  pronunciation?: Prisma.StringNullableFilter<"dictionary"> | string | null
-  translate?: Prisma.StringNullableFilter<"dictionary"> | string | null
-  part_of_speech_id?: Prisma.IntFilter<"dictionary"> | number
-  week?: Prisma.IntNullableFilter<"dictionary"> | number | null
+export type DictionaryWhereInput = {
+  AND?: Prisma.DictionaryWhereInput | Prisma.DictionaryWhereInput[]
+  OR?: Prisma.DictionaryWhereInput[]
+  NOT?: Prisma.DictionaryWhereInput | Prisma.DictionaryWhereInput[]
+  id?: Prisma.IntFilter<"Dictionary"> | number
+  word?: Prisma.StringFilter<"Dictionary"> | string
+  links?: Prisma.DictionaryPartOfSpeechListRelationFilter
 }
 
-export type dictionaryOrderByWithRelationInput = {
+export type DictionaryOrderByWithRelationInput = {
   id?: Prisma.SortOrder
   word?: Prisma.SortOrder
-  pronunciation?: Prisma.SortOrderInput | Prisma.SortOrder
-  translate?: Prisma.SortOrderInput | Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrderInput | Prisma.SortOrder
+  links?: Prisma.DictionaryPartOfSpeechOrderByRelationAggregateInput
 }
 
-export type dictionaryWhereUniqueInput = Prisma.AtLeast<{
+export type DictionaryWhereUniqueInput = Prisma.AtLeast<{
   id?: number
   word?: string
-  AND?: Prisma.dictionaryWhereInput | Prisma.dictionaryWhereInput[]
-  OR?: Prisma.dictionaryWhereInput[]
-  NOT?: Prisma.dictionaryWhereInput | Prisma.dictionaryWhereInput[]
-  pronunciation?: Prisma.StringNullableFilter<"dictionary"> | string | null
-  translate?: Prisma.StringNullableFilter<"dictionary"> | string | null
-  part_of_speech_id?: Prisma.IntFilter<"dictionary"> | number
-  week?: Prisma.IntNullableFilter<"dictionary"> | number | null
+  AND?: Prisma.DictionaryWhereInput | Prisma.DictionaryWhereInput[]
+  OR?: Prisma.DictionaryWhereInput[]
+  NOT?: Prisma.DictionaryWhereInput | Prisma.DictionaryWhereInput[]
+  links?: Prisma.DictionaryPartOfSpeechListRelationFilter
 }, "id" | "word">
 
-export type dictionaryOrderByWithAggregationInput = {
+export type DictionaryOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
   word?: Prisma.SortOrder
-  pronunciation?: Prisma.SortOrderInput | Prisma.SortOrder
-  translate?: Prisma.SortOrderInput | Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrderInput | Prisma.SortOrder
-  _count?: Prisma.dictionaryCountOrderByAggregateInput
-  _avg?: Prisma.dictionaryAvgOrderByAggregateInput
-  _max?: Prisma.dictionaryMaxOrderByAggregateInput
-  _min?: Prisma.dictionaryMinOrderByAggregateInput
-  _sum?: Prisma.dictionarySumOrderByAggregateInput
+  _count?: Prisma.DictionaryCountOrderByAggregateInput
+  _avg?: Prisma.DictionaryAvgOrderByAggregateInput
+  _max?: Prisma.DictionaryMaxOrderByAggregateInput
+  _min?: Prisma.DictionaryMinOrderByAggregateInput
+  _sum?: Prisma.DictionarySumOrderByAggregateInput
 }
 
-export type dictionaryScalarWhereWithAggregatesInput = {
-  AND?: Prisma.dictionaryScalarWhereWithAggregatesInput | Prisma.dictionaryScalarWhereWithAggregatesInput[]
-  OR?: Prisma.dictionaryScalarWhereWithAggregatesInput[]
-  NOT?: Prisma.dictionaryScalarWhereWithAggregatesInput | Prisma.dictionaryScalarWhereWithAggregatesInput[]
-  id?: Prisma.IntWithAggregatesFilter<"dictionary"> | number
-  word?: Prisma.StringWithAggregatesFilter<"dictionary"> | string
-  pronunciation?: Prisma.StringNullableWithAggregatesFilter<"dictionary"> | string | null
-  translate?: Prisma.StringNullableWithAggregatesFilter<"dictionary"> | string | null
-  part_of_speech_id?: Prisma.IntWithAggregatesFilter<"dictionary"> | number
-  week?: Prisma.IntNullableWithAggregatesFilter<"dictionary"> | number | null
+export type DictionaryScalarWhereWithAggregatesInput = {
+  AND?: Prisma.DictionaryScalarWhereWithAggregatesInput | Prisma.DictionaryScalarWhereWithAggregatesInput[]
+  OR?: Prisma.DictionaryScalarWhereWithAggregatesInput[]
+  NOT?: Prisma.DictionaryScalarWhereWithAggregatesInput | Prisma.DictionaryScalarWhereWithAggregatesInput[]
+  id?: Prisma.IntWithAggregatesFilter<"Dictionary"> | number
+  word?: Prisma.StringWithAggregatesFilter<"Dictionary"> | string
 }
 
-export type dictionaryCreateInput = {
+export type DictionaryCreateInput = {
   word: string
-  pronunciation?: string | null
-  translate?: string | null
-  part_of_speech_id: number
-  week?: number | null
+  links?: Prisma.DictionaryPartOfSpeechCreateNestedManyWithoutDictionaryInput
 }
 
-export type dictionaryUncheckedCreateInput = {
+export type DictionaryUncheckedCreateInput = {
   id?: number
   word: string
-  pronunciation?: string | null
-  translate?: string | null
-  part_of_speech_id: number
-  week?: number | null
+  links?: Prisma.DictionaryPartOfSpeechUncheckedCreateNestedManyWithoutDictionaryInput
 }
 
-export type dictionaryUpdateInput = {
+export type DictionaryUpdateInput = {
   word?: Prisma.StringFieldUpdateOperationsInput | string
-  pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  part_of_speech_id?: Prisma.IntFieldUpdateOperationsInput | number
-  week?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  links?: Prisma.DictionaryPartOfSpeechUpdateManyWithoutDictionaryNestedInput
 }
 
-export type dictionaryUncheckedUpdateInput = {
+export type DictionaryUncheckedUpdateInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   word?: Prisma.StringFieldUpdateOperationsInput | string
-  pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  part_of_speech_id?: Prisma.IntFieldUpdateOperationsInput | number
-  week?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  links?: Prisma.DictionaryPartOfSpeechUncheckedUpdateManyWithoutDictionaryNestedInput
 }
 
-export type dictionaryCreateManyInput = {
+export type DictionaryCreateManyInput = {
   id?: number
   word: string
-  pronunciation?: string | null
-  translate?: string | null
-  part_of_speech_id: number
-  week?: number | null
 }
 
-export type dictionaryUpdateManyMutationInput = {
+export type DictionaryUpdateManyMutationInput = {
   word?: Prisma.StringFieldUpdateOperationsInput | string
-  pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  part_of_speech_id?: Prisma.IntFieldUpdateOperationsInput | number
-  week?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
-export type dictionaryUncheckedUpdateManyInput = {
+export type DictionaryUncheckedUpdateManyInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   word?: Prisma.StringFieldUpdateOperationsInput | string
-  pronunciation?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  translate?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
-  part_of_speech_id?: Prisma.IntFieldUpdateOperationsInput | number
-  week?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
 
-export type dictionaryCountOrderByAggregateInput = {
+export type DictionaryCountOrderByAggregateInput = {
   id?: Prisma.SortOrder
   word?: Prisma.SortOrder
-  pronunciation?: Prisma.SortOrder
-  translate?: Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrder
 }
 
-export type dictionaryAvgOrderByAggregateInput = {
+export type DictionaryAvgOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrder
 }
 
-export type dictionaryMaxOrderByAggregateInput = {
+export type DictionaryMaxOrderByAggregateInput = {
   id?: Prisma.SortOrder
   word?: Prisma.SortOrder
-  pronunciation?: Prisma.SortOrder
-  translate?: Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrder
 }
 
-export type dictionaryMinOrderByAggregateInput = {
+export type DictionaryMinOrderByAggregateInput = {
   id?: Prisma.SortOrder
   word?: Prisma.SortOrder
-  pronunciation?: Prisma.SortOrder
-  translate?: Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrder
 }
 
-export type dictionarySumOrderByAggregateInput = {
+export type DictionarySumOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  part_of_speech_id?: Prisma.SortOrder
-  week?: Prisma.SortOrder
 }
 
-export type StringFieldUpdateOperationsInput = {
-  set?: string
+export type DictionaryScalarRelationFilter = {
+  is?: Prisma.DictionaryWhereInput
+  isNot?: Prisma.DictionaryWhereInput
 }
 
-export type NullableStringFieldUpdateOperationsInput = {
-  set?: string | null
+export type DictionaryCreateNestedOneWithoutLinksInput = {
+  create?: Prisma.XOR<Prisma.DictionaryCreateWithoutLinksInput, Prisma.DictionaryUncheckedCreateWithoutLinksInput>
+  connectOrCreate?: Prisma.DictionaryCreateOrConnectWithoutLinksInput
+  connect?: Prisma.DictionaryWhereUniqueInput
 }
 
-export type IntFieldUpdateOperationsInput = {
-  set?: number
-  increment?: number
-  decrement?: number
-  multiply?: number
-  divide?: number
+export type DictionaryUpdateOneRequiredWithoutLinksNestedInput = {
+  create?: Prisma.XOR<Prisma.DictionaryCreateWithoutLinksInput, Prisma.DictionaryUncheckedCreateWithoutLinksInput>
+  connectOrCreate?: Prisma.DictionaryCreateOrConnectWithoutLinksInput
+  upsert?: Prisma.DictionaryUpsertWithoutLinksInput
+  connect?: Prisma.DictionaryWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.DictionaryUpdateToOneWithWhereWithoutLinksInput, Prisma.DictionaryUpdateWithoutLinksInput>, Prisma.DictionaryUncheckedUpdateWithoutLinksInput>
 }
 
-export type NullableIntFieldUpdateOperationsInput = {
-  set?: number | null
-  increment?: number
-  decrement?: number
-  multiply?: number
-  divide?: number
+export type DictionaryCreateWithoutLinksInput = {
+  word: string
+}
+
+export type DictionaryUncheckedCreateWithoutLinksInput = {
+  id?: number
+  word: string
+}
+
+export type DictionaryCreateOrConnectWithoutLinksInput = {
+  where: Prisma.DictionaryWhereUniqueInput
+  create: Prisma.XOR<Prisma.DictionaryCreateWithoutLinksInput, Prisma.DictionaryUncheckedCreateWithoutLinksInput>
+}
+
+export type DictionaryUpsertWithoutLinksInput = {
+  update: Prisma.XOR<Prisma.DictionaryUpdateWithoutLinksInput, Prisma.DictionaryUncheckedUpdateWithoutLinksInput>
+  create: Prisma.XOR<Prisma.DictionaryCreateWithoutLinksInput, Prisma.DictionaryUncheckedCreateWithoutLinksInput>
+  where?: Prisma.DictionaryWhereInput
+}
+
+export type DictionaryUpdateToOneWithWhereWithoutLinksInput = {
+  where?: Prisma.DictionaryWhereInput
+  data: Prisma.XOR<Prisma.DictionaryUpdateWithoutLinksInput, Prisma.DictionaryUncheckedUpdateWithoutLinksInput>
+}
+
+export type DictionaryUpdateWithoutLinksInput = {
+  word?: Prisma.StringFieldUpdateOperationsInput | string
+}
+
+export type DictionaryUncheckedUpdateWithoutLinksInput = {
+  id?: Prisma.IntFieldUpdateOperationsInput | number
+  word?: Prisma.StringFieldUpdateOperationsInput | string
 }
 
 
+/**
+ * Count Type DictionaryCountOutputType
+ */
 
-export type dictionarySelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
+export type DictionaryCountOutputType = {
+  links: number
+}
+
+export type DictionaryCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  links?: boolean | DictionaryCountOutputTypeCountLinksArgs
+}
+
+/**
+ * DictionaryCountOutputType without action
+ */
+export type DictionaryCountOutputTypeDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the DictionaryCountOutputType
+   */
+  select?: Prisma.DictionaryCountOutputTypeSelect<ExtArgs> | null
+}
+
+/**
+ * DictionaryCountOutputType without action
+ */
+export type DictionaryCountOutputTypeCountLinksArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.DictionaryPartOfSpeechWhereInput
+}
+
+
+export type DictionarySelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
   id?: boolean
   word?: boolean
-  pronunciation?: boolean
-  translate?: boolean
-  part_of_speech_id?: boolean
-  week?: boolean
+  links?: boolean | Prisma.Dictionary$linksArgs<ExtArgs>
+  _count?: boolean | Prisma.DictionaryCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["dictionary"]>
 
-export type dictionarySelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
+export type DictionarySelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
   id?: boolean
   word?: boolean
-  pronunciation?: boolean
-  translate?: boolean
-  part_of_speech_id?: boolean
-  week?: boolean
 }, ExtArgs["result"]["dictionary"]>
 
-export type dictionarySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
+export type DictionarySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
   id?: boolean
   word?: boolean
-  pronunciation?: boolean
-  translate?: boolean
-  part_of_speech_id?: boolean
-  week?: boolean
 }, ExtArgs["result"]["dictionary"]>
 
-export type dictionarySelectScalar = {
+export type DictionarySelectScalar = {
   id?: boolean
   word?: boolean
-  pronunciation?: boolean
-  translate?: boolean
-  part_of_speech_id?: boolean
-  week?: boolean
 }
 
-export type dictionaryOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "word" | "pronunciation" | "translate" | "part_of_speech_id" | "week", ExtArgs["result"]["dictionary"]>
+export type DictionaryOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "word", ExtArgs["result"]["dictionary"]>
+export type DictionaryInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  links?: boolean | Prisma.Dictionary$linksArgs<ExtArgs>
+  _count?: boolean | Prisma.DictionaryCountOutputTypeDefaultArgs<ExtArgs>
+}
+export type DictionaryIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
+export type DictionaryIncludeUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {}
 
-export type $dictionaryPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
-  name: "dictionary"
-  objects: {}
+export type $DictionaryPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  name: "Dictionary"
+  objects: {
+    links: Prisma.$DictionaryPartOfSpeechPayload<ExtArgs>[]
+  }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
     id: number
     word: string
-    pronunciation: string | null
-    translate: string | null
-    part_of_speech_id: number
-    week: number | null
   }, ExtArgs["result"]["dictionary"]>
   composites: {}
 }
 
-export type dictionaryGetPayload<S extends boolean | null | undefined | dictionaryDefaultArgs> = runtime.Types.Result.GetResult<Prisma.$dictionaryPayload, S>
+export type DictionaryGetPayload<S extends boolean | null | undefined | DictionaryDefaultArgs> = runtime.Types.Result.GetResult<Prisma.$DictionaryPayload, S>
 
-export type dictionaryCountArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> =
-  Omit<dictionaryFindManyArgs, 'select' | 'include' | 'distinct' | 'omit'> & {
+export type DictionaryCountArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> =
+  Omit<DictionaryFindManyArgs, 'select' | 'include' | 'distinct' | 'omit'> & {
     select?: DictionaryCountAggregateInputType | true
   }
 
-export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> {
-  [K: symbol]: { types: Prisma.TypeMap<ExtArgs>['model']['dictionary'], meta: { name: 'dictionary' } }
+export interface DictionaryDelegate<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> {
+  [K: symbol]: { types: Prisma.TypeMap<ExtArgs>['model']['Dictionary'], meta: { name: 'Dictionary' } }
   /**
    * Find zero or one Dictionary that matches the filter.
-   * @param {dictionaryFindUniqueArgs} args - Arguments to find a Dictionary
+   * @param {DictionaryFindUniqueArgs} args - Arguments to find a Dictionary
    * @example
    * // Get one Dictionary
    * const dictionary = await prisma.dictionary.findUnique({
@@ -478,12 +433,12 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
    */
-  findUnique<T extends dictionaryFindUniqueArgs>(args: Prisma.SelectSubset<T, dictionaryFindUniqueArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "findUnique", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+  findUnique<T extends DictionaryFindUniqueArgs>(args: Prisma.SelectSubset<T, DictionaryFindUniqueArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "findUnique", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
 
   /**
    * Find one Dictionary that matches the filter or throw an error with `error.code='P2025'`
    * if no matches were found.
-   * @param {dictionaryFindUniqueOrThrowArgs} args - Arguments to find a Dictionary
+   * @param {DictionaryFindUniqueOrThrowArgs} args - Arguments to find a Dictionary
    * @example
    * // Get one Dictionary
    * const dictionary = await prisma.dictionary.findUniqueOrThrow({
@@ -492,13 +447,13 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
    */
-  findUniqueOrThrow<T extends dictionaryFindUniqueOrThrowArgs>(args: Prisma.SelectSubset<T, dictionaryFindUniqueOrThrowArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  findUniqueOrThrow<T extends DictionaryFindUniqueOrThrowArgs>(args: Prisma.SelectSubset<T, DictionaryFindUniqueOrThrowArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
   /**
    * Find the first Dictionary that matches the filter.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryFindFirstArgs} args - Arguments to find a Dictionary
+   * @param {DictionaryFindFirstArgs} args - Arguments to find a Dictionary
    * @example
    * // Get one Dictionary
    * const dictionary = await prisma.dictionary.findFirst({
@@ -507,14 +462,14 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
    */
-  findFirst<T extends dictionaryFindFirstArgs>(args?: Prisma.SelectSubset<T, dictionaryFindFirstArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "findFirst", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+  findFirst<T extends DictionaryFindFirstArgs>(args?: Prisma.SelectSubset<T, DictionaryFindFirstArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "findFirst", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
 
   /**
    * Find the first Dictionary that matches the filter or
    * throw `PrismaKnownClientError` with `P2025` code if no matches were found.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryFindFirstOrThrowArgs} args - Arguments to find a Dictionary
+   * @param {DictionaryFindFirstOrThrowArgs} args - Arguments to find a Dictionary
    * @example
    * // Get one Dictionary
    * const dictionary = await prisma.dictionary.findFirstOrThrow({
@@ -523,13 +478,13 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
    */
-  findFirstOrThrow<T extends dictionaryFindFirstOrThrowArgs>(args?: Prisma.SelectSubset<T, dictionaryFindFirstOrThrowArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "findFirstOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  findFirstOrThrow<T extends DictionaryFindFirstOrThrowArgs>(args?: Prisma.SelectSubset<T, DictionaryFindFirstOrThrowArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "findFirstOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
   /**
    * Find zero or more Dictionaries that matches the filter.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryFindManyArgs} args - Arguments to filter and select certain fields only.
+   * @param {DictionaryFindManyArgs} args - Arguments to filter and select certain fields only.
    * @example
    * // Get all Dictionaries
    * const dictionaries = await prisma.dictionary.findMany()
@@ -541,11 +496,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * const dictionaryWithIdOnly = await prisma.dictionary.findMany({ select: { id: true } })
    * 
    */
-  findMany<T extends dictionaryFindManyArgs>(args?: Prisma.SelectSubset<T, dictionaryFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
+  findMany<T extends DictionaryFindManyArgs>(args?: Prisma.SelectSubset<T, DictionaryFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
 
   /**
    * Create a Dictionary.
-   * @param {dictionaryCreateArgs} args - Arguments to create a Dictionary.
+   * @param {DictionaryCreateArgs} args - Arguments to create a Dictionary.
    * @example
    * // Create one Dictionary
    * const Dictionary = await prisma.dictionary.create({
@@ -555,11 +510,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    * 
    */
-  create<T extends dictionaryCreateArgs>(args: Prisma.SelectSubset<T, dictionaryCreateArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "create", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  create<T extends DictionaryCreateArgs>(args: Prisma.SelectSubset<T, DictionaryCreateArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "create", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
   /**
    * Create many Dictionaries.
-   * @param {dictionaryCreateManyArgs} args - Arguments to create many Dictionaries.
+   * @param {DictionaryCreateManyArgs} args - Arguments to create many Dictionaries.
    * @example
    * // Create many Dictionaries
    * const dictionary = await prisma.dictionary.createMany({
@@ -569,11 +524,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    *     
    */
-  createMany<T extends dictionaryCreateManyArgs>(args?: Prisma.SelectSubset<T, dictionaryCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
+  createMany<T extends DictionaryCreateManyArgs>(args?: Prisma.SelectSubset<T, DictionaryCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
 
   /**
    * Create many Dictionaries and returns the data saved in the database.
-   * @param {dictionaryCreateManyAndReturnArgs} args - Arguments to create many Dictionaries.
+   * @param {DictionaryCreateManyAndReturnArgs} args - Arguments to create many Dictionaries.
    * @example
    * // Create many Dictionaries
    * const dictionary = await prisma.dictionary.createManyAndReturn({
@@ -593,11 +548,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * Read more here: https://pris.ly/d/null-undefined
    * 
    */
-  createManyAndReturn<T extends dictionaryCreateManyAndReturnArgs>(args?: Prisma.SelectSubset<T, dictionaryCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+  createManyAndReturn<T extends DictionaryCreateManyAndReturnArgs>(args?: Prisma.SelectSubset<T, DictionaryCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
 
   /**
    * Delete a Dictionary.
-   * @param {dictionaryDeleteArgs} args - Arguments to delete one Dictionary.
+   * @param {DictionaryDeleteArgs} args - Arguments to delete one Dictionary.
    * @example
    * // Delete one Dictionary
    * const Dictionary = await prisma.dictionary.delete({
@@ -607,11 +562,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    * 
    */
-  delete<T extends dictionaryDeleteArgs>(args: Prisma.SelectSubset<T, dictionaryDeleteArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "delete", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  delete<T extends DictionaryDeleteArgs>(args: Prisma.SelectSubset<T, DictionaryDeleteArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "delete", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
   /**
    * Update one Dictionary.
-   * @param {dictionaryUpdateArgs} args - Arguments to update one Dictionary.
+   * @param {DictionaryUpdateArgs} args - Arguments to update one Dictionary.
    * @example
    * // Update one Dictionary
    * const dictionary = await prisma.dictionary.update({
@@ -624,11 +579,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    * 
    */
-  update<T extends dictionaryUpdateArgs>(args: Prisma.SelectSubset<T, dictionaryUpdateArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "update", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  update<T extends DictionaryUpdateArgs>(args: Prisma.SelectSubset<T, DictionaryUpdateArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "update", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
   /**
    * Delete zero or more Dictionaries.
-   * @param {dictionaryDeleteManyArgs} args - Arguments to filter Dictionaries to delete.
+   * @param {DictionaryDeleteManyArgs} args - Arguments to filter Dictionaries to delete.
    * @example
    * // Delete a few Dictionaries
    * const { count } = await prisma.dictionary.deleteMany({
@@ -638,13 +593,13 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    * 
    */
-  deleteMany<T extends dictionaryDeleteManyArgs>(args?: Prisma.SelectSubset<T, dictionaryDeleteManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
+  deleteMany<T extends DictionaryDeleteManyArgs>(args?: Prisma.SelectSubset<T, DictionaryDeleteManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
 
   /**
    * Update zero or more Dictionaries.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryUpdateManyArgs} args - Arguments to update one or more rows.
+   * @param {DictionaryUpdateManyArgs} args - Arguments to update one or more rows.
    * @example
    * // Update many Dictionaries
    * const dictionary = await prisma.dictionary.updateMany({
@@ -657,11 +612,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * })
    * 
    */
-  updateMany<T extends dictionaryUpdateManyArgs>(args: Prisma.SelectSubset<T, dictionaryUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
+  updateMany<T extends DictionaryUpdateManyArgs>(args: Prisma.SelectSubset<T, DictionaryUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<Prisma.BatchPayload>
 
   /**
    * Update zero or more Dictionaries and returns the data updated in the database.
-   * @param {dictionaryUpdateManyAndReturnArgs} args - Arguments to update many Dictionaries.
+   * @param {DictionaryUpdateManyAndReturnArgs} args - Arguments to update many Dictionaries.
    * @example
    * // Update many Dictionaries
    * const dictionary = await prisma.dictionary.updateManyAndReturn({
@@ -687,11 +642,11 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * Read more here: https://pris.ly/d/null-undefined
    * 
    */
-  updateManyAndReturn<T extends dictionaryUpdateManyAndReturnArgs>(args: Prisma.SelectSubset<T, dictionaryUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
+  updateManyAndReturn<T extends DictionaryUpdateManyAndReturnArgs>(args: Prisma.SelectSubset<T, DictionaryUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
   /**
    * Create or update one Dictionary.
-   * @param {dictionaryUpsertArgs} args - Arguments to update or create a Dictionary.
+   * @param {DictionaryUpsertArgs} args - Arguments to update or create a Dictionary.
    * @example
    * // Update or create a Dictionary
    * const dictionary = await prisma.dictionary.upsert({
@@ -706,14 +661,14 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
    */
-  upsert<T extends dictionaryUpsertArgs>(args: Prisma.SelectSubset<T, dictionaryUpsertArgs<ExtArgs>>): Prisma.Prisma__dictionaryClient<runtime.Types.Result.GetResult<Prisma.$dictionaryPayload<ExtArgs>, T, "upsert", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+  upsert<T extends DictionaryUpsertArgs>(args: Prisma.SelectSubset<T, DictionaryUpsertArgs<ExtArgs>>): Prisma.Prisma__DictionaryClient<runtime.Types.Result.GetResult<Prisma.$DictionaryPayload<ExtArgs>, T, "upsert", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
 
 
   /**
    * Count the number of Dictionaries.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryCountArgs} args - Arguments to filter Dictionaries to count.
+   * @param {DictionaryCountArgs} args - Arguments to filter Dictionaries to count.
    * @example
    * // Count the number of Dictionaries
    * const count = await prisma.dictionary.count({
@@ -722,8 +677,8 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    *   }
    * })
   **/
-  count<T extends dictionaryCountArgs>(
-    args?: Prisma.Subset<T, dictionaryCountArgs>,
+  count<T extends DictionaryCountArgs>(
+    args?: Prisma.Subset<T, DictionaryCountArgs>,
   ): Prisma.PrismaPromise<
     T extends runtime.Types.Utils.Record<'select', any>
       ? T['select'] extends true
@@ -762,7 +717,7 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * Group by Dictionary.
    * Note, that providing `undefined` is treated as the value not being there.
    * Read more here: https://pris.ly/d/null-undefined
-   * @param {dictionaryGroupByArgs} args - Group by arguments.
+   * @param {DictionaryGroupByArgs} args - Group by arguments.
    * @example
    * // Group by city, order by createdAt, get count
    * const result = await prisma.user.groupBy({
@@ -777,14 +732,14 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
    * 
   **/
   groupBy<
-    T extends dictionaryGroupByArgs,
+    T extends DictionaryGroupByArgs,
     HasSelectOrTake extends Prisma.Or<
       Prisma.Extends<'skip', Prisma.Keys<T>>,
       Prisma.Extends<'take', Prisma.Keys<T>>
     >,
     OrderByArg extends Prisma.True extends HasSelectOrTake
-      ? { orderBy: dictionaryGroupByArgs['orderBy'] }
-      : { orderBy?: dictionaryGroupByArgs['orderBy'] },
+      ? { orderBy: DictionaryGroupByArgs['orderBy'] }
+      : { orderBy?: DictionaryGroupByArgs['orderBy'] },
     OrderFields extends Prisma.ExcludeUnderscoreKeys<Prisma.Keys<Prisma.MaybeTupleToUnion<T['orderBy']>>>,
     ByFields extends Prisma.MaybeTupleToUnion<T['by']>,
     ByValid extends Prisma.Has<ByFields, OrderFields>,
@@ -833,21 +788,22 @@ export interface dictionaryDelegate<ExtArgs extends runtime.Types.Extensions.Int
           ? never
           : `Error: Field "${P}" in "orderBy" needs to be provided in "by"`
       }[OrderFields]
-  >(args: Prisma.SubsetIntersection<T, dictionaryGroupByArgs, OrderByArg> & InputErrors): {} extends InputErrors ? GetDictionaryGroupByPayload<T> : Prisma.PrismaPromise<InputErrors>
+  >(args: Prisma.SubsetIntersection<T, DictionaryGroupByArgs, OrderByArg> & InputErrors): {} extends InputErrors ? GetDictionaryGroupByPayload<T> : Prisma.PrismaPromise<InputErrors>
 /**
- * Fields of the dictionary model
+ * Fields of the Dictionary model
  */
-readonly fields: dictionaryFieldRefs;
+readonly fields: DictionaryFieldRefs;
 }
 
 /**
- * The delegate class that acts as a "Promise-like" for dictionary.
+ * The delegate class that acts as a "Promise-like" for Dictionary.
  * Why is this prefixed with `Prisma__`?
  * Because we want to prevent naming conflicts as mentioned in
  * https://github.com/prisma/prisma-client-js/issues/707
  */
-export interface Prisma__dictionaryClient<T, Null = never, ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
+export interface Prisma__DictionaryClient<T, Null = never, ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
   readonly [Symbol.toStringTag]: "PrismaPromise"
+  links<T extends Prisma.Dictionary$linksArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Dictionary$linksArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DictionaryPartOfSpeechPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
    * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -874,376 +830,436 @@ export interface Prisma__dictionaryClient<T, Null = never, ExtArgs extends runti
 
 
 /**
- * Fields of the dictionary model
+ * Fields of the Dictionary model
  */
-export interface dictionaryFieldRefs {
-  readonly id: Prisma.FieldRef<"dictionary", 'Int'>
-  readonly word: Prisma.FieldRef<"dictionary", 'String'>
-  readonly pronunciation: Prisma.FieldRef<"dictionary", 'String'>
-  readonly translate: Prisma.FieldRef<"dictionary", 'String'>
-  readonly part_of_speech_id: Prisma.FieldRef<"dictionary", 'Int'>
-  readonly week: Prisma.FieldRef<"dictionary", 'Int'>
+export interface DictionaryFieldRefs {
+  readonly id: Prisma.FieldRef<"Dictionary", 'Int'>
+  readonly word: Prisma.FieldRef<"Dictionary", 'String'>
 }
     
 
 // Custom InputTypes
 /**
- * dictionary findUnique
+ * Dictionary findUnique
  */
-export type dictionaryFindUniqueArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryFindUniqueArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter, which dictionary to fetch.
+   * Choose, which related nodes to fetch as well
    */
-  where: Prisma.dictionaryWhereUniqueInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter, which Dictionary to fetch.
+   */
+  where: Prisma.DictionaryWhereUniqueInput
 }
 
 /**
- * dictionary findUniqueOrThrow
+ * Dictionary findUniqueOrThrow
  */
-export type dictionaryFindUniqueOrThrowArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryFindUniqueOrThrowArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter, which dictionary to fetch.
+   * Choose, which related nodes to fetch as well
    */
-  where: Prisma.dictionaryWhereUniqueInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter, which Dictionary to fetch.
+   */
+  where: Prisma.DictionaryWhereUniqueInput
 }
 
 /**
- * dictionary findFirst
+ * Dictionary findFirst
  */
-export type dictionaryFindFirstArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryFindFirstArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter, which dictionary to fetch.
+   * Choose, which related nodes to fetch as well
    */
-  where?: Prisma.dictionaryWhereInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter, which Dictionary to fetch.
+   */
+  where?: Prisma.DictionaryWhereInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
    * 
-   * Determine the order of dictionaries to fetch.
+   * Determine the order of Dictionaries to fetch.
    */
-  orderBy?: Prisma.dictionaryOrderByWithRelationInput | Prisma.dictionaryOrderByWithRelationInput[]
+  orderBy?: Prisma.DictionaryOrderByWithRelationInput | Prisma.DictionaryOrderByWithRelationInput[]
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
    * 
-   * Sets the position for searching for dictionaries.
+   * Sets the position for searching for Dictionaries.
    */
-  cursor?: Prisma.dictionaryWhereUniqueInput
+  cursor?: Prisma.DictionaryWhereUniqueInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Take `±n` dictionaries from the position of the cursor.
+   * Take `±n` Dictionaries from the position of the cursor.
    */
   take?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Skip the first `n` dictionaries.
+   * Skip the first `n` Dictionaries.
    */
   skip?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
    * 
-   * Filter by unique combinations of dictionaries.
+   * Filter by unique combinations of Dictionaries.
    */
   distinct?: Prisma.DictionaryScalarFieldEnum | Prisma.DictionaryScalarFieldEnum[]
 }
 
 /**
- * dictionary findFirstOrThrow
+ * Dictionary findFirstOrThrow
  */
-export type dictionaryFindFirstOrThrowArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryFindFirstOrThrowArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter, which dictionary to fetch.
+   * Choose, which related nodes to fetch as well
    */
-  where?: Prisma.dictionaryWhereInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter, which Dictionary to fetch.
+   */
+  where?: Prisma.DictionaryWhereInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
    * 
-   * Determine the order of dictionaries to fetch.
+   * Determine the order of Dictionaries to fetch.
    */
-  orderBy?: Prisma.dictionaryOrderByWithRelationInput | Prisma.dictionaryOrderByWithRelationInput[]
+  orderBy?: Prisma.DictionaryOrderByWithRelationInput | Prisma.DictionaryOrderByWithRelationInput[]
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
    * 
-   * Sets the position for searching for dictionaries.
+   * Sets the position for searching for Dictionaries.
    */
-  cursor?: Prisma.dictionaryWhereUniqueInput
+  cursor?: Prisma.DictionaryWhereUniqueInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Take `±n` dictionaries from the position of the cursor.
+   * Take `±n` Dictionaries from the position of the cursor.
    */
   take?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Skip the first `n` dictionaries.
+   * Skip the first `n` Dictionaries.
    */
   skip?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
    * 
-   * Filter by unique combinations of dictionaries.
+   * Filter by unique combinations of Dictionaries.
    */
   distinct?: Prisma.DictionaryScalarFieldEnum | Prisma.DictionaryScalarFieldEnum[]
 }
 
 /**
- * dictionary findMany
+ * Dictionary findMany
  */
-export type dictionaryFindManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryFindManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter, which dictionaries to fetch.
+   * Choose, which related nodes to fetch as well
    */
-  where?: Prisma.dictionaryWhereInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter, which Dictionaries to fetch.
+   */
+  where?: Prisma.DictionaryWhereInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
    * 
-   * Determine the order of dictionaries to fetch.
+   * Determine the order of Dictionaries to fetch.
    */
-  orderBy?: Prisma.dictionaryOrderByWithRelationInput | Prisma.dictionaryOrderByWithRelationInput[]
+  orderBy?: Prisma.DictionaryOrderByWithRelationInput | Prisma.DictionaryOrderByWithRelationInput[]
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
    * 
-   * Sets the position for listing dictionaries.
+   * Sets the position for listing Dictionaries.
    */
-  cursor?: Prisma.dictionaryWhereUniqueInput
+  cursor?: Prisma.DictionaryWhereUniqueInput
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Take `±n` dictionaries from the position of the cursor.
+   * Take `±n` Dictionaries from the position of the cursor.
    */
   take?: number
   /**
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
    * 
-   * Skip the first `n` dictionaries.
+   * Skip the first `n` Dictionaries.
    */
   skip?: number
   distinct?: Prisma.DictionaryScalarFieldEnum | Prisma.DictionaryScalarFieldEnum[]
 }
 
 /**
- * dictionary create
+ * Dictionary create
  */
-export type dictionaryCreateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryCreateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * The data needed to create a dictionary.
+   * Choose, which related nodes to fetch as well
    */
-  data: Prisma.XOR<Prisma.dictionaryCreateInput, Prisma.dictionaryUncheckedCreateInput>
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * The data needed to create a Dictionary.
+   */
+  data: Prisma.XOR<Prisma.DictionaryCreateInput, Prisma.DictionaryUncheckedCreateInput>
 }
 
 /**
- * dictionary createMany
+ * Dictionary createMany
  */
-export type dictionaryCreateManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryCreateManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * The data used to create many dictionaries.
+   * The data used to create many Dictionaries.
    */
-  data: Prisma.dictionaryCreateManyInput | Prisma.dictionaryCreateManyInput[]
+  data: Prisma.DictionaryCreateManyInput | Prisma.DictionaryCreateManyInput[]
   skipDuplicates?: boolean
 }
 
 /**
- * dictionary createManyAndReturn
+ * Dictionary createManyAndReturn
  */
-export type dictionaryCreateManyAndReturnArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryCreateManyAndReturnArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelectCreateManyAndReturn<ExtArgs> | null
+  select?: Prisma.DictionarySelectCreateManyAndReturn<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * The data used to create many dictionaries.
+   * The data used to create many Dictionaries.
    */
-  data: Prisma.dictionaryCreateManyInput | Prisma.dictionaryCreateManyInput[]
+  data: Prisma.DictionaryCreateManyInput | Prisma.DictionaryCreateManyInput[]
   skipDuplicates?: boolean
 }
 
 /**
- * dictionary update
+ * Dictionary update
  */
-export type dictionaryUpdateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryUpdateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * The data needed to update a dictionary.
+   * Choose, which related nodes to fetch as well
    */
-  data: Prisma.XOR<Prisma.dictionaryUpdateInput, Prisma.dictionaryUncheckedUpdateInput>
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
   /**
-   * Choose, which dictionary to update.
+   * The data needed to update a Dictionary.
    */
-  where: Prisma.dictionaryWhereUniqueInput
+  data: Prisma.XOR<Prisma.DictionaryUpdateInput, Prisma.DictionaryUncheckedUpdateInput>
+  /**
+   * Choose, which Dictionary to update.
+   */
+  where: Prisma.DictionaryWhereUniqueInput
 }
 
 /**
- * dictionary updateMany
+ * Dictionary updateMany
  */
-export type dictionaryUpdateManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryUpdateManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * The data used to update dictionaries.
+   * The data used to update Dictionaries.
    */
-  data: Prisma.XOR<Prisma.dictionaryUpdateManyMutationInput, Prisma.dictionaryUncheckedUpdateManyInput>
+  data: Prisma.XOR<Prisma.DictionaryUpdateManyMutationInput, Prisma.DictionaryUncheckedUpdateManyInput>
   /**
-   * Filter which dictionaries to update
+   * Filter which Dictionaries to update
    */
-  where?: Prisma.dictionaryWhereInput
+  where?: Prisma.DictionaryWhereInput
   /**
-   * Limit how many dictionaries to update.
+   * Limit how many Dictionaries to update.
    */
   limit?: number
 }
 
 /**
- * dictionary updateManyAndReturn
+ * Dictionary updateManyAndReturn
  */
-export type dictionaryUpdateManyAndReturnArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryUpdateManyAndReturnArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelectUpdateManyAndReturn<ExtArgs> | null
+  select?: Prisma.DictionarySelectUpdateManyAndReturn<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * The data used to update dictionaries.
+   * The data used to update Dictionaries.
    */
-  data: Prisma.XOR<Prisma.dictionaryUpdateManyMutationInput, Prisma.dictionaryUncheckedUpdateManyInput>
+  data: Prisma.XOR<Prisma.DictionaryUpdateManyMutationInput, Prisma.DictionaryUncheckedUpdateManyInput>
   /**
-   * Filter which dictionaries to update
+   * Filter which Dictionaries to update
    */
-  where?: Prisma.dictionaryWhereInput
+  where?: Prisma.DictionaryWhereInput
   /**
-   * Limit how many dictionaries to update.
+   * Limit how many Dictionaries to update.
    */
   limit?: number
 }
 
 /**
- * dictionary upsert
+ * Dictionary upsert
  */
-export type dictionaryUpsertArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryUpsertArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * The filter to search for the dictionary to update in case it exists.
+   * Choose, which related nodes to fetch as well
    */
-  where: Prisma.dictionaryWhereUniqueInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
   /**
-   * In case the dictionary found by the `where` argument doesn't exist, create a new dictionary with this data.
+   * The filter to search for the Dictionary to update in case it exists.
    */
-  create: Prisma.XOR<Prisma.dictionaryCreateInput, Prisma.dictionaryUncheckedCreateInput>
+  where: Prisma.DictionaryWhereUniqueInput
   /**
-   * In case the dictionary was found with the provided `where` argument, update it with this data.
+   * In case the Dictionary found by the `where` argument doesn't exist, create a new Dictionary with this data.
    */
-  update: Prisma.XOR<Prisma.dictionaryUpdateInput, Prisma.dictionaryUncheckedUpdateInput>
+  create: Prisma.XOR<Prisma.DictionaryCreateInput, Prisma.DictionaryUncheckedCreateInput>
+  /**
+   * In case the Dictionary was found with the provided `where` argument, update it with this data.
+   */
+  update: Prisma.XOR<Prisma.DictionaryUpdateInput, Prisma.DictionaryUncheckedUpdateInput>
 }
 
 /**
- * dictionary delete
+ * Dictionary delete
  */
-export type dictionaryDeleteArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryDeleteArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the Dictionary
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionarySelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the Dictionary
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
   /**
-   * Filter which dictionary to delete.
+   * Choose, which related nodes to fetch as well
    */
-  where: Prisma.dictionaryWhereUniqueInput
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
+  /**
+   * Filter which Dictionary to delete.
+   */
+  where: Prisma.DictionaryWhereUniqueInput
 }
 
 /**
- * dictionary deleteMany
+ * Dictionary deleteMany
  */
-export type dictionaryDeleteManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type DictionaryDeleteManyArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Filter which dictionaries to delete
+   * Filter which Dictionaries to delete
    */
-  where?: Prisma.dictionaryWhereInput
+  where?: Prisma.DictionaryWhereInput
   /**
-   * Limit how many dictionaries to delete.
+   * Limit how many Dictionaries to delete.
    */
   limit?: number
 }
 
 /**
- * dictionary without action
+ * Dictionary.links
  */
-export type dictionaryDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+export type Dictionary$linksArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
-   * Select specific fields to fetch from the dictionary
+   * Select specific fields to fetch from the DictionaryPartOfSpeech
    */
-  select?: Prisma.dictionarySelect<ExtArgs> | null
+  select?: Prisma.DictionaryPartOfSpeechSelect<ExtArgs> | null
   /**
-   * Omit specific fields from the dictionary
+   * Omit specific fields from the DictionaryPartOfSpeech
    */
-  omit?: Prisma.dictionaryOmit<ExtArgs> | null
+  omit?: Prisma.DictionaryPartOfSpeechOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DictionaryPartOfSpeechInclude<ExtArgs> | null
+  where?: Prisma.DictionaryPartOfSpeechWhereInput
+  orderBy?: Prisma.DictionaryPartOfSpeechOrderByWithRelationInput | Prisma.DictionaryPartOfSpeechOrderByWithRelationInput[]
+  cursor?: Prisma.DictionaryPartOfSpeechWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.DictionaryPartOfSpeechScalarFieldEnum | Prisma.DictionaryPartOfSpeechScalarFieldEnum[]
+}
+
+/**
+ * Dictionary without action
+ */
+export type DictionaryDefaultArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the Dictionary
+   */
+  select?: Prisma.DictionarySelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the Dictionary
+   */
+  omit?: Prisma.DictionaryOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DictionaryInclude<ExtArgs> | null
 }

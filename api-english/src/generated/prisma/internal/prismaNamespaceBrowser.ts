@@ -51,9 +51,9 @@ export const AnyNull = runtime.AnyNull
 
 
 export const ModelName = {
-  dictionary: 'dictionary',
-  part_of_speech: 'part_of_speech',
-  vocabulary: 'vocabulary'
+  PartOfSpeech: 'PartOfSpeech',
+  Dictionary: 'Dictionary',
+  DictionaryPartOfSpeech: 'DictionaryPartOfSpeech'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -72,35 +72,31 @@ export const TransactionIsolationLevel = runtime.makeStrictEnum({
 export type TransactionIsolationLevel = (typeof TransactionIsolationLevel)[keyof typeof TransactionIsolationLevel]
 
 
+export const PartOfSpeechScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  description: 'description'
+} as const
+
+export type PartOfSpeechScalarFieldEnum = (typeof PartOfSpeechScalarFieldEnum)[keyof typeof PartOfSpeechScalarFieldEnum]
+
+
 export const DictionaryScalarFieldEnum = {
   id: 'id',
-  word: 'word',
-  pronunciation: 'pronunciation',
-  translate: 'translate',
-  part_of_speech_id: 'part_of_speech_id',
-  week: 'week'
+  word: 'word'
 } as const
 
 export type DictionaryScalarFieldEnum = (typeof DictionaryScalarFieldEnum)[keyof typeof DictionaryScalarFieldEnum]
 
 
-export const Part_of_speechScalarFieldEnum = {
+export const DictionaryPartOfSpeechScalarFieldEnum = {
   id: 'id',
-  name: 'name'
+  translation: 'translation',
+  dictionaryId: 'dictionaryId',
+  partOfSpeechId: 'partOfSpeechId'
 } as const
 
-export type Part_of_speechScalarFieldEnum = (typeof Part_of_speechScalarFieldEnum)[keyof typeof Part_of_speechScalarFieldEnum]
-
-
-export const VocabularyScalarFieldEnum = {
-  id: 'id',
-  item: 'item',
-  description: 'description',
-  pronunciation: 'pronunciation',
-  translate: 'translate'
-} as const
-
-export type VocabularyScalarFieldEnum = (typeof VocabularyScalarFieldEnum)[keyof typeof VocabularyScalarFieldEnum]
+export type DictionaryPartOfSpeechScalarFieldEnum = (typeof DictionaryPartOfSpeechScalarFieldEnum)[keyof typeof DictionaryPartOfSpeechScalarFieldEnum]
 
 
 export const SortOrder = {

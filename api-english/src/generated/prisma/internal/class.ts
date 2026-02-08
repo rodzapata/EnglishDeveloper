@@ -20,7 +20,7 @@ const config: runtime.GetPrismaClientConfig = {
   "clientVersion": "7.3.0",
   "engineVersion": "9d6ad21cbbceab97458517b147a6a09ff43aa735",
   "activeProvider": "postgresql",
-  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\ngenerator client {\n  provider     = \"prisma-client\"\n  output       = \"../src/generated/prisma\"\n  moduleFormat = \"cjs\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel dictionary {\n  id                Int     @id @default(autoincrement())\n  word              String  @unique\n  pronunciation     String?\n  translate         String?\n  part_of_speech_id Int\n  week              Int?\n}\n\nmodel part_of_speech {\n  id   Int    @id @default(autoincrement())\n  name String @unique\n}\n\nmodel vocabulary {\n  id            Int     @id @default(autoincrement())\n  item          Int?\n  description   String\n  pronunciation String?\n  translate     String?\n}\n",
+  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\ngenerator client {\n  provider     = \"prisma-client\"\n  output       = \"../src/generated/prisma\"\n  moduleFormat = \"cjs\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel PartOfSpeech {\n  id              Int                      @id @default(autoincrement())\n  name            String                   @unique\n  description     String?\n  dictionaryLinks DictionaryPartOfSpeech[]\n\n  @@map(\"part_of_speech\")\n}\n\nmodel Dictionary {\n  id    Int                      @id @default(autoincrement())\n  word  String                   @db.VarChar(100)\n  links DictionaryPartOfSpeech[]\n\n  @@unique([word], map: \"uq_dictionary_word\")\n  @@map(\"dictionary\")\n}\n\nmodel DictionaryPartOfSpeech {\n  id             Int          @id @default(autoincrement())\n  translation    String       @db.VarChar(200)\n  dictionaryId   Int          @map(\"dictionary_id\")\n  partOfSpeechId Int          @map(\"part_of_speech_id\")\n  dictionary     Dictionary   @relation(fields: [dictionaryId], references: [id], onDelete: Cascade, map: \"fk_dps_dictionary\")\n  partOfSpeech   PartOfSpeech @relation(fields: [partOfSpeechId], references: [id], onDelete: Restrict, map: \"fk_dps_part_of_speech\")\n\n  @@unique([dictionaryId, partOfSpeechId], map: \"uq_dictionary_part_of_speech\")\n  @@index([partOfSpeechId], map: \"idx_dps_part_of_speech\")\n  @@index([dictionaryId], map: \"idx_dps_dictionary\")\n  @@map(\"dictionary_part_of_speech\")\n}\n\n/**\n * model PartOfSpeech {\n * id          Int           @id @default(autoincrement())\n * name        String        @unique\n * description String?\n * vocabularies dictionary[]\n * @@map(\"part_of_speech\")\n * }\n * model dictionary {\n * id                  Int     @id @default(autoincrement())\n * word                String  @unique\n * pronunciation       String?\n * translate           String?\n * part_of_speech_id   part_of_speech  @relation(fields: [part_of_speech_id], references: [id], map: \"fk_customer_county\")\n * week                Int?\n * }\n * model vocabulary {\n * id              Int     @id @default(autoincrement())\n * item            Int?\n * description     String\n * pronunciation   String?\n * translate       String?\n * }\n */\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
@@ -28,7 +28,7 @@ const config: runtime.GetPrismaClientConfig = {
   }
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"dictionary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"word\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pronunciation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"translate\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"part_of_speech_id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"week\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null},\"part_of_speech\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"}],\"dbName\":null},\"vocabulary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"item\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"description\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pronunciation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"translate\",\"kind\":\"scalar\",\"type\":\"String\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"PartOfSpeech\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"description\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"dictionaryLinks\",\"kind\":\"object\",\"type\":\"DictionaryPartOfSpeech\",\"relationName\":\"DictionaryPartOfSpeechToPartOfSpeech\"}],\"dbName\":\"part_of_speech\"},\"Dictionary\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"word\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"links\",\"kind\":\"object\",\"type\":\"DictionaryPartOfSpeech\",\"relationName\":\"DictionaryToDictionaryPartOfSpeech\"}],\"dbName\":\"dictionary\"},\"DictionaryPartOfSpeech\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"translation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"dictionaryId\",\"kind\":\"scalar\",\"type\":\"Int\",\"dbName\":\"dictionary_id\"},{\"name\":\"partOfSpeechId\",\"kind\":\"scalar\",\"type\":\"Int\",\"dbName\":\"part_of_speech_id\"},{\"name\":\"dictionary\",\"kind\":\"object\",\"type\":\"Dictionary\",\"relationName\":\"DictionaryToDictionaryPartOfSpeech\"},{\"name\":\"partOfSpeech\",\"kind\":\"object\",\"type\":\"PartOfSpeech\",\"relationName\":\"DictionaryPartOfSpeechToPartOfSpeech\"}],\"dbName\":\"dictionary_part_of_speech\"}},\"enums\":{},\"types\":{}}")
 
 async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Module> {
   const { Buffer } = await import('node:buffer')
@@ -60,8 +60,8 @@ export interface PrismaClientConstructor {
    * @example
    * ```
    * const prisma = new PrismaClient()
-   * // Fetch zero or more Dictionaries
-   * const dictionaries = await prisma.dictionary.findMany()
+   * // Fetch zero or more PartOfSpeeches
+   * const partOfSpeeches = await prisma.partOfSpeech.findMany()
    * ```
    * 
    * Read more in our [docs](https://pris.ly/d/client).
@@ -82,8 +82,8 @@ export interface PrismaClientConstructor {
  * @example
  * ```
  * const prisma = new PrismaClient()
- * // Fetch zero or more Dictionaries
- * const dictionaries = await prisma.dictionary.findMany()
+ * // Fetch zero or more PartOfSpeeches
+ * const partOfSpeeches = await prisma.partOfSpeech.findMany()
  * ```
  * 
  * Read more in our [docs](https://pris.ly/d/client).
@@ -177,34 +177,34 @@ export interface PrismaClient<
   }>>
 
       /**
-   * `prisma.dictionary`: Exposes CRUD operations for the **dictionary** model.
+   * `prisma.partOfSpeech`: Exposes CRUD operations for the **PartOfSpeech** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PartOfSpeeches
+    * const partOfSpeeches = await prisma.partOfSpeech.findMany()
+    * ```
+    */
+  get partOfSpeech(): Prisma.PartOfSpeechDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.dictionary`: Exposes CRUD operations for the **Dictionary** model.
     * Example usage:
     * ```ts
     * // Fetch zero or more Dictionaries
     * const dictionaries = await prisma.dictionary.findMany()
     * ```
     */
-  get dictionary(): Prisma.dictionaryDelegate<ExtArgs, { omit: OmitOpts }>;
+  get dictionary(): Prisma.DictionaryDelegate<ExtArgs, { omit: OmitOpts }>;
 
   /**
-   * `prisma.part_of_speech`: Exposes CRUD operations for the **part_of_speech** model.
+   * `prisma.dictionaryPartOfSpeech`: Exposes CRUD operations for the **DictionaryPartOfSpeech** model.
     * Example usage:
     * ```ts
-    * // Fetch zero or more Part_of_speeches
-    * const part_of_speeches = await prisma.part_of_speech.findMany()
+    * // Fetch zero or more DictionaryPartOfSpeeches
+    * const dictionaryPartOfSpeeches = await prisma.dictionaryPartOfSpeech.findMany()
     * ```
     */
-  get part_of_speech(): Prisma.part_of_speechDelegate<ExtArgs, { omit: OmitOpts }>;
-
-  /**
-   * `prisma.vocabulary`: Exposes CRUD operations for the **vocabulary** model.
-    * Example usage:
-    * ```ts
-    * // Fetch zero or more Vocabularies
-    * const vocabularies = await prisma.vocabulary.findMany()
-    * ```
-    */
-  get vocabulary(): Prisma.vocabularyDelegate<ExtArgs, { omit: OmitOpts }>;
+  get dictionaryPartOfSpeech(): Prisma.DictionaryPartOfSpeechDelegate<ExtArgs, { omit: OmitOpts }>;
 }
 
 export function getPrismaClientClass(): PrismaClientConstructor {

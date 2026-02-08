@@ -18,17 +18,17 @@ export { Prisma }
 export * as $Enums from './enums.js'
 export * from './enums.js';
 /**
- * Model dictionary
+ * Model PartOfSpeech
  * 
  */
-export type dictionary = Prisma.dictionaryModel
+export type PartOfSpeech = Prisma.PartOfSpeechModel
 /**
- * Model part_of_speech
+ * Model Dictionary
  * 
  */
-export type part_of_speech = Prisma.part_of_speechModel
+export type Dictionary = Prisma.DictionaryModel
 /**
- * Model vocabulary
+ * Model DictionaryPartOfSpeech
  * 
  */
-export type vocabulary = Prisma.vocabularyModel
+export type DictionaryPartOfSpeech = Prisma.DictionaryPartOfSpeechModel

@@ -27,8 +27,8 @@ export * from "./enums.js"
  * @example
  * ```
  * const prisma = new PrismaClient()
- * // Fetch zero or more Dictionaries
- * const dictionaries = await prisma.dictionary.findMany()
+ * // Fetch zero or more PartOfSpeeches
+ * const partOfSpeeches = await prisma.partOfSpeech.findMany()
  * ```
  * 
  * Read more in our [docs](https://pris.ly/d/client).
@@ -38,17 +38,17 @@ export type PrismaClient<LogOpts extends Prisma.LogLevel = never, OmitOpts exten
 export { Prisma }
 
 /**
- * Model dictionary
+ * Model PartOfSpeech
  * 
  */
-export type dictionary = Prisma.dictionaryModel
+export type PartOfSpeech = Prisma.PartOfSpeechModel
 /**
- * Model part_of_speech
+ * Model Dictionary
  * 
  */
-export type part_of_speech = Prisma.part_of_speechModel
+export type Dictionary = Prisma.DictionaryModel
 /**
- * Model vocabulary
+ * Model DictionaryPartOfSpeech
  * 
  */
-export type vocabulary = Prisma.vocabularyModel
+export type DictionaryPartOfSpeech = Prisma.DictionaryPartOfSpeechModel
