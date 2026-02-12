@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider     = "prisma-client"
   output       = "../src/generated/prisma"
@@ -11,64 +8,66 @@ datasource db {
   provider = "postgresql"
 }
 
-
 model PartOfSpeech {
-  id          Int                         @id @default(autoincrement())
-  name        String                      @unique
-  description String?
-  dictionaryLinks DictionaryPartOfSpeech[]
+  id                     Int                      @id(map: "pk_part_of_speech") @default(autoincrement())
+  word                   String                   @unique(map: "uq_part_of_speech_word")
+  translation            String?
+  dictionary_translation DictionaryTranslation[]
 
   @@map("part_of_speech")
 }
 
 model Dictionary {
-  id          Int                         @id @default(autoincrement())
-  word        String                      @db.VarChar(100)
-  links       DictionaryPartOfSpeech[]
+  id                     Int                      @id(map: "pk_dictionary") @default(autoincrement())
+  word                   String                   @unique(map: "uq_dictionary_word")
+  pronunciation          String
+  period_type            Int
+  dictionary_translation DictionaryTranslation[]
 
-  @@unique([word], map: "uq_dictionary_word")
   @@map("dictionary")
 }
 
-model DictionaryPartOfSpeech {
-  id             Int          @id @default(autoincrement())
-  translation    String       @db.VarChar(200)
-  dictionaryId   Int          @map("dictionary_id")
-  partOfSpeechId Int          @map("part_of_speech_id")
-  dictionary     Dictionary   @relation(fields: [dictionaryId], references: [id], onDelete: Cascade, map: "fk_dps_dictionary")
-  partOfSpeech   PartOfSpeech @relation(fields: [partOfSpeechId], references: [id], onDelete: Restrict, map: "fk_dps_part_of_speech")
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model DictionaryTranslation {
+  id                 Int                  @id(map: "pk_dictionary_translation") @default(autoincrement())
+  translation        String
+  dictionary_id      Int
+  part_of_speech_id  Int
+  dictionary         Dictionary           @relation(fields: [dictionary_id], references: [id], onDelete: Cascade, map: "fk_dictionary_translation_dictionary")
+  part_of_speech     PartOfSpeech         @relation(fields: [part_of_speech_id], references: [id], map: "fk_dictionary_translation_part_of_speech")
+  learned_vocabulary LearnedVocabulary[]
 
-  @@unique([dictionaryId, partOfSpeechId], map: "uq_dictionary_part_of_speech")
-  @@index([partOfSpeechId], map: "idx_dps_part_of_speech")
-  @@index([dictionaryId], map: "idx_dps_dictionary")
-  @@map("dictionary_part_of_speech")
+  @@unique([dictionary_id, part_of_speech_id, translation], map: "uq_dictionary_translation_unique")
+  @@index([dictionary_id], map: "idx_dictionary_translation_dictionary_id")
+  @@index([part_of_speech_id], map: "idx_dictionary_translation_part_of_speech_id")
+
+   @@map("dictionary_translation")
 }
 
-/*
-model PartOfSpeech {
-  id          Int           @id @default(autoincrement())
-  name        String        @unique
-  description String?
-  vocabularies dictionary[]
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model LearnedVocabulary {
+  id                        Int                    @id(map: "pk_learned_vocabulary") @default(autoincrement())
+  sentence                  String
+  translation               String
+  vocabulary_source_id      Int
+  dictionary_translation_id Int
+  dictionary_translation    DictionaryTranslation @relation(fields: [dictionary_translation_id], references: [id], map: "fk_learned_vocabulary_dictionary_translation")
+  vocabulary_source         VocabularySource      @relation(fields: [vocabulary_source_id], references: [id], onDelete: Cascade, map: "fk_learned_vocabulary_vocabulary_source")
 
-  @@map("part_of_speech")
+  @@index([dictionary_translation_id], map: "idx_learned_vocabulary_dictionary_translation_id")
+  @@index([vocabulary_source_id], map: "idx_learned_vocabulary_vocabulary_source_id")
+
+   @@map("learned_vocabulary")
 }
 
-model dictionary {
-  id                  Int     @id @default(autoincrement())
-  word                String  @unique
-  pronunciation       String?
-  translate           String?
-  part_of_speech_id   part_of_speech  @relation(fields: [part_of_speech_id], references: [id], map: "fk_customer_county")
-  week                Int?
-}
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model VocabularySource {
+  id                 Int                  @id(map: "pk_vocabulary_source") @default(autoincrement())
+  title              String
+  category           String
+  url                String
+  learned_vocabulary LearnedVocabulary[]
 
+  @@map("vocabulary_source")
 
-model vocabulary {
-  id              Int     @id @default(autoincrement())
-  item            Int?
-  description     String
-  pronunciation   String?
-  translate       String?
 }
-*/

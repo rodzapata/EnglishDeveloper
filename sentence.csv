@@ -1,0 +1,19 @@
+sentence;translation
+learn how to use nest js;aprender como usar Nest JS
+to build scalable Back End applications;construir una palicacion Back End escalabe
+In this course, you'll explore controller,;en este curso, tu exploraras los controladores
+services, modules, decorators,;servicios, modulos, decoradores,
+pipes, guards, and exeption handling,;tuberias, guardas, y manejo de excepciones,
+all while building the profile;todo mistras se costruye el perfil
+feature for Dev Match,;carasteristicas para Dev Match,
+a dating app for developers.;una aplicación de citas para desarroladores
+You'll learn all about Nex.js's modular architecture,;tu aprenderas todo sobre aquitectura modular en Next.s
+TypeScript support, and built-in tools to create clean, testable code.;soporte Typescript, y herramientas integradas para crear codigo limpio y testable
+Don, the developer from Scribba, developed this course.;Don, el desarrollador de Scribba, desarrolló este curso.
+Welcome to Scribba's intro to NestJS course.;bienvenido a la introduccion de Scribba's para el curso de Nest JS
+If you're looking to level up your backend skills,;si tu estas mirando aumentar tus habilidades en BackEnd
+move beyond just building basic express apps,;ir mas allá de solo construir aplicaciones basica en Express
+and challenge yourselft with a more robust and scalable framework,;y desafiarte a ti mismo con un marco mas robusto y escalable.
+this course is for you, Let me go ahead and give you a quick overview;este curso es para ti, dejame ir adelante y darte una vision rapida
+of what Nest is about and some of the reasons;de qué trata Nest y algunas de las razones
+you might want to consider building with it.;tal vez quieras considerar construir con él.

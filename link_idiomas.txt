@@ -44,5 +44,18 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&list=PLZghWiA4Yy5biAKjZ1G1zFmy253iGG
 SQL for Web Developers
 https://www.youtube.com/watch?v=KBDSJU3cGkc&list=PLZghWiA4Yy5biAKjZ1G1zFmy253iGGAQX&index=25
 
+ditaction of words
+
+lord has use Nest Js the build skills level up aplication.
+in this course export controller, services, module, decorate, pipes, guards and exception handling
+the profile  for deleveloper
+
+
+1. 19 años
+2. JavaScript, TypeScript, react, sql server, postgresql, Next Js, Nest JS, Node JS, C#
+3. programa de ordenes de servicios realizado con React , facturacion electronica usando C#
+4. Si estoy trabajando actualmente de forma presencial tengo 19 años con la empresa
+5. nivel de ingles A2
+6. frontEnd o fullstack
 
 
