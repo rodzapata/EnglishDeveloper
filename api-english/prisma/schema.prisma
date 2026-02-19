@@ -8,6 +8,7 @@ datasource db {
   provider = "postgresql"
 }
 
+
 model PartOfSpeech {
   id                     Int                      @id(map: "pk_part_of_speech") @default(autoincrement())
   word                   String                   @unique(map: "uq_part_of_speech_word")

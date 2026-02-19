@@ -4,8 +4,8 @@ import { VocabularyController } from './vocabulary.controller';
 import { PrismaModule } from 'src/prisma/prisma.module';
 
 @Module({
+  imports:[VocabularyModule, PrismaModule],
   controllers: [VocabularyController],
   providers: [VocabularyService],
-  imports: [PrismaModule]
 })
 export class VocabularyModule { }

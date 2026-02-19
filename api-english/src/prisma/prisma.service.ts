@@ -9,6 +9,7 @@ export class PrismaService
   implements OnModuleInit, OnModuleDestroy
 {
   private readonly logger = new Logger(PrismaService.name);
+  Vocabulary: any;
 
   constructor() {
     const databaseUrl = process.env.DATABASE_URL;

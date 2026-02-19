@@ -12,7 +12,8 @@ export class VocabularyService {
   }
 
   async findAll() {
-    return await this.prisma.vocabulary.findMany();
+    return await this.prisma.dictionary.findMany();
+    
   }
 
   findOne(id: number) {
