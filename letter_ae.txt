@@ -1,0 +1,15 @@
+cat: gato
+map: mapa
+hat: sombrero
+ham: jamon
+jam: mermelada
+bat: murcielago
+bad: malo
+dad: papa
+fat: gordo
+mad: loco
+gas: gasolina
+tax: impuesto
+tag: etiqueta
+cap: gorra
+
