@@ -1,4 +1,4 @@
-# pharases in English day one
+# phrases in English day one
 
 The strengths and weaknesses of their particular approach.
 
@@ -8,8 +8,16 @@ a simple but effective approach to object oriented programming
 
 to object oriented programming in Javascript before we had classes,
 
-many people think this programming is easy.
+many people think that programming is easy.
+
+I think that you are right.
+
+she says that she is tired.
 
 the most job supply is react js.
+
+most people work hard.
+
+she is the most intelligent student.
 
 the best way to learn is by practicing

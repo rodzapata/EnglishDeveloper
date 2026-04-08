@@ -42,3 +42,5 @@ party: parte o fiesta : /'pa-ri/
 neighborhood: vecindario : /'nei-bor-ju/
 approach taken: enfoque adoptado o método utilizado : /_a-'proch/ /ta-'ken/
 taken: tomó, participio pasaso de taken (tomar): /ta-'ken/
+programing: programacion : /'prou-gra_-men/
+notice: noticia: /'nou-res/
