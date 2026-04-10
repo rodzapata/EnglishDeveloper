@@ -44,3 +44,9 @@ approach taken: enfoque adoptado o método utilizado : /_a-'proch/ /ta-'ken/
 taken: tomó, participio pasaso de taken (tomar): /ta-'ken/
 programing: programacion : /'prou-gra_-men/
 notice: noticia: /'nou-res/
+just: solo: /jast/
+button: boton: /'ba_t-e_n/
+performance: rendimiento: /pe_-'for-me_ns/
+legacy: legado heredado: /'le-ge_-si/
+
+
