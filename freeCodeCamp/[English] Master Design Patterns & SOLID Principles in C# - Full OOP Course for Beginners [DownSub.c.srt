@@ -68,7 +68,7 @@ teach you how to design maintainable and
 
 18
 00:00:38,559 --> 00:00:41,719
-reusable objectoriented software and
+reusable object oriented software and
 
 19
 00:00:41,719 --> 00:00:43,520
