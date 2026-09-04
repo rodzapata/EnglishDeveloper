@@ -1,0 +1,479 @@
+In this comprehensive and beginner-friendly course, 
+you'll learn all the tools that you need to become an advanced object-oriented programmer, 
+writing clean code and maintainable software.
+
+You'll learn fundamental OOP concepts, the SOLID principles, 
+all 23 Gang of Four software design patterns, and more.
+
+Experienced developer Danny Adams created this course.
+
+
+Welcome to Mastering Design Patterns and SOLID Principles in C#.
+
+So, let me first give you a quick introduction to what you will learn in this course and what you need to know before getting started.
+
+The aim of this course is to teach you how to design maintainable and reusable object-oriented software. And this is achieved, first of all, by learning the object-oriented programming principles, such as encapsulation, abstraction, inheritance, polymorphism, and coupling.
+
+You'll also learn the five SOLID principles, which are the Single Responsibility Principle, the Open-Closed Principle, 
+the Liskov Substitution Principle, the Interface Segregation Principle, and the Dependency Inversion Principle.
+
+You'll also learn Unified Modeling Language, which is a way to graphically represent your software systems.
+------------
+So, you can model classes and objects and the relationships between those classes and objects in a graphical way. And you can do this before you actually code out a solution.
+
+And you'll also learn the main 23 design patterns from the Gang of Four book. The Gang of Four design patterns consists of 23 design patterns from the original book, *Design Patterns: Elements of Reusable Object-Oriented Software*, written by four guys in the 1990s. And these patterns can be grouped into three categories.
+
+So, there are creational design patterns, which are the different ways to create objects. There are structural design patterns, which are the relationships between those objects. And there are behavioral design patterns, which are the interaction or communication between those objects.
+
+So, upon completion of this course, you will understand all 23 Gang of Four design patterns and where to and where not to apply them in real applications. And you'll also learn the SOLID principles and some more advanced object-oriented programming concepts.
+
+And these are all of the 23 design patterns from the Gang of Four book that we will be covering in this course.
+
+So, you can see that there are five creational design patterns, seven structural design patterns, and 11 behavioral design patterns.
+
+So, what are design patterns, and why should you learn them?
+
+So, design patterns are essential in software development for several reasons. And first of all, they help to promote and provide proven solutions to recurring problems in software design.
+
+So, instead of reinventing the wheel, developers can leverage these patterns to solve common issues efficiently. For example, to implement an undo feature in an application, developers could reach for the Memento design pattern.
+
+Design patterns establish a common language for developers to communicate efficiently and effectively about software designs. And this common vocabulary enhances collaboration and understanding among team members.
+
+Design patterns also promote scalable designs by providing flexible and adaptable solutions. They allow systems to evolve over time without extensive rework or architectural overhaul.
+
+And using design patterns often results in more maintainable code, as patterns encapsulate design decisions and promote modular, loosely coupled architectures, making it easier to understand, modify, and extend codebases.
+
+And some design patterns can help to improve performance by optimizing resource usage, reducing overhead, or facilitating efficient algorithms.
+
+------------------
+Design patterns serve as a form of documentation for software designs. So, by employing well-known patterns, 
+developers can convey design intent more effectively, making codebases easier to understand for both current and future contributors.
+
+Design patterns embody best practices and principles of software design. They encapsulate years of collective knowledge and experience, guiding developers towards solutions that are more robust, reliable, and maintainable.
+
+And many design patterns are agnostic of programming languages or domains, so they can be used across different programming languages, essentially. And they can be applied across different technologies and industries, making them valuable tools for developers working in diverse environments.
+
+So, overall, design patterns facilitate the creation of high-quality, maintainable software systems by providing reusable solutions to common design problems and promoting best practices in software development.
+
+And just as a note, don't worry too much if you don't quite understand everything I've said so far, as everything will become much clearer as we implement and discuss each of the design patterns and object-oriented programming principles during the course.
+
+For example, many of you right now won't understand the difference between extending a codebase versus modifying a codebase, and all of these things will be revealed during the course.
+
+So, here are some things that you should understand before starting this course.
+
+So, this course is for developers that have at least a very basic knowledge of object-oriented programming and want to learn design patterns to become better, more complete developers.
+
+So, here are some things that you should understand before starting this course.
+
+So, you should understand what classes are. You should understand...
+
+
+
+-----------------
+
+
+how to create objects from
+
+149
+00:06:04,479 --> 00:06:07,680
+classes access modifiers such as public
+
+150
+00:06:07,680 --> 00:06:09,000
+private and
+
+151
+00:06:09,000 --> 00:06:12,560
+protected class Properties or fields and
+
+152
+00:06:12,560 --> 00:06:15,120
+class methods so as you can see you just
+
+153
+00:06:15,120 --> 00:06:17,560
+need to understand the very basics of
+
+154
+00:06:17,560 --> 00:06:20,160
+objectoriented programming to find Value
+
+155
+00:06:20,160 --> 00:06:22,720
+in this course any other objectoriented
+
+156
+00:06:22,720 --> 00:06:24,800
+programming Concepts such as abstract
+
+157
+00:06:24,800 --> 00:06:27,680
+classes polymorphism and capsulation
+
+158
+00:06:27,680 --> 00:06:30,680
+will be fully explained in the course
+
+159
+00:06:30,680 --> 00:06:32,319
+and of course you will learn the very
+
+160
+00:06:32,319 --> 00:06:34,599
+important objectoriented programming
+
+161
+00:06:34,599 --> 00:06:37,680
+solid principles so all the examples in
+
+162
+00:06:37,680 --> 00:06:40,280
+this course are in CP so it will be
+
+163
+00:06:40,280 --> 00:06:42,520
+helpful if you understand understood the
+
+164
+00:06:42,520 --> 00:06:45,360
+basic syntax of C as I won't be
+
+165
+00:06:45,360 --> 00:06:48,599
+explaining the basic syntax however
+
+166
+00:06:48,599 --> 00:06:50,440
+there are plenty of free and great
+
+167
+00:06:50,440 --> 00:06:52,479
+videos on YouTube to help you get
+
+168
+00:06:52,479 --> 00:06:56,240
+started with C in very little time so a
+
+169
+00:06:56,240 --> 00:06:58,120
+little bit about me I am currently a
+
+170
+00:06:58,120 --> 00:07:00,000
+freelance software developer that builds
+
+171
+00:07:00,000 --> 00:07:02,919
+full stack web applications Shopify apps
+
+172
+00:07:02,919 --> 00:07:05,599
+mobile apps WordPress plugins and themes
+
+173
+00:07:05,599 --> 00:07:07,120
+and I'm also a technical writer that
+
+174
+00:07:07,120 --> 00:07:09,520
+enjoys writing technical blog posts
+
+175
+00:07:09,520 --> 00:07:13,440
+books and making videos and courses so
+
+176
+00:07:13,440 --> 00:07:15,319
+here are some links where you can find
+
+177
+00:07:15,319 --> 00:07:17,840
+me so I have a YouTube channel uh I have
+
+178
+00:07:17,840 --> 00:07:20,400
+a Twitter account I sell some products
+
+179
+00:07:20,400 --> 00:07:22,919
+such as posters and PDFs on
+
+180
+00:07:22,919 --> 00:07:25,919
+gumroad uh I have a free code Camp blog
+
+181
+00:07:25,919 --> 00:07:29,240
+where I write posts for free code camp
+
+182
+00:07:29,240 --> 00:07:33,240
+and I also have a Blog on dev 2 there is
+
+183
+00:07:33,240 --> 00:07:35,560
+also a full book version of this course
+
+184
+00:07:35,560 --> 00:07:37,520
+available and it includes everything
+
+185
+00:07:37,520 --> 00:07:39,840
+that is covered in this video course and
+
+186
+00:07:39,840 --> 00:07:41,240
+having the book can help to make
+
+187
+00:07:41,240 --> 00:07:43,400
+revision of these topics much easier as
+
+188
+00:07:43,400 --> 00:07:45,400
+you can quickly look up certain topics
+
+189
+00:07:45,400 --> 00:07:48,360
+principles and Concepts skim through and
+
+190
+00:07:48,360 --> 00:07:50,319
+remind yourself of what we covered in
+
+191
+00:07:50,319 --> 00:07:52,960
+this video helping these topics to stick
+
+192
+00:07:52,960 --> 00:07:54,919
+in your head and if you're a heavy
+
+193
+00:07:54,919 --> 00:07:56,840
+notetaker like me then it will also save
+
+194
+00:07:56,840 --> 00:07:59,080
+you a lot of time as everything we cover
+
+195
+00:07:59,080 --> 00:08:01,159
+in this video will be written down here
+
+196
+00:08:01,159 --> 00:08:03,199
+for you so if this book sounds like it
+
+197
+00:08:03,199 --> 00:08:05,479
+would be helpful to you to better learn
+
+198
+00:08:05,479 --> 00:08:07,960
+these Concepts then you can get the book
+
+199
+00:08:07,960 --> 00:08:10,879
+from Amazon in Kindle ebook and physical
+
+200
+00:08:10,879 --> 00:08:13,280
+print format and there's also a pdf
+
+201
+00:08:13,280 --> 00:08:15,800
+version available from gumroad and there
+
+202
+00:08:15,800 --> 00:08:17,479
+should be links to those down in the
+
+203
+00:08:17,479 --> 00:08:18,680
+description
+
+204
+00:08:18,680 --> 00:08:21,879
+below so for every design pattern or
+
+205
+00:08:21,879 --> 00:08:23,919
+solid principle or object oriented
+
+206
+00:08:23,919 --> 00:08:25,680
+programming principle that we cover in
+
+207
+00:08:25,680 --> 00:08:28,680
+this course we will go over an example
+
+208
+00:08:28,680 --> 00:08:31,039
+or two and usually each example will
+
+209
+00:08:31,039 --> 00:08:33,800
+include a bad example which violates a
+
+210
+00:08:33,800 --> 00:08:36,159
+certain principle and then we have a
+
+211
+00:08:36,159 --> 00:08:38,880
+good example where we usually refactor
+
+212
+00:08:38,880 --> 00:08:41,839
+the bad example to satisfy the principle
+
+213
+00:08:41,839 --> 00:08:44,200
+that we are covering and all code
+
+214
+00:08:44,200 --> 00:08:46,920
+examples for this course can be found at
+
+215
+00:08:46,920 --> 00:08:48,519
+this GitHub
+
+216
+00:08:48,519 --> 00:08:50,760
+repo okay so I'm now going to show you
+
+217
+00:08:50,760 --> 00:08:53,279
+how you can set up your computer so that
+
+218
+00:08:53,279 --> 00:08:55,080
+you can follow along with the examples
+
+219
+00:08:55,080 --> 00:08:57,880
+in this course so this course is all in
+
+220
+00:08:57,880 --> 00:09:01,240
+C so we need to set set up a sort of CP
+
+221
+00:09:01,240 --> 00:09:03,640
+environment so for me I'm going to use
+
+222
+00:09:03,640 --> 00:09:06,240
+Visual Studio code as the text editor
+
+223
+00:09:06,240 --> 00:09:08,560
+and I've provided a link to a guide here
+
+224
+00:09:08,560 --> 00:09:10,959
+to get you started and set up so let's
+
+225
+00:09:10,959 --> 00:09:12,959
+have a look at this guide so if you
+
+226
+00:09:12,959 --> 00:09:14,839
+click this link it will take you through
+
+227
+00:09:14,839 --> 00:09:18,040
+to this getting started with C in vs
+
+228
+00:09:18,040 --> 00:09:20,120
+code guide and it tells you everything
+
+229
+00:09:20,120 --> 00:09:22,680
+that you need to download and then
+
+230
+00:09:22,680 --> 00:09:24,360
+everything that you need to do to create
+
+231
+00:09:24,360 --> 00:09:27,720
+a new C application or project so first
+
+232
+00:09:27,720 --> 00:09:29,680
+of all you need to download Visual
+
+233
+00:09:29,680 --> 00:09:32,320
+Studio code if you don't already have it
+
+234
+00:09:32,320 --> 00:09:34,000
+so you can download it
+
+235
+00:09:34,000 --> 00:09:36,880
+here um and then you need to download
+
+236
+00:09:36,880 --> 00:09:41,000
+the cop devkit extension for vs code so
+
+237
+00:09:41,000 --> 00:09:43,000
+you can download that by clicking this
+
+238
+00:09:43,000 --> 00:09:46,920
+link and you can install the C devkit
+
+239
+00:09:46,920 --> 00:09:49,560
+extension you can also do it from vs
+
+240
+00:09:49,560 --> 00:09:51,880
+code directly so if you come into the
+
+241
+00:09:51,880 --> 00:09:54,560
+extensions uh sort of tab and then you
+
+242
+00:09:54,560 --> 00:09:57,600
+can search for C devkit and then you can
+
+243
+00:09:57,600 --> 00:09:59,440
+install I've already got it installed so
+
+244
+00:09:59,440 --> 00:10:01,600
+I don't need to do that and the next
+
+245
+00:10:01,600 --> 00:10:04,680
+thing you need to do is to download the
+
+246
+00:10:04,680 --> 00:10:07,399
+net software development kit and you can
+
+247
+00:10:07,399 --> 00:10:10,360
+download that from Microsoft so you can
+
+248
+00:10:10,360 --> 00:10:13,160
+download that here so that's everything
+
+249
+00:10:13,160 --> 00:10:15,839
+that you should need to get started uh

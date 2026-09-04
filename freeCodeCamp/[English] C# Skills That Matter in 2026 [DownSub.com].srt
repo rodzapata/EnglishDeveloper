@@ -1,0 +1,7295 @@
+1
+00:00:00,240 --> 00:00:01,760
+Software development is changing
+
+2
+00:00:01,760 --> 00:00:04,880
+rapidly. How we do things now is not how
+
+3
+00:00:04,880 --> 00:00:07,759
+we used to do things. AI has changed the
+
+4
+00:00:07,759 --> 00:00:10,719
+game, but so is the economy and other
+
+5
+00:00:10,719 --> 00:00:13,920
+outside factors. So, what skills matter
+
+6
+00:00:13,920 --> 00:00:16,960
+in 2026? Should you go into C
+
+7
+00:00:16,960 --> 00:00:19,119
+development at all? If you're already in
+
+8
+00:00:19,119 --> 00:00:20,720
+C development and you're looking for a
+
+9
+00:00:20,720 --> 00:00:24,080
+job, what should you be doing? In this
+
+10
+00:00:24,080 --> 00:00:25,680
+video, I'm going to lay out the big
+
+11
+00:00:25,680 --> 00:00:27,519
+picture steps that you should take to
+
+12
+00:00:27,519 --> 00:00:30,560
+adjust to software development in 2026.
+
+13
+00:00:30,560 --> 00:00:31,760
+We're going to start with a reality
+
+14
+00:00:31,760 --> 00:00:34,320
+check about what it takes to be a
+
+15
+00:00:34,320 --> 00:00:36,320
+software developer and then we'll get
+
+16
+00:00:36,320 --> 00:00:38,719
+into what your goal should be, what
+
+17
+00:00:38,719 --> 00:00:40,640
+technologies you should know, and
+
+18
+00:00:40,640 --> 00:00:43,200
+finally, how to advance your career in
+
+19
+00:00:43,200 --> 00:00:45,040
+2026.
+
+20
+00:00:45,040 --> 00:00:46,800
+Whether you are considering software
+
+21
+00:00:46,800 --> 00:00:49,039
+development or you have been doing it
+
+22
+00:00:49,039 --> 00:00:52,000
+for the past 30 years, this video is for
+
+23
+00:00:52,000 --> 00:00:54,879
+you. So let's get started. And to start
+
+24
+00:00:54,879 --> 00:00:57,120
+off, we're going to talk about a reality
+
+25
+00:00:57,120 --> 00:01:00,559
+check. I think this is important. And to
+
+26
+00:01:00,559 --> 00:01:02,800
+start off with for the things that are
+
+27
+00:01:02,800 --> 00:01:05,040
+changing for developers. Number one is
+
+28
+00:01:05,040 --> 00:01:08,880
+that jobs are hard to get now. Does not
+
+29
+00:01:08,880 --> 00:01:10,320
+mean they're it's impossible to get the
+
+30
+00:01:10,320 --> 00:01:13,280
+jobs. It does not mean that it's overly
+
+31
+00:01:13,280 --> 00:01:17,119
+difficult, but it is difficult. And yes,
+
+32
+00:01:17,119 --> 00:01:20,000
+you may have to struggle for 6 months or
+
+33
+00:01:20,000 --> 00:01:22,960
+a year or more sometimes to get a job in
+
+34
+00:01:22,960 --> 00:01:24,880
+the field. Now, there are ways to
+
+35
+00:01:24,880 --> 00:01:27,520
+shorten that. There are ways to make
+
+36
+00:01:27,520 --> 00:01:30,479
+sure that you don't hit into that group,
+
+37
+00:01:30,479 --> 00:01:33,040
+but there are things going to happen to
+
+38
+00:01:33,040 --> 00:01:34,159
+you where you're going to struggle to
+
+39
+00:01:34,159 --> 00:01:35,840
+find a job sometimes. And that's
+
+40
+00:01:35,840 --> 00:01:38,560
+because, you know, there is more
+
+41
+00:01:38,560 --> 00:01:41,520
+competition. The competition is higher.
+
+42
+00:01:41,520 --> 00:01:43,600
+These two things go hand inand for a
+
+43
+00:01:43,600 --> 00:01:46,479
+couple of reasons. back in the early
+
+44
+00:01:46,479 --> 00:01:50,240
+COVID um era, you know, back in what
+
+45
+00:01:50,240 --> 00:01:54,880
+2020 or so, uh 2021, um companies were
+
+46
+00:01:54,880 --> 00:01:57,920
+hiring lots of developers. And so there
+
+47
+00:01:57,920 --> 00:02:01,759
+became this mindset that if you just had
+
+48
+00:02:01,759 --> 00:02:04,079
+a decent resume, if you just had a few
+
+49
+00:02:04,079 --> 00:02:06,000
+buzzwords on your resume, that you could
+
+50
+00:02:06,000 --> 00:02:08,720
+get hired somewhere and that it wasn't
+
+51
+00:02:08,720 --> 00:02:12,000
+that hard to get a job. But that wasn't
+
+52
+00:02:12,000 --> 00:02:13,840
+reality. That's not how software
+
+53
+00:02:13,840 --> 00:02:16,160
+development has been in the past, nor is
+
+54
+00:02:16,160 --> 00:02:19,760
+it how it is now. The COVID era of
+
+55
+00:02:19,760 --> 00:02:22,239
+wildly hiring for jobs and companies
+
+56
+00:02:22,239 --> 00:02:25,040
+competing for developers is over. And
+
+57
+00:02:25,040 --> 00:02:27,760
+so, we're back to more of what it is
+
+58
+00:02:27,760 --> 00:02:30,720
+normally for software development.
+
+59
+00:02:30,720 --> 00:02:34,000
+Competition is high and yes, jobs can be
+
+60
+00:02:34,000 --> 00:02:36,720
+harder to get. Now, the reason
+
+61
+00:02:36,720 --> 00:02:39,040
+competition is high is because this is a
+
+62
+00:02:39,040 --> 00:02:42,160
+very easy field to get into. I'm not
+
+63
+00:02:42,160 --> 00:02:44,720
+saying it's a very easy field to do well
+
+64
+00:02:44,720 --> 00:02:48,560
+in, but it's very easy to say, "Oh, I've
+
+65
+00:02:48,560 --> 00:02:49,760
+watched a few tutorials. I've gone
+
+66
+00:02:49,760 --> 00:02:52,319
+through a couple of courses online and
+
+67
+00:02:52,319 --> 00:02:54,160
+now I must be a software developer. So,
+
+68
+00:02:54,160 --> 00:02:56,640
+I put that in my resume." And you're
+
+69
+00:02:56,640 --> 00:02:59,040
+compete against those types of people.
+
+70
+00:02:59,040 --> 00:03:01,680
+So, you have to figure out how to go
+
+71
+00:03:01,680 --> 00:03:04,159
+beyond just that. But this is the change
+
+72
+00:03:04,159 --> 00:03:06,879
+in reality for software developers. Some
+
+73
+00:03:06,879 --> 00:03:09,680
+of whom are not used to the fact that
+
+74
+00:03:09,680 --> 00:03:13,920
+yes uh times have changed from that easy
+
+75
+00:03:13,920 --> 00:03:17,680
+hiring uh place that we were at.
+
+76
+00:03:17,680 --> 00:03:21,280
+Uh number three uh AI is confusing
+
+77
+00:03:21,280 --> 00:03:24,159
+companies and what I mean by this is
+
+78
+00:03:24,159 --> 00:03:27,280
+there is to an extent the idea that that
+
+79
+00:03:27,280 --> 00:03:29,200
+companies are saying hey I could
+
+80
+00:03:29,200 --> 00:03:31,200
+probably do more with less which is
+
+81
+00:03:31,200 --> 00:03:33,680
+always the mantra of companies it does
+
+82
+00:03:33,680 --> 00:03:36,319
+not matter if it's AI or offshoring or
+
+83
+00:03:36,319 --> 00:03:40,239
+outsourcing or you know freelance hiring
+
+84
+00:03:40,239 --> 00:03:42,319
+or whatever the case may be companies
+
+85
+00:03:42,319 --> 00:03:46,000
+want to do more with less which if you
+
+86
+00:03:46,000 --> 00:03:47,599
+take a step back and think about it It's
+
+87
+00:03:47,599 --> 00:03:49,920
+understandable because of the fact that
+
+88
+00:03:49,920 --> 00:03:52,799
+we do the same thing when you're looking
+
+89
+00:03:52,799 --> 00:03:55,519
+to buy a new car. You shop around at
+
+90
+00:03:55,519 --> 00:03:57,360
+different dealerships and say, "Hey, who
+
+91
+00:03:57,360 --> 00:03:59,920
+has the lowest price for the same
+
+92
+00:03:59,920 --> 00:04:02,000
+value?" That's what you're looking for.
+
+93
+00:04:02,000 --> 00:04:03,599
+Well, in the same way, that's what
+
+94
+00:04:03,599 --> 00:04:05,680
+companies are looking for. They want
+
+95
+00:04:05,680 --> 00:04:07,920
+more money in their own pockets and less
+
+96
+00:04:07,920 --> 00:04:10,000
+money going to their employees. And so,
+
+97
+00:04:10,000 --> 00:04:11,439
+they're always going to figure out how
+
+98
+00:04:11,439 --> 00:04:15,439
+to do more with less. So there's been an
+
+99
+00:04:15,439 --> 00:04:18,400
+awful lot of talk from very large
+
+100
+00:04:18,400 --> 00:04:21,040
+companies including Microsoft and OpenAI
+
+101
+00:04:21,040 --> 00:04:24,639
+and and Meta and others that are saying
+
+102
+00:04:24,639 --> 00:04:25,919
+we're going to replace software
+
+103
+00:04:25,919 --> 00:04:28,240
+developers or we're going to greatly
+
+104
+00:04:28,240 --> 00:04:30,800
+reduce the need for software developers
+
+105
+00:04:30,800 --> 00:04:34,240
+with our AI products. Now
+
+106
+00:04:34,240 --> 00:04:35,759
+you have to remember that they're trying
+
+107
+00:04:35,759 --> 00:04:37,440
+to sell a product, right? They're trying
+
+108
+00:04:37,440 --> 00:04:39,040
+to sell their own thing and try and get
+
+109
+00:04:39,040 --> 00:04:40,880
+companies on board with them. But that's
+
+110
+00:04:40,880 --> 00:04:43,120
+what they're pushing. uh Microsoft is
+
+111
+00:04:43,120 --> 00:04:46,000
+really pushing hard for every developer
+
+112
+00:04:46,000 --> 00:04:49,120
+needs to be using AI to go faster and
+
+113
+00:04:49,120 --> 00:04:54,479
+farther and it's a bit unrealistic. But
+
+114
+00:04:54,479 --> 00:04:56,639
+companies that are not those big
+
+115
+00:04:56,639 --> 00:04:59,280
+companies, they're a bit more confused
+
+116
+00:04:59,280 --> 00:05:01,280
+because if they say, "Oh, well, this is
+
+117
+00:05:01,280 --> 00:05:02,639
+what the market leaders are doing,
+
+118
+00:05:02,639 --> 00:05:05,040
+therefore we must do it, too." And so
+
+119
+00:05:05,040 --> 00:05:06,320
+there are companies that are trying
+
+120
+00:05:06,320 --> 00:05:08,800
+they're trying to hire less developers
+
+121
+00:05:08,800 --> 00:05:11,680
+or even lay off developers sometimes. um
+
+122
+00:05:11,680 --> 00:05:14,880
+where they are expecting the AI to do
+
+123
+00:05:14,880 --> 00:05:18,000
+the work of the developers and this
+
+124
+00:05:18,000 --> 00:05:21,039
+doesn't go well. It has not gone well.
+
+125
+00:05:21,039 --> 00:05:24,240
+There has not been a company that you
+
+126
+00:05:24,240 --> 00:05:26,479
+know does this long term and goes yes
+
+127
+00:05:26,479 --> 00:05:28,320
+that was a great decision. I mean maybe
+
+128
+00:05:28,320 --> 00:05:29,759
+it's a tiny little company that do that
+
+129
+00:05:29,759 --> 00:05:32,560
+but not any large scale company. So what
+
+130
+00:05:32,560 --> 00:05:34,960
+happens instead is we see over and over
+
+131
+00:05:34,960 --> 00:05:37,840
+again companies are hiring back those
+
+132
+00:05:37,840 --> 00:05:41,759
+people and so they are bringing those
+
+133
+00:05:41,759 --> 00:05:43,360
+developers back in or they're they're
+
+134
+00:05:43,360 --> 00:05:45,600
+you know trying to do other things to
+
+135
+00:05:45,600 --> 00:05:47,280
+pretend like the AI is still working
+
+136
+00:05:47,280 --> 00:05:50,320
+like outsourcing development to to cover
+
+137
+00:05:50,320 --> 00:05:53,360
+their shortfalls and so on. So this is
+
+138
+00:05:53,360 --> 00:05:55,520
+causing a lot of confusion in the
+
+139
+00:05:55,520 --> 00:05:58,000
+industry. Some companies may be laying
+
+140
+00:05:58,000 --> 00:06:00,240
+off because of AI. Other companies may
+
+141
+00:06:00,240 --> 00:06:04,240
+be hiring because of AI. Some companies
+
+142
+00:06:04,240 --> 00:06:07,919
+are looking at AI as rightfully the
+
+143
+00:06:07,919 --> 00:06:11,039
+ability for it to to launch them forward
+
+144
+00:06:11,039 --> 00:06:13,120
+faster. And so they're saying, "Hey, you
+
+145
+00:06:13,120 --> 00:06:14,639
+know what? Let's just empower our
+
+146
+00:06:14,639 --> 00:06:18,080
+developers and be able to do more with
+
+147
+00:06:18,080 --> 00:06:20,560
+these tools. So instead of saying let's
+
+148
+00:06:20,560 --> 00:06:22,479
+pay less, instead of saying let's just
+
+149
+00:06:22,479 --> 00:06:25,440
+produce more or let's, you know, take on
+
+150
+00:06:25,440 --> 00:06:28,880
+more projects, etc." And so there are
+
+151
+00:06:28,880 --> 00:06:30,319
+opportunities at those companies or
+
+152
+00:06:30,319 --> 00:06:32,400
+maybe you know there's a little bit of
+
+153
+00:06:32,400 --> 00:06:34,240
+movement either way but it's causing a
+
+154
+00:06:34,240 --> 00:06:36,960
+lot of confusion in the job market a lot
+
+155
+00:06:36,960 --> 00:06:41,199
+of turmoil and so that is causing some
+
+156
+00:06:41,199 --> 00:06:43,680
+problems when it comes to hiring versus
+
+157
+00:06:43,680 --> 00:06:45,680
+not. It's changing who is hiring and
+
+158
+00:06:45,680 --> 00:06:49,680
+who's not. Number four vibe coding looks
+
+159
+00:06:49,680 --> 00:06:53,759
+great. Um, it there's an awful lot of
+
+160
+00:06:53,759 --> 00:06:55,280
+people out there, an awful lot of
+
+161
+00:06:55,280 --> 00:06:57,199
+companies, awful lot of people promoting
+
+162
+00:06:57,199 --> 00:07:02,160
+the idea that vibe coding works. And no,
+
+163
+00:07:02,160 --> 00:07:04,560
+it doesn't. Not in the way that most
+
+164
+00:07:04,560 --> 00:07:06,880
+people think it does. So, there's this
+
+165
+00:07:06,880 --> 00:07:08,720
+idea that, hey, you don't have to be a
+
+166
+00:07:08,720 --> 00:07:10,960
+developer. You can just vibe code an app
+
+167
+00:07:10,960 --> 00:07:13,599
+and it will be great. And that's not how
+
+168
+00:07:13,599 --> 00:07:15,919
+that works. It repeatedly is proven
+
+169
+00:07:15,919 --> 00:07:17,520
+that's not how that works. And if you
+
+170
+00:07:17,520 --> 00:07:20,400
+look the people who create Vibe Code
+
+171
+00:07:20,400 --> 00:07:22,319
+apps that actually work, that are
+
+172
+00:07:22,319 --> 00:07:23,599
+actually secure, that are actually
+
+173
+00:07:23,599 --> 00:07:25,440
+performant, that actually can be
+
+174
+00:07:25,440 --> 00:07:28,240
+maintained long-term,
+
+175
+00:07:28,240 --> 00:07:30,319
+those are the people who are already
+
+176
+00:07:30,319 --> 00:07:33,520
+highly skilled developers.
+
+177
+00:07:33,520 --> 00:07:35,919
+So they're not really vibe coding in the
+
+178
+00:07:35,919 --> 00:07:38,160
+way that they're promoting it or way a
+
+179
+00:07:38,160 --> 00:07:40,400
+lot of people are promoting it, which is
+
+180
+00:07:40,400 --> 00:07:42,080
+you don't have to know the topic. You
+
+181
+00:07:42,080 --> 00:07:44,880
+just have to tell the AI to do its thing
+
+182
+00:07:44,880 --> 00:07:47,599
+and it does. So over and over again,
+
+183
+00:07:47,599 --> 00:07:49,680
+it's been proven that when you just let
+
+184
+00:07:49,680 --> 00:07:52,240
+the AI do its thing, it's probably 80%
+
+185
+00:07:52,240 --> 00:07:55,919
+right. And then that 20% is an unsecure
+
+186
+00:07:55,919 --> 00:07:59,280
+mess and it creates bad code that's hard
+
+187
+00:07:59,280 --> 00:08:02,560
+to maintain. So it's not like, well,
+
+188
+00:08:02,560 --> 00:08:03,919
+it's good enough. And I've heard that
+
+189
+00:08:03,919 --> 00:08:06,319
+argument, it's good enough. It's not
+
+190
+00:08:06,319 --> 00:08:09,919
+good enough because security isn't a
+
+191
+00:08:09,919 --> 00:08:13,599
+good enough thing. your data retention
+
+192
+00:08:13,599 --> 00:08:17,280
+isn't a good enough thing. Your
+
+193
+00:08:17,280 --> 00:08:19,440
+assurance that your data is not going to
+
+194
+00:08:19,440 --> 00:08:21,520
+get mixed up with someone else's data is
+
+195
+00:08:21,520 --> 00:08:24,319
+not a good enough thing. And so letting
+
+196
+00:08:24,319 --> 00:08:27,280
+an AI just go crazy on that, that's not
+
+197
+00:08:27,280 --> 00:08:30,400
+a good thing. But when it comes to again
+
+198
+00:08:30,400 --> 00:08:32,159
+looking at how companies are looking at
+
+199
+00:08:32,159 --> 00:08:34,320
+looking at how people who are coming
+
+200
+00:08:34,320 --> 00:08:35,760
+into software development are looking at
+
+201
+00:08:35,760 --> 00:08:38,560
+it, vibe coding looks on the outside.
+
+202
+00:08:38,560 --> 00:08:41,279
+It's got a pretty skin. It's got a
+
+203
+00:08:41,279 --> 00:08:44,560
+pretty look to it and so it looks like
+
+204
+00:08:44,560 --> 00:08:46,720
+that developers aren't need anymore and
+
+205
+00:08:46,720 --> 00:08:49,600
+that causes even more confusion. So
+
+206
+00:08:49,600 --> 00:08:52,320
+there are things we acknowledge in that
+
+207
+00:08:52,320 --> 00:08:55,120
+and the fact that yes that is causing
+
+208
+00:08:55,120 --> 00:08:58,000
+some market turmoil but that doesn't
+
+209
+00:08:58,000 --> 00:09:01,040
+mean that it's the right thing or the
+
+210
+00:09:01,040 --> 00:09:03,120
+long-term solution for software
+
+211
+00:09:03,120 --> 00:09:05,120
+development. So let's talk about the
+
+212
+00:09:05,120 --> 00:09:07,680
+actual reality. So we talked about the
+
+213
+00:09:07,680 --> 00:09:09,440
+the changes for developers, but let's
+
+214
+00:09:09,440 --> 00:09:11,600
+talk the actual reality. Reality number
+
+215
+00:09:11,600 --> 00:09:15,440
+one is software development pays well.
+
+216
+00:09:15,440 --> 00:09:17,920
+This is a thing that people overlook or
+
+217
+00:09:17,920 --> 00:09:20,160
+they they discount. I hear a lot of
+
+218
+00:09:20,160 --> 00:09:21,760
+people say, "Oh, it's it's not a good
+
+219
+00:09:21,760 --> 00:09:23,680
+time to be a software developer. Go do
+
+220
+00:09:23,680 --> 00:09:26,160
+something else, anything else." So I did
+
+221
+00:09:26,160 --> 00:09:28,800
+this uh this uh thought experiment with
+
+222
+00:09:28,800 --> 00:09:30,880
+a person on YouTube recently where they
+
+223
+00:09:30,880 --> 00:09:32,880
+were saying, "Hey, you know, software
+
+224
+00:09:32,880 --> 00:09:34,240
+development is not a field you want to
+
+225
+00:09:34,240 --> 00:09:36,560
+get into. Go anywhere else.
+
+226
+00:09:36,560 --> 00:09:38,959
+And it is a field that is going to take
+
+227
+00:09:38,959 --> 00:09:40,959
+work to get into. We'll talk about that.
+
+228
+00:09:40,959 --> 00:09:45,519
+But I said, let's just look at any other
+
+229
+00:09:45,519 --> 00:09:47,600
+field. Let's take electrician. We're
+
+230
+00:09:47,600 --> 00:09:49,760
+going to use US numbers. And I used the
+
+231
+00:09:49,760 --> 00:09:52,640
+US median income means the middle
+
+232
+00:09:52,640 --> 00:09:55,680
+income. So half of the people who are
+
+233
+00:09:55,680 --> 00:09:57,600
+electricians make less than this. Half
+
+234
+00:09:57,600 --> 00:10:00,399
+make more than this. And I did a thought
+
+235
+00:10:00,399 --> 00:10:02,240
+experiment where I said, "What if you
+
+236
+00:10:02,240 --> 00:10:04,959
+got hired tomorrow as an electrician?"
+
+237
+00:10:04,959 --> 00:10:05,920
+It's not going to happen. and you have
+
+238
+00:10:05,920 --> 00:10:07,360
+to have training and all the rest. But
+
+239
+00:10:07,360 --> 00:10:09,360
+let's just say you did and you worked
+
+240
+00:10:09,360 --> 00:10:11,360
+for 10 years.
+
+241
+00:10:11,360 --> 00:10:13,279
+How long would you have to work as a
+
+242
+00:10:13,279 --> 00:10:16,800
+software developer at the same software
+
+243
+00:10:16,800 --> 00:10:20,560
+development median income in order to
+
+244
+00:10:20,560 --> 00:10:23,519
+meet or eclipse the same income as an
+
+245
+00:10:23,519 --> 00:10:25,760
+electrician. You had to work for less
+
+246
+00:10:25,760 --> 00:10:28,959
+than five years. So you could be
+
+247
+00:10:28,959 --> 00:10:31,680
+unemployed with zero dollars coming in
+
+248
+00:10:31,680 --> 00:10:34,880
+for five years and still make out better
+
+249
+00:10:34,880 --> 00:10:37,040
+in the end being a software developer
+
+250
+00:10:37,040 --> 00:10:38,880
+than you could an electrician. That's
+
+251
+00:10:38,880 --> 00:10:41,680
+nothing bad against electricians. If you
+
+252
+00:10:41,680 --> 00:10:43,040
+want to be an electrician, you're good
+
+253
+00:10:43,040 --> 00:10:45,120
+at it, do it, please. We need
+
+254
+00:10:45,120 --> 00:10:47,360
+electricians. And you can figure out
+
+255
+00:10:47,360 --> 00:10:49,519
+ways to hopefully make more money than
+
+256
+00:10:49,519 --> 00:10:53,040
+that. But the point is that software
+
+257
+00:10:53,040 --> 00:10:57,680
+development pays well. And so it's worth
+
+258
+00:10:57,680 --> 00:10:59,839
+some of this extra pain and difficulty
+
+259
+00:10:59,839 --> 00:11:03,440
+that comes with the hard work of getting
+
+260
+00:11:03,440 --> 00:11:05,600
+into this field because it is going to
+
+261
+00:11:05,600 --> 00:11:08,880
+be hard work. So when you're looking at
+
+262
+00:11:08,880 --> 00:11:12,800
+well don't do that, compare it. Be
+
+263
+00:11:12,800 --> 00:11:15,920
+honest about what your alternatives are.
+
+264
+00:11:15,920 --> 00:11:19,279
+Not everyone should be a software
+
+265
+00:11:19,279 --> 00:11:23,680
+developer, but if that is a field you
+
+266
+00:11:23,680 --> 00:11:28,160
+want to go into, you can do very well.
+
+267
+00:11:28,160 --> 00:11:30,079
+So the actual reality is software
+
+268
+00:11:30,079 --> 00:11:33,519
+development pays well. The alternatives
+
+269
+00:11:33,519 --> 00:11:36,800
+are almost entirely worse. Now worse in
+
+270
+00:11:36,800 --> 00:11:40,079
+terms of money, okay? And that's not the
+
+271
+00:11:40,079 --> 00:11:42,000
+only way you should evaluate a career.
+
+272
+00:11:42,000 --> 00:11:43,839
+Please don't evaluate a career just
+
+273
+00:11:43,839 --> 00:11:47,839
+based upon money. But you need to be
+
+274
+00:11:47,839 --> 00:11:50,800
+honest about your evaluations. If your
+
+275
+00:11:50,800 --> 00:11:53,760
+bent, if your drive is to be a software
+
+276
+00:11:53,760 --> 00:11:56,959
+developer, it is a great career to get
+
+277
+00:11:56,959 --> 00:12:00,320
+into. If your drive is to be in
+
+278
+00:12:00,320 --> 00:12:02,640
+healthcare, that's a better place for
+
+279
+00:12:02,640 --> 00:12:04,640
+you to be probably because that's what
+
+280
+00:12:04,640 --> 00:12:06,720
+you're going to be more happy and more
+
+281
+00:12:06,720 --> 00:12:09,920
+fulfilled doing. So, we're just talking
+
+282
+00:12:09,920 --> 00:12:12,399
+right now about dollars and cents
+
+283
+00:12:12,399 --> 00:12:16,240
+income. So too often I hear people say
+
+284
+00:12:16,240 --> 00:12:20,079
+don't do software development and their
+
+285
+00:12:20,079 --> 00:12:22,959
+idea behind it is it's hard. It takes a
+
+286
+00:12:22,959 --> 00:12:25,360
+lot of work. It's it's hard to get a
+
+287
+00:12:25,360 --> 00:12:28,800
+job. These are all things that are true.
+
+288
+00:12:28,800 --> 00:12:30,720
+But what's your alternative? What are
+
+289
+00:12:30,720 --> 00:12:34,399
+you suggesting that they do instead?
+
+290
+00:12:34,399 --> 00:12:37,279
+Because it's not enough to say don't do
+
+291
+00:12:37,279 --> 00:12:40,000
+something because that's doesn't provide
+
+292
+00:12:40,000 --> 00:12:43,839
+any value. It just provides a negative
+
+293
+00:12:43,839 --> 00:12:46,880
+output. Instead, say these are the
+
+294
+00:12:46,880 --> 00:12:48,720
+things that are probably better and back
+
+295
+00:12:48,720 --> 00:12:51,040
+that up with actual data, not just
+
+296
+00:12:51,040 --> 00:12:53,360
+anecdotal. Well, my neighbor's friend's
+
+297
+00:12:53,360 --> 00:12:56,399
+buddy had is, you know, making lots of
+
+298
+00:12:56,399 --> 00:12:59,519
+money doing this. That's just anecdotal
+
+299
+00:12:59,519 --> 00:13:02,000
+evidence. Look at it from the actual
+
+300
+00:13:02,000 --> 00:13:03,920
+monetary standpoint. Software
+
+301
+00:13:03,920 --> 00:13:06,800
+development, the career is growing more
+
+302
+00:13:06,800 --> 00:13:09,839
+rapidly than almost any other career in
+
+303
+00:13:09,839 --> 00:13:11,279
+the US.
+
+304
+00:13:11,279 --> 00:13:14,480
+It makes more than almost any other
+
+305
+00:13:14,480 --> 00:13:17,200
+career in the US, especially for the
+
+306
+00:13:17,200 --> 00:13:19,839
+fact that it does not require even a
+
+307
+00:13:19,839 --> 00:13:22,560
+degree. Yes, sometimes a degree can be
+
+308
+00:13:22,560 --> 00:13:24,399
+helpful, but that doesn't mean it's
+
+309
+00:13:24,399 --> 00:13:28,880
+required. So, it's easier to get into
+
+310
+00:13:28,880 --> 00:13:31,120
+and it pays a whole lot better, which is
+
+311
+00:13:31,120 --> 00:13:34,160
+also why there's so much competition,
+
+312
+00:13:34,160 --> 00:13:38,079
+which does make it more difficult. Okay.
+
+313
+00:13:38,079 --> 00:13:42,800
+Number three, AI will drive job growth.
+
+314
+00:13:42,800 --> 00:13:45,120
+And this is something that people don't
+
+315
+00:13:45,120 --> 00:13:47,760
+realize or don't don't see as a a
+
+316
+00:13:47,760 --> 00:13:49,279
+possibility sometimes because of the
+
+317
+00:13:49,279 --> 00:13:51,279
+fact that they're locked in on the idea
+
+318
+00:13:51,279 --> 00:13:53,600
+that AI is going to replace developers.
+
+319
+00:13:53,600 --> 00:13:55,600
+And it's not. We have seen, we have
+
+320
+00:13:55,600 --> 00:13:58,480
+proven year after year, we've been told,
+
+321
+00:13:58,480 --> 00:14:00,480
+well, in the next version, in the next
+
+322
+00:14:00,480 --> 00:14:02,079
+version, in the next version, it will
+
+323
+00:14:02,079 --> 00:14:03,360
+somehow get better. It'll get better.
+
+324
+00:14:03,360 --> 00:14:06,399
+It'll get better. And it hasn't. Yes,
+
+325
+00:14:06,399 --> 00:14:09,040
+there have been advances in AI and yes,
+
+326
+00:14:09,040 --> 00:14:11,680
+the LLMs that are are putting out code
+
+327
+00:14:11,680 --> 00:14:14,399
+are doing a better job for the most part
+
+328
+00:14:14,399 --> 00:14:16,560
+than they were in previous versions. But
+
+329
+00:14:16,560 --> 00:14:19,519
+we what we're seeing is a small
+
+330
+00:14:19,519 --> 00:14:22,560
+incremental change now as opposed to
+
+331
+00:14:22,560 --> 00:14:26,079
+this grand massive difference in how
+
+332
+00:14:26,079 --> 00:14:29,920
+things work. So software developers
+
+333
+00:14:29,920 --> 00:14:33,360
+aren't getting replaced. Instead, what's
+
+334
+00:14:33,360 --> 00:14:35,760
+going to happen is it is going to make
+
+335
+00:14:35,760 --> 00:14:39,519
+it easier for more companies to hire
+
+336
+00:14:39,519 --> 00:14:42,480
+less developers and still have custom
+
+337
+00:14:42,480 --> 00:14:45,760
+development. So, think of it this way.
+
+338
+00:14:45,760 --> 00:14:49,279
+Back in the the 70s and early 80s, kind
+
+339
+00:14:49,279 --> 00:14:52,079
+of before I was into into computers,
+
+340
+00:14:52,079 --> 00:14:55,199
+well, computers were basically these big
+
+341
+00:14:55,199 --> 00:14:58,720
+mainframes and only, you know, bigger
+
+342
+00:14:58,720 --> 00:15:00,639
+companies owned these. And so your your
+
+343
+00:15:00,639 --> 00:15:03,040
+average mom and pop shop that maybe was
+
+344
+00:15:03,040 --> 00:15:05,600
+a dry cleaner or a you know a laundromat
+
+345
+00:15:05,600 --> 00:15:07,120
+or something else they didn't own a
+
+346
+00:15:07,120 --> 00:15:09,040
+computer because it didn't make
+
+347
+00:15:09,040 --> 00:15:13,360
+financial sense. So we only had a few
+
+348
+00:15:13,360 --> 00:15:15,600
+computers relatively and then the
+
+349
+00:15:15,600 --> 00:15:18,399
+computer got cheaper and faster and all
+
+350
+00:15:18,399 --> 00:15:21,440
+of a sudden more and more businesses
+
+351
+00:15:21,440 --> 00:15:23,360
+owned a computer. they they could afford
+
+352
+00:15:23,360 --> 00:15:25,839
+it and because of that more and more
+
+353
+00:15:25,839 --> 00:15:28,079
+businesses use software which also gave
+
+354
+00:15:28,079 --> 00:15:30,639
+rise to the software developer. The same
+
+355
+00:15:30,639 --> 00:15:33,920
+thing is true here with AI is that it's
+
+356
+00:15:33,920 --> 00:15:36,480
+going to make it easier and easier for
+
+357
+00:15:36,480 --> 00:15:39,120
+smaller and smaller companies to invest
+
+358
+00:15:39,120 --> 00:15:41,600
+a little bit and get some value out of
+
+359
+00:15:41,600 --> 00:15:45,920
+it. So it's going to drive job growth.
+
+360
+00:15:45,920 --> 00:15:48,959
+If AI succeeds, it will drive job
+
+361
+00:15:48,959 --> 00:15:51,680
+growth. If it fails,
+
+362
+00:15:51,680 --> 00:15:53,279
+it's going to drive job growth because
+
+363
+00:15:53,279 --> 00:15:54,720
+we're gonna have to fill in the gaps
+
+364
+00:15:54,720 --> 00:15:58,000
+here. So either way, software
+
+365
+00:15:58,000 --> 00:16:00,560
+development is going to grow. We're
+
+366
+00:16:00,560 --> 00:16:02,560
+going to have more need for more
+
+367
+00:16:02,560 --> 00:16:04,639
+software developers.
+
+368
+00:16:04,639 --> 00:16:07,920
+And this final point in or one of the
+
+369
+00:16:07,920 --> 00:16:10,079
+final points in this actual reality is
+
+370
+00:16:10,079 --> 00:16:12,959
+there is no easy path.
+
+371
+00:16:12,959 --> 00:16:15,519
+This is something that too often people
+
+372
+00:16:15,519 --> 00:16:18,079
+get sold on a dream. Um, and I get, you
+
+373
+00:16:18,079 --> 00:16:19,360
+know, push back from people sometimes.
+
+374
+00:16:19,360 --> 00:16:21,600
+They say, "Well, the reason that you say
+
+375
+00:16:21,600 --> 00:16:23,440
+the things you do or the reason you push
+
+376
+00:16:23,440 --> 00:16:25,120
+people a certain way is because you sell
+
+377
+00:16:25,120 --> 00:16:27,199
+courses and that must mean that you're,
+
+378
+00:16:27,199 --> 00:16:29,040
+you know, biased and you're trying to
+
+379
+00:16:29,040 --> 00:16:31,519
+just sell courses." That's not the case.
+
+380
+00:16:31,519 --> 00:16:33,360
+I understand why you would question
+
+381
+00:16:33,360 --> 00:16:35,199
+that. You should question that, but
+
+382
+00:16:35,199 --> 00:16:39,440
+that's not why I do what I do. Um but
+
+383
+00:16:39,440 --> 00:16:41,839
+too often people been sold that bill of
+
+384
+00:16:41,839 --> 00:16:44,240
+goods that hey if you just watch this
+
+385
+00:16:44,240 --> 00:16:46,639
+course it will you know make your life
+
+386
+00:16:46,639 --> 00:16:48,000
+better because you will be a software
+
+387
+00:16:48,000 --> 00:16:50,480
+developer and you can um you know do
+
+388
+00:16:50,480 --> 00:16:53,680
+these things and if you look at how I
+
+389
+00:16:53,680 --> 00:16:55,680
+sell let's say my C# master course which
+
+390
+00:16:55,680 --> 00:16:58,160
+is kind of my my cornerstone course uh
+
+391
+00:16:58,160 --> 00:17:01,279
+all my master courses are um but when I
+
+392
+00:17:01,279 --> 00:17:03,839
+sell my C# master course I say that you
+
+393
+00:17:03,839 --> 00:17:06,160
+can walk into it knowing nothing about C
+
+394
+00:17:06,160 --> 00:17:08,880
+and when you walk out. You can be a
+
+395
+00:17:08,880 --> 00:17:11,919
+junior or even mid-level C developer,
+
+396
+00:17:11,919 --> 00:17:14,240
+but there's a difference here. It
+
+397
+00:17:14,240 --> 00:17:17,120
+depends on the effort you put in during
+
+398
+00:17:17,120 --> 00:17:19,439
+the course. If you just watch the
+
+399
+00:17:19,439 --> 00:17:21,520
+videos, you're not even qualified to be
+
+400
+00:17:21,520 --> 00:17:24,400
+a junior developer. You're just not
+
+401
+00:17:24,400 --> 00:17:26,240
+because I'm going to encourage you over
+
+402
+00:17:26,240 --> 00:17:28,319
+and over and over throughout that course
+
+403
+00:17:28,319 --> 00:17:30,400
+to build this. Hey, do this homework.
+
+404
+00:17:30,400 --> 00:17:31,760
+And I have people push back and say,
+
+405
+00:17:31,760 --> 00:17:33,600
+"Where's the answers to the homework?"
+
+406
+00:17:33,600 --> 00:17:36,240
+And I said, "No, you have to evaluate
+
+407
+00:17:36,240 --> 00:17:37,840
+the answer. You have to figure it out.
+
+408
+00:17:37,840 --> 00:17:39,520
+I've given you all the tools. Now you
+
+409
+00:17:39,520 --> 00:17:42,080
+build something." Because what happens
+
+410
+00:17:42,080 --> 00:17:45,200
+in your job is that you're given a task.
+
+411
+00:17:45,200 --> 00:17:47,679
+You're not given the answer. You have to
+
+412
+00:17:47,679 --> 00:17:49,360
+figure out how to make that work and how
+
+413
+00:17:49,360 --> 00:17:50,960
+to figure out if it matches the
+
+414
+00:17:50,960 --> 00:17:54,000
+requirements. So that's the difference
+
+415
+00:17:54,000 --> 00:17:58,480
+is that it does take work. It takes a
+
+416
+00:17:58,480 --> 00:18:01,360
+lot of work. And so when I say, hey, if
+
+417
+00:18:01,360 --> 00:18:03,039
+you're going to watch an hour of of
+
+418
+00:18:03,039 --> 00:18:05,039
+lecture, you need to spend about two to
+
+419
+00:18:05,039 --> 00:18:07,039
+five hours
+
+420
+00:18:07,039 --> 00:18:08,720
+actually doing the work building
+
+421
+00:18:08,720 --> 00:18:11,039
+applications to test out what you just
+
+422
+00:18:11,039 --> 00:18:14,559
+learned. So it's going to take you two
+
+423
+00:18:14,559 --> 00:18:16,720
+to five times the number of hours of the
+
+424
+00:18:16,720 --> 00:18:21,280
+course in total work to actually get to
+
+425
+00:18:21,280 --> 00:18:23,919
+the point of being a junior or even
+
+426
+00:18:23,919 --> 00:18:26,000
+mid-level developer. It's not about
+
+427
+00:18:26,000 --> 00:18:27,919
+learning syntax. There's a lot more to
+
+428
+00:18:27,919 --> 00:18:30,640
+it. You have to put in the work. There
+
+429
+00:18:30,640 --> 00:18:33,760
+is no easy path. And this comes back to
+
+430
+00:18:33,760 --> 00:18:36,559
+what the the lie that AI is selling and
+
+431
+00:18:36,559 --> 00:18:38,960
+a lot of people are buying is that AI is
+
+432
+00:18:38,960 --> 00:18:42,160
+the shortcut. Hey, let's take a shortcut
+
+433
+00:18:42,160 --> 00:18:45,200
+to learning software development by just
+
+434
+00:18:45,200 --> 00:18:48,160
+having the AI do it for us. Well, that
+
+435
+00:18:48,160 --> 00:18:51,520
+is super dangerous because what I see
+
+436
+00:18:51,520 --> 00:18:54,559
+already happening is that people don't
+
+437
+00:18:54,559 --> 00:18:57,520
+know how to be a developer outside of
+
+438
+00:18:57,520 --> 00:19:00,080
+just telling the AI, "Hey, do this and
+
+439
+00:19:00,080 --> 00:19:02,480
+then watching it do it." The problem is
+
+440
+00:19:02,480 --> 00:19:06,559
+the AI is wrong way too often. And they
+
+441
+00:19:06,559 --> 00:19:08,400
+don't know it because they're not a
+
+442
+00:19:08,400 --> 00:19:10,880
+developer themselves. They're just a
+
+443
+00:19:10,880 --> 00:19:13,440
+supervisor of an AI who has less and
+
+444
+00:19:13,440 --> 00:19:16,080
+less skill and actually telling the AI,
+
+445
+00:19:16,080 --> 00:19:18,160
+"No, you're wrong because they have less
+
+446
+00:19:18,160 --> 00:19:20,480
+and less insight into that. They don't
+
+447
+00:19:20,480 --> 00:19:22,720
+know what's going on."
+
+448
+00:19:22,720 --> 00:19:24,960
+So, there is no easy path. And if you
+
+449
+00:19:24,960 --> 00:19:27,600
+try and shortcut, if you try and take
+
+450
+00:19:27,600 --> 00:19:30,720
+the the the quicker way that is, you
+
+451
+00:19:30,720 --> 00:19:33,520
+know, have AI do it or have AI help you,
+
+452
+00:19:33,520 --> 00:19:34,720
+well then what's going to happen is
+
+453
+00:19:34,720 --> 00:19:36,480
+you're going to stunt your growth and
+
+454
+00:19:36,480 --> 00:19:38,080
+you're going to find out that there
+
+455
+00:19:38,080 --> 00:19:39,919
+isn't a place in software development
+
+456
+00:19:39,919 --> 00:19:42,400
+for you. You won't be able to find a job
+
+457
+00:19:42,400 --> 00:19:44,960
+very easily, if at all, because you're
+
+458
+00:19:44,960 --> 00:19:47,280
+not actually that valuable because you
+
+459
+00:19:47,280 --> 00:19:51,440
+add nothing to the process. You're just
+
+460
+00:19:51,440 --> 00:19:53,200
+prompting with AI, and that's not
+
+461
+00:19:53,200 --> 00:19:57,679
+useful. Anyone can do that. So, finally,
+
+462
+00:19:57,679 --> 00:19:59,760
+this isn't for everyone. I've said
+
+463
+00:19:59,760 --> 00:20:01,600
+before, and people get confused when I
+
+464
+00:20:01,600 --> 00:20:04,559
+say it, but I've said before that anyone
+
+465
+00:20:04,559 --> 00:20:07,200
+can learn software development. Anyone
+
+466
+00:20:07,200 --> 00:20:09,840
+can be a software developer. And people
+
+467
+00:20:09,840 --> 00:20:12,080
+push back on that a lot. And the reason
+
+468
+00:20:12,080 --> 00:20:14,960
+why is they think that it's somehow, you
+
+469
+00:20:14,960 --> 00:20:17,280
+know, super hard to do or they they hold
+
+470
+00:20:17,280 --> 00:20:19,120
+the magical keys for being a developer
+
+471
+00:20:19,120 --> 00:20:21,840
+themselves. But the reality is anyone
+
+472
+00:20:21,840 --> 00:20:26,559
+can do this, but it isn't for everyone.
+
+473
+00:20:26,559 --> 00:20:29,760
+There's a difference there. So, anyone
+
+474
+00:20:29,760 --> 00:20:32,640
+can push hard and do this. It's going to
+
+475
+00:20:32,640 --> 00:20:35,520
+take work. It's going to take struggle.
+
+476
+00:20:35,520 --> 00:20:38,480
+It's going to take effort and pushing
+
+477
+00:20:38,480 --> 00:20:40,640
+through the hard things because being a
+
+478
+00:20:40,640 --> 00:20:43,200
+developer really, that's kind of the the
+
+479
+00:20:43,200 --> 00:20:45,760
+secret is that we're always struggling,
+
+480
+00:20:45,760 --> 00:20:48,960
+right? It's not, did you have a hard day
+
+481
+00:20:48,960 --> 00:20:50,880
+working through problems? Because that's
+
+482
+00:20:50,880 --> 00:20:53,520
+just a normal Tuesday. That's that's
+
+483
+00:20:53,520 --> 00:20:55,600
+what we do. That's our job. And the
+
+484
+00:20:55,600 --> 00:20:58,080
+majority of our job is debugging
+
+485
+00:20:58,080 --> 00:20:59,679
+problems and figuring out why things
+
+486
+00:20:59,679 --> 00:21:03,360
+don't work when they expect them to. So,
+
+487
+00:21:03,360 --> 00:21:04,960
+this is a job that's going to be
+
+488
+00:21:04,960 --> 00:21:07,120
+frustrating. And for some people, that's
+
+489
+00:21:07,120 --> 00:21:09,360
+energizing. For some people, finding the
+
+490
+00:21:09,360 --> 00:21:11,369
+the solution and and figure out
+
+491
+00:21:11,369 --> 00:21:12,559
+[clears throat] how to write that code
+
+492
+00:21:12,559 --> 00:21:14,559
+that that solves a problem is
+
+493
+00:21:14,559 --> 00:21:16,159
+lifegiving.
+
+494
+00:21:16,159 --> 00:21:20,240
+And for some people, it's just draining.
+
+495
+00:21:20,240 --> 00:21:22,799
+And so this isn't for everyone. So you
+
+496
+00:21:22,799 --> 00:21:26,320
+do need to evaluate if is this for me.
+
+497
+00:21:26,320 --> 00:21:27,840
+If if you're just looking at software
+
+498
+00:21:27,840 --> 00:21:29,360
+development as the easy way to get a
+
+499
+00:21:29,360 --> 00:21:32,559
+quick buck or to become somehow rich by
+
+500
+00:21:32,559 --> 00:21:35,039
+being a software developer, this might
+
+501
+00:21:35,039 --> 00:21:38,000
+not be for you because that's not what's
+
+502
+00:21:38,000 --> 00:21:40,240
+going to sustain you. Now, if you're
+
+503
+00:21:40,240 --> 00:21:42,000
+willing to put the hard work in, then
+
+504
+00:21:42,000 --> 00:21:45,039
+yeah, you could, but it's not for
+
+505
+00:21:45,039 --> 00:21:47,120
+everyone. Okay, so that's the reality.
+
+506
+00:21:47,120 --> 00:21:49,600
+Let's talk the keys to success as a
+
+507
+00:21:49,600 --> 00:21:51,679
+software developer. Number one, don't
+
+508
+00:21:51,679 --> 00:21:53,600
+take shortcuts. Just don't take
+
+509
+00:21:53,600 --> 00:21:56,480
+shortcuts. AI is a big shortcut. Um, and
+
+510
+00:21:56,480 --> 00:21:58,320
+that's something that we'll talk more
+
+511
+00:21:58,320 --> 00:22:00,720
+about as we go through, but but don't
+
+512
+00:22:00,720 --> 00:22:03,679
+use AI as a shortcut. Don't use AI
+
+513
+00:22:03,679 --> 00:22:05,919
+instead of learning. Don't use AI
+
+514
+00:22:05,919 --> 00:22:07,600
+instead of building things yourself or
+
+515
+00:22:07,600 --> 00:22:10,960
+writing the code yourself. Um, so don't
+
+516
+00:22:10,960 --> 00:22:12,480
+take those shortcuts, but there's other
+
+517
+00:22:12,480 --> 00:22:15,919
+shortcuts as well. Um, you know, it used
+
+518
+00:22:15,919 --> 00:22:19,039
+to be that you would spend a lot of time
+
+519
+00:22:19,039 --> 00:22:21,280
+building applications and now people
+
+520
+00:22:21,280 --> 00:22:22,559
+really push back and they really don't
+
+521
+00:22:22,559 --> 00:22:24,159
+want to build applications. They say,
+
+522
+00:22:24,159 --> 00:22:26,559
+well, I don't want to spend a time or it
+
+523
+00:22:26,559 --> 00:22:29,679
+takes so long. And yes, it does and it's
+
+524
+00:22:29,679 --> 00:22:31,760
+hard work and it's going to take
+
+525
+00:22:31,760 --> 00:22:34,400
+discipline. But you know what? That's
+
+526
+00:22:34,400 --> 00:22:36,400
+how you stand out from the crowd is that
+
+527
+00:22:36,400 --> 00:22:38,720
+you do the things others won't. Don't
+
+528
+00:22:38,720 --> 00:22:41,520
+take the shortcuts and just say, "Well,
+
+529
+00:22:41,520 --> 00:22:42,880
+I'll just vibe code it and call it
+
+530
+00:22:42,880 --> 00:22:45,039
+good." You didn't learn anything there.
+
+531
+00:22:45,039 --> 00:22:47,360
+It It's like in a classroom. When I was
+
+532
+00:22:47,360 --> 00:22:49,679
+in high school, I got straight A's. It
+
+533
+00:22:49,679 --> 00:22:52,159
+was super easy for me. And so, I never
+
+534
+00:22:52,159 --> 00:22:55,360
+learned how to study. And so, when I got
+
+535
+00:22:55,360 --> 00:22:57,760
+to college, that didn't translate so
+
+536
+00:22:57,760 --> 00:23:00,640
+well. I remember my my freshman class, I
+
+537
+00:23:00,640 --> 00:23:02,720
+took calculus one. The very first thing
+
+538
+00:23:02,720 --> 00:23:06,080
+that happened was I failed calculus one
+
+539
+00:23:06,080 --> 00:23:08,640
+because I didn't know how to study. I
+
+540
+00:23:08,640 --> 00:23:10,080
+didn't know how to put the effort in
+
+541
+00:23:10,080 --> 00:23:12,400
+beyond just listening to a lecture and
+
+542
+00:23:12,400 --> 00:23:14,799
+regurgitating it onto the page. And
+
+543
+00:23:14,799 --> 00:23:17,200
+that's not how college works, especially
+
+544
+00:23:17,200 --> 00:23:20,960
+not that class. So that's when I I
+
+545
+00:23:20,960 --> 00:23:24,720
+learned that I have to learn how to do
+
+546
+00:23:24,720 --> 00:23:28,960
+the work. I had to learn how to not just
+
+547
+00:23:28,960 --> 00:23:31,039
+watch something and then regurgitate it,
+
+548
+00:23:31,039 --> 00:23:32,240
+which is what some people do with
+
+549
+00:23:32,240 --> 00:23:34,159
+videos. They just watch it and expect to
+
+550
+00:23:34,159 --> 00:23:37,039
+then know it. That's not how that works.
+
+551
+00:23:37,039 --> 00:23:39,120
+What you have to do is you have to
+
+552
+00:23:39,120 --> 00:23:41,520
+figure out what are the ways to to get
+
+553
+00:23:41,520 --> 00:23:43,520
+this information to stick in my brain
+
+554
+00:23:43,520 --> 00:23:47,360
+and how do I get the experience in these
+
+555
+00:23:47,360 --> 00:23:51,120
+areas in order to really grasp the
+
+556
+00:23:51,120 --> 00:23:53,679
+concepts. So for me in calculus, one of
+
+557
+00:23:53,679 --> 00:23:56,640
+the things was I had to take notes. And
+
+558
+00:23:56,640 --> 00:23:59,520
+I found that typing notes wasn't going
+
+559
+00:23:59,520 --> 00:24:02,080
+to work because when I did, I focused
+
+560
+00:24:02,080 --> 00:24:04,000
+too much on formatting and should I do
+
+561
+00:24:04,000 --> 00:24:05,840
+bullet points here and how I put a
+
+562
+00:24:05,840 --> 00:24:08,000
+diagram over here? I can't really. So I
+
+563
+00:24:08,000 --> 00:24:10,159
+spent too much time formatting. Instead,
+
+564
+00:24:10,159 --> 00:24:12,240
+I learned was get out a piece of paper
+
+565
+00:24:12,240 --> 00:24:14,799
+and a pen and write things down.
+
+566
+00:24:14,799 --> 00:24:16,320
+Sometimes
+
+567
+00:24:16,320 --> 00:24:19,360
+just the very act of writing it down
+
+568
+00:24:19,360 --> 00:24:22,400
+would help solidify things in my brain.
+
+569
+00:24:22,400 --> 00:24:25,440
+But then I'd also take those notes and
+
+570
+00:24:25,440 --> 00:24:27,600
+practice. I would do my homework which
+
+571
+00:24:27,600 --> 00:24:30,080
+wasn't wasn't graded. And so before I
+
+572
+00:24:30,080 --> 00:24:31,600
+didn't do my homework because why do
+
+573
+00:24:31,600 --> 00:24:33,440
+something that's not graded? Well, I
+
+574
+00:24:33,440 --> 00:24:35,600
+figured out why because it's the
+
+575
+00:24:35,600 --> 00:24:38,880
+practice. It's the idea of doing this
+
+576
+00:24:38,880 --> 00:24:40,640
+over and over so it becomes muscle
+
+577
+00:24:40,640 --> 00:24:44,159
+memory. And so I learned that I couldn't
+
+578
+00:24:44,159 --> 00:24:47,520
+take shortcuts to success. I had to take
+
+579
+00:24:47,520 --> 00:24:50,720
+the long road because that's how I
+
+580
+00:24:50,720 --> 00:24:56,000
+became an A student in calculus is by
+
+581
+00:24:56,000 --> 00:24:57,039
+not [clears throat] taking the shortcuts
+
+582
+00:24:57,039 --> 00:24:58,880
+but taking the long road doing the
+
+583
+00:24:58,880 --> 00:25:01,520
+things that are hard and frustrating and
+
+584
+00:25:01,520 --> 00:25:03,360
+quite frankly I didn't want to do. take
+
+585
+00:25:03,360 --> 00:25:06,400
+notes and spend time outside of class
+
+586
+00:25:06,400 --> 00:25:08,400
+working on this and practicing this and
+
+587
+00:25:08,400 --> 00:25:11,039
+doing problems over and over again until
+
+588
+00:25:11,039 --> 00:25:13,520
+I figured out how it worked and I was
+
+589
+00:25:13,520 --> 00:25:16,400
+able to commit that into my muscle
+
+590
+00:25:16,400 --> 00:25:18,880
+memory. So, don't take shortcuts in
+
+591
+00:25:18,880 --> 00:25:21,440
+software development.
+
+592
+00:25:21,440 --> 00:25:24,159
+Don't let AI lead.
+
+593
+00:25:24,159 --> 00:25:26,880
+This is the really the dividing line
+
+594
+00:25:26,880 --> 00:25:30,320
+between you're in serious trouble as a
+
+595
+00:25:30,320 --> 00:25:33,279
+developer and you are going to do well
+
+596
+00:25:33,279 --> 00:25:36,400
+as a developer and that is does AI lead
+
+597
+00:25:36,400 --> 00:25:39,440
+or not because if you allow AI to lead
+
+598
+00:25:39,440 --> 00:25:42,240
+what happens is more and more you will
+
+599
+00:25:42,240 --> 00:25:47,120
+just be signing off on what AI does.
+
+600
+00:25:47,120 --> 00:25:51,360
+When AI gives you 500 lines of new C
+
+601
+00:25:51,360 --> 00:25:53,679
+code that it's written, how well do you
+
+602
+00:25:53,679 --> 00:25:55,760
+actually review that code, do you
+
+603
+00:25:55,760 --> 00:25:58,159
+refactor it? Do you evaluate the
+
+604
+00:25:58,159 --> 00:26:01,039
+security of it? Do you evaluate the does
+
+605
+00:26:01,039 --> 00:26:03,039
+it fit into the overall hole? Or do you
+
+606
+00:26:03,039 --> 00:26:06,400
+go, hey, it works? Because the more you
+
+607
+00:26:06,400 --> 00:26:08,240
+lean towards, hey, it works, the more
+
+608
+00:26:08,240 --> 00:26:11,200
+you lean towards just rubber stamping
+
+609
+00:26:11,200 --> 00:26:14,640
+what the AI does, the less value you are
+
+610
+00:26:14,640 --> 00:26:17,120
+as a developer. because quite frankly
+
+611
+00:26:17,120 --> 00:26:18,720
+there's probably people that can explain
+
+612
+00:26:18,720 --> 00:26:22,000
+the problems better than you can and so
+
+613
+00:26:22,000 --> 00:26:23,360
+that's all you're doing at that point is
+
+614
+00:26:23,360 --> 00:26:24,880
+explaining the problems to the AI.
+
+615
+00:26:24,880 --> 00:26:27,440
+You're not actually evaluating if the AI
+
+616
+00:26:27,440 --> 00:26:30,240
+fulfilled the solution to the problems.
+
+617
+00:26:30,240 --> 00:26:32,559
+So that's an important thing is that
+
+618
+00:26:32,559 --> 00:26:37,520
+dividing line don't let AI lead. Uh also
+
+619
+00:26:37,520 --> 00:26:39,360
+put in the hard work. This comes back to
+
+620
+00:26:39,360 --> 00:26:41,760
+number one. No shortcuts but put in the
+
+621
+00:26:41,760 --> 00:26:44,480
+hard work. Make sure that you are
+
+622
+00:26:44,480 --> 00:26:47,440
+spending the time because this is how
+
+623
+00:26:47,440 --> 00:26:51,200
+you stand out from the crowd. If you put
+
+624
+00:26:51,200 --> 00:26:53,360
+in the hard work, that's something that
+
+625
+00:26:53,360 --> 00:26:55,919
+the vast majority developers will not
+
+626
+00:26:55,919 --> 00:26:58,559
+do. And in fact, there's probably people
+
+627
+00:26:58,559 --> 00:26:59,840
+watching this video right now, I know
+
+628
+00:26:59,840 --> 00:27:00,880
+people watching this video right now,
+
+629
+00:27:00,880 --> 00:27:02,880
+they're going, "Yeah, it's just too
+
+630
+00:27:02,880 --> 00:27:04,400
+hard. I don't want to do that. It takes
+
+631
+00:27:04,400 --> 00:27:06,159
+up too much of my time. I don't want to
+
+632
+00:27:06,159 --> 00:27:08,080
+spend my off hours working on on
+
+633
+00:27:08,080 --> 00:27:11,360
+software development." Guess what? You
+
+634
+00:27:11,360 --> 00:27:13,600
+want to be a person that goes beyond
+
+635
+00:27:13,600 --> 00:27:16,240
+that person so you can stand out from
+
+636
+00:27:16,240 --> 00:27:19,520
+everybody else. So put in the hard work.
+
+637
+00:27:19,520 --> 00:27:23,440
+Also do what others will not do.
+
+638
+00:27:23,440 --> 00:27:25,600
+There are some things that people who
+
+639
+00:27:25,600 --> 00:27:28,000
+are in development just don't want to do
+
+640
+00:27:28,000 --> 00:27:30,480
+and they're going to push it off on
+
+641
+00:27:30,480 --> 00:27:32,559
+anybody else. And the the problem there
+
+642
+00:27:32,559 --> 00:27:35,840
+is that while that may work, what's
+
+643
+00:27:35,840 --> 00:27:37,279
+going to happen is they become less and
+
+644
+00:27:37,279 --> 00:27:39,440
+less valuable compared to the person who
+
+645
+00:27:39,440 --> 00:27:41,760
+does what others will not. A prime
+
+646
+00:27:41,760 --> 00:27:46,000
+example of this is if you go to a u a
+
+647
+00:27:46,000 --> 00:27:48,080
+database developer conference which I
+
+648
+00:27:48,080 --> 00:27:50,559
+have done I've spoken at um developer
+
+649
+00:27:50,559 --> 00:27:52,880
+conferences for for database development
+
+650
+00:27:52,880 --> 00:27:55,679
+and you talk to the people and a lot of
+
+651
+00:27:55,679 --> 00:27:57,919
+database developers will say that
+
+652
+00:27:57,919 --> 00:27:59,679
+they're actually a software developer
+
+653
+00:27:59,679 --> 00:28:02,640
+first and they became the database
+
+654
+00:28:02,640 --> 00:28:05,039
+developer or they're an accidental DBA.
+
+655
+00:28:05,039 --> 00:28:07,440
+That's the a pretty common term you'll
+
+656
+00:28:07,440 --> 00:28:10,480
+hear a lot. And the reason for that is
+
+657
+00:28:10,480 --> 00:28:12,559
+because first of all, they knew
+
+658
+00:28:12,559 --> 00:28:15,360
+something about databases. And so they
+
+659
+00:28:15,360 --> 00:28:18,640
+were using that knowledge at work to aid
+
+660
+00:28:18,640 --> 00:28:22,000
+in their job beyond the just software
+
+661
+00:28:22,000 --> 00:28:24,480
+developer role, but also they were
+
+662
+00:28:24,480 --> 00:28:27,279
+willing to take that on. And because of
+
+663
+00:28:27,279 --> 00:28:30,399
+that, they became even more valuable to
+
+664
+00:28:30,399 --> 00:28:32,720
+their organization. They did what others
+
+665
+00:28:32,720 --> 00:28:34,399
+would not. That's just one example out
+
+666
+00:28:34,399 --> 00:28:36,640
+of many. There's also people who figure
+
+667
+00:28:36,640 --> 00:28:38,559
+out how to make automation and DevOps
+
+668
+00:28:38,559 --> 00:28:40,240
+work. There are people who figure out
+
+669
+00:28:40,240 --> 00:28:42,720
+how to improve performance in cloud
+
+670
+00:28:42,720 --> 00:28:45,200
+while reducing costs. There are people
+
+671
+00:28:45,200 --> 00:28:48,480
+who figure out how to use containers to
+
+672
+00:28:48,480 --> 00:28:50,880
+make applications easier to work with
+
+673
+00:28:50,880 --> 00:28:53,360
+locally. There's people that, you know,
+
+674
+00:28:53,360 --> 00:28:54,960
+that figure out these other things,
+
+675
+00:28:54,960 --> 00:28:57,120
+these other areas that are at the edges
+
+676
+00:28:57,120 --> 00:28:59,440
+of software development and because of
+
+677
+00:28:59,440 --> 00:29:01,360
+that become more valuable to their
+
+678
+00:29:01,360 --> 00:29:05,919
+organization. do what others will not.
+
+679
+00:29:05,919 --> 00:29:09,600
+And finally, continual growth. This is a
+
+680
+00:29:09,600 --> 00:29:12,320
+big key to success. Too often I see
+
+681
+00:29:12,320 --> 00:29:15,840
+developers who stagnate in their role.
+
+682
+00:29:15,840 --> 00:29:18,159
+They think that, well, I'm getting
+
+683
+00:29:18,159 --> 00:29:21,200
+better at at doing our internal system.
+
+684
+00:29:21,200 --> 00:29:23,840
+That's that's great in a in a sense, but
+
+685
+00:29:23,840 --> 00:29:25,919
+here's the thing. You might not have
+
+686
+00:29:25,919 --> 00:29:28,480
+that job forever. Your company might not
+
+687
+00:29:28,480 --> 00:29:31,120
+be around forever. Your role might not
+
+688
+00:29:31,120 --> 00:29:34,080
+be around forever. And what happens when
+
+689
+00:29:34,080 --> 00:29:36,320
+you lose that role or want to leave that
+
+690
+00:29:36,320 --> 00:29:38,080
+role or get frustrated with the new
+
+691
+00:29:38,080 --> 00:29:40,320
+management in the new direction? You're
+
+692
+00:29:40,320 --> 00:29:43,039
+behind the curve because you stopped
+
+693
+00:29:43,039 --> 00:29:45,440
+growing and it's really hard to pick up
+
+694
+00:29:45,440 --> 00:29:48,799
+especially when other people have been
+
+695
+00:29:48,799 --> 00:29:51,600
+keeping up this entire time and so they
+
+696
+00:29:51,600 --> 00:29:55,360
+launch way ahead of you just by putting
+
+697
+00:29:55,360 --> 00:29:58,640
+in the continual work. It's, you know,
+
+698
+00:29:58,640 --> 00:30:00,320
+you don't take a a break during a
+
+699
+00:30:00,320 --> 00:30:02,799
+marathon. You don't stop at mile five
+
+700
+00:30:02,799 --> 00:30:04,480
+and just go, you know what, I'm going to
+
+701
+00:30:04,480 --> 00:30:07,360
+hang out here for a while because it's
+
+702
+00:30:07,360 --> 00:30:10,240
+really hard to then place in the top 10
+
+703
+00:30:10,240 --> 00:30:12,720
+of that marathon because everyone else
+
+704
+00:30:12,720 --> 00:30:14,960
+has been making consistent progress
+
+705
+00:30:14,960 --> 00:30:16,720
+throughout the race where you're sitting
+
+706
+00:30:16,720 --> 00:30:19,679
+down and just hanging out. So continual
+
+707
+00:30:19,679 --> 00:30:23,120
+growth is the final key of success for
+
+708
+00:30:23,120 --> 00:30:25,120
+software development. Let's talk about
+
+709
+00:30:25,120 --> 00:30:26,880
+the bottom line here. The bottom line is
+
+710
+00:30:26,880 --> 00:30:28,640
+that software development takes hard
+
+711
+00:30:28,640 --> 00:30:31,039
+work. It takes determination to push
+
+712
+00:30:31,039 --> 00:30:33,279
+through the hard parts, which not
+
+713
+00:30:33,279 --> 00:30:35,840
+everyone can do. If you're not willing
+
+714
+00:30:35,840 --> 00:30:37,919
+to do that, this career probably isn't
+
+715
+00:30:37,919 --> 00:30:40,799
+for you. So, you know what? It's there's
+
+716
+00:30:40,799 --> 00:30:43,200
+no shame in saying this isn't my career.
+
+717
+00:30:43,200 --> 00:30:44,799
+This is what I want to do. That's
+
+718
+00:30:44,799 --> 00:30:48,080
+totally fine. Now, for the rest of you,
+
+719
+00:30:48,080 --> 00:30:49,760
+I would encourage you to look at this
+
+720
+00:30:49,760 --> 00:30:51,760
+the other way. Is that you know what,
+
+721
+00:30:51,760 --> 00:30:53,200
+I'm going to put in the hard work. I'm
+
+722
+00:30:53,200 --> 00:30:54,480
+going to have determination. I'm going
+
+723
+00:30:54,480 --> 00:30:57,279
+to push through because this is the
+
+724
+00:30:57,279 --> 00:30:59,120
+career for me. I'm willing to do that,
+
+725
+00:30:59,120 --> 00:31:01,840
+but I'm willing to put up with the the
+
+726
+00:31:01,840 --> 00:31:05,039
+work that a job really is in order to
+
+727
+00:31:05,039 --> 00:31:07,600
+get the rewards that I'm looking forward
+
+728
+00:31:07,600 --> 00:31:13,679
+to. Now, let's jump into goals for
+
+729
+00:31:13,679 --> 00:31:15,279
+software developers and different
+
+730
+00:31:15,279 --> 00:31:17,440
+levels. So, we'll talk first about new
+
+731
+00:31:17,440 --> 00:31:19,440
+developers. If you're thinking about
+
+732
+00:31:19,440 --> 00:31:21,520
+being a software developer or you're
+
+733
+00:31:21,520 --> 00:31:22,960
+just getting started in software
+
+734
+00:31:22,960 --> 00:31:25,039
+development, um these are some goals you
+
+735
+00:31:25,039 --> 00:31:27,039
+should have. Number one, uh we're
+
+736
+00:31:27,039 --> 00:31:29,200
+talking specifically for C here, but
+
+737
+00:31:29,200 --> 00:31:32,320
+learn C beyond the syntax. Too often
+
+738
+00:31:32,320 --> 00:31:33,760
+people think when they first get into
+
+739
+00:31:33,760 --> 00:31:36,240
+software development that when you know
+
+740
+00:31:36,240 --> 00:31:38,080
+more syntax, you must be a senior
+
+741
+00:31:38,080 --> 00:31:41,679
+developer. That is not it at all. Um a
+
+742
+00:31:41,679 --> 00:31:44,720
+junior developer might know almost every
+
+743
+00:31:44,720 --> 00:31:47,679
+bit of syntax in C#. So that's not what
+
+744
+00:31:47,679 --> 00:31:51,600
+makes you a a senior developer. So go
+
+745
+00:31:51,600 --> 00:31:55,039
+beyond just being a C developer and then
+
+746
+00:31:55,039 --> 00:31:58,720
+don't rely on AI tooling. So what you're
+
+747
+00:31:58,720 --> 00:32:01,519
+going to do is you're going to start
+
+748
+00:32:01,519 --> 00:32:04,080
+building things. Start learning how to
+
+749
+00:32:04,080 --> 00:32:06,880
+actually build applications. Too often I
+
+750
+00:32:06,880 --> 00:32:10,640
+see people who say, "Oh, well I know C#
+
+751
+00:32:10,640 --> 00:32:12,880
+really well." And I ask, "Well, have you
+
+752
+00:32:12,880 --> 00:32:14,960
+built an application?" Well, no. I
+
+753
+00:32:14,960 --> 00:32:16,000
+haven't built an application. I just
+
+754
+00:32:16,000 --> 00:32:17,840
+don't have time. it's a lot of work and
+
+755
+00:32:17,840 --> 00:32:19,760
+it's I don't have the right idea or
+
+756
+00:32:19,760 --> 00:32:22,240
+whatever. No, learn how to build things
+
+757
+00:32:22,240 --> 00:32:23,919
+because that's what a software developer
+
+758
+00:32:23,919 --> 00:32:27,200
+does. So, and then with that, don't rely
+
+759
+00:32:27,200 --> 00:32:30,480
+on AI tooling. Don't rely on it at all.
+
+760
+00:32:30,480 --> 00:32:32,080
+In fact, if you're learning software
+
+761
+00:32:32,080 --> 00:32:34,399
+development, uninstall the AI tools,
+
+762
+00:32:34,399 --> 00:32:36,960
+disable them, don't use them. Because
+
+763
+00:32:36,960 --> 00:32:39,120
+what's going to do if you start using
+
+764
+00:32:39,120 --> 00:32:41,679
+them is it's going to be a crutch to
+
+765
+00:32:41,679 --> 00:32:44,559
+kind of fill in the gaps. You think, but
+
+766
+00:32:44,559 --> 00:32:46,240
+what's actually happening is it's
+
+767
+00:32:46,240 --> 00:32:48,480
+creating gaps. It's allow you to
+
+768
+00:32:48,480 --> 00:32:52,240
+continue when in fact you have gaps and
+
+769
+00:32:52,240 --> 00:32:55,120
+you don't even realize because it works.
+
+770
+00:32:55,120 --> 00:32:57,519
+And so what happens is that when you go
+
+771
+00:32:57,519 --> 00:32:59,200
+to actually build something without an
+
+772
+00:32:59,200 --> 00:33:01,679
+AI tool, you figure out I can't build
+
+773
+00:33:01,679 --> 00:33:02,960
+that. I don't know how to build that.
+
+774
+00:33:02,960 --> 00:33:05,200
+I've I'm missing so much stuff because
+
+775
+00:33:05,200 --> 00:33:08,799
+you allowed gaps into your knowledge. So
+
+776
+00:33:08,799 --> 00:33:11,120
+don't do that. Just turn it off. It's
+
+777
+00:33:11,120 --> 00:33:13,760
+not the right time for you later. That's
+
+778
+00:33:13,760 --> 00:33:15,120
+fine. And you're not going to miss
+
+779
+00:33:15,120 --> 00:33:17,039
+anything. You're not going to be
+
+780
+00:33:17,039 --> 00:33:18,320
+stunted. You're not going to be behind
+
+781
+00:33:18,320 --> 00:33:20,640
+the curve because you haven't learned AI
+
+782
+00:33:20,640 --> 00:33:24,080
+tools yet. Learn the actual language
+
+783
+00:33:24,080 --> 00:33:26,559
+first. Learn how to build in it. Learn
+
+784
+00:33:26,559 --> 00:33:30,080
+well beyond the syntax of it.
+
+785
+00:33:30,080 --> 00:33:32,559
+Build real things. Build real things
+
+786
+00:33:32,559 --> 00:33:37,360
+without AI. Learn how to work with this
+
+787
+00:33:37,360 --> 00:33:42,080
+so that you know how to actually use the
+
+788
+00:33:42,080 --> 00:33:44,240
+language. You know how things work. You
+
+789
+00:33:44,240 --> 00:33:46,080
+know how things are architected. You
+
+790
+00:33:46,080 --> 00:33:48,320
+know how things fit together. You know
+
+791
+00:33:48,320 --> 00:33:51,039
+the questions to ask. when you do
+
+792
+00:33:51,039 --> 00:33:53,840
+eventually not now but eventually start
+
+793
+00:33:53,840 --> 00:33:55,919
+using AI tooling you know the questions
+
+794
+00:33:55,919 --> 00:33:58,480
+to ask to say hey I don't think that's
+
+795
+00:33:58,480 --> 00:34:01,519
+right or hey what about the security
+
+796
+00:34:01,519 --> 00:34:04,080
+there what about the the data protection
+
+797
+00:34:04,080 --> 00:34:06,559
+there what about crosscontamination
+
+798
+00:34:06,559 --> 00:34:09,040
+between two different companies in our
+
+799
+00:34:09,040 --> 00:34:12,159
+database these are really important
+
+800
+00:34:12,159 --> 00:34:14,560
+questions to know how to ask and the
+
+801
+00:34:14,560 --> 00:34:16,079
+only way you'll know how to ask them
+
+802
+00:34:16,079 --> 00:34:19,520
+well is if you've actually built things.
+
+803
+00:34:19,520 --> 00:34:22,240
+It's not if you've read enough books.
+
+804
+00:34:22,240 --> 00:34:25,040
+It's have you actually got practical
+
+805
+00:34:25,040 --> 00:34:28,159
+handson knowledge. I if you're going to
+
+806
+00:34:28,159 --> 00:34:30,480
+go to a surgeon and you need to have
+
+807
+00:34:30,480 --> 00:34:32,960
+your leg operated on, you don't want to
+
+808
+00:34:32,960 --> 00:34:35,679
+go to a surgeon who says, "Yes, I've
+
+809
+00:34:35,679 --> 00:34:37,599
+I've watched all the tutorials. I've
+
+810
+00:34:37,599 --> 00:34:39,440
+read all the books about this. I'm sure
+
+811
+00:34:39,440 --> 00:34:42,240
+I can do this." That's not who you want.
+
+812
+00:34:42,240 --> 00:34:44,560
+Who you want is a person who says, "I've
+
+813
+00:34:44,560 --> 00:34:46,639
+done this a hundred times. Not a
+
+814
+00:34:46,639 --> 00:34:48,399
+problem. This is what we're going to do.
+
+815
+00:34:48,399 --> 00:34:51,040
+I had that happen with my wisdom teeth.
+
+816
+00:34:51,040 --> 00:34:53,359
+So, I was older and still had my wisdom
+
+817
+00:34:53,359 --> 00:34:55,119
+teeth, but they were causing problems.
+
+818
+00:34:55,119 --> 00:34:58,000
+And so, I went to a a surgeon who's
+
+819
+00:34:58,000 --> 00:35:01,520
+going to take my wisdom teeth out. And
+
+820
+00:35:01,520 --> 00:35:04,320
+he did not have a whole lot of um
+
+821
+00:35:04,320 --> 00:35:06,640
+confidence in his own technique because
+
+822
+00:35:06,640 --> 00:35:07,839
+the fact he said, "Oh, well, you're
+
+823
+00:35:07,839 --> 00:35:10,079
+older and this could happen." I mean, he
+
+824
+00:35:10,079 --> 00:35:12,800
+was giving some really scary things
+
+825
+00:35:12,800 --> 00:35:16,079
+about how I might, you know, lose uh or
+
+826
+00:35:16,079 --> 00:35:17,839
+might hit a nerve in my jaw. I might not
+
+827
+00:35:17,839 --> 00:35:19,599
+be able to, you know, smile correctly
+
+828
+00:35:19,599 --> 00:35:21,920
+ever ever since. I might cause problems
+
+829
+00:35:21,920 --> 00:35:24,640
+where I might break my jaw. All these
+
+830
+00:35:24,640 --> 00:35:27,359
+things might happen because he had not
+
+831
+00:35:27,359 --> 00:35:30,160
+done this procedure on a person of my
+
+832
+00:35:30,160 --> 00:35:31,680
+age
+
+833
+00:35:31,680 --> 00:35:33,599
+almost ever. It was a very rare thing
+
+834
+00:35:33,599 --> 00:35:36,160
+for him to do. And so I went, you know
+
+835
+00:35:36,160 --> 00:35:39,520
+what, no, not going to do that. But then
+
+836
+00:35:39,520 --> 00:35:42,160
+I went to a different surgeon and he
+
+837
+00:35:42,160 --> 00:35:44,320
+said, "First of all, I've done this a
+
+838
+00:35:44,320 --> 00:35:46,480
+number of times. People your age, not a
+
+839
+00:35:46,480 --> 00:35:48,800
+problem. Here's what I do and why." And
+
+840
+00:35:48,800 --> 00:35:50,400
+he had a whole bunch of research. He
+
+841
+00:35:50,400 --> 00:35:52,400
+done a whole bunch of learning. So he
+
+842
+00:35:52,400 --> 00:35:54,880
+could quote articles and quote uh
+
+843
+00:35:54,880 --> 00:35:56,640
+statistics and he could, you know, point
+
+844
+00:35:56,640 --> 00:35:58,800
+me to the journals where it talks about
+
+845
+00:35:58,800 --> 00:36:00,480
+how to do this and why I do this and
+
+846
+00:36:00,480 --> 00:36:03,200
+what the outcomes are and so on. But he
+
+847
+00:36:03,200 --> 00:36:04,960
+also had a whole bunch of hands-on
+
+848
+00:36:04,960 --> 00:36:07,280
+experience of having done it. Guess
+
+849
+00:36:07,280 --> 00:36:10,480
+what? I felt very confident. When it
+
+850
+00:36:10,480 --> 00:36:13,760
+comes to companies hiring developers,
+
+851
+00:36:13,760 --> 00:36:15,599
+they don't want the first person. They
+
+852
+00:36:15,599 --> 00:36:17,520
+want the second person. They don't want
+
+853
+00:36:17,520 --> 00:36:19,599
+a person who says, "Yeah, I've watched a
+
+854
+00:36:19,599 --> 00:36:22,640
+ton of tutorials. I've, you know, I I've
+
+855
+00:36:22,640 --> 00:36:24,480
+seen this done a number of times." What
+
+856
+00:36:24,480 --> 00:36:26,560
+they want is a person that says, "Yeah,
+
+857
+00:36:26,560 --> 00:36:28,000
+I've done a bunch of research. I know
+
+858
+00:36:28,000 --> 00:36:30,160
+how this work and why this works and how
+
+859
+00:36:30,160 --> 00:36:32,079
+to do this, but I've also built a number
+
+860
+00:36:32,079 --> 00:36:33,839
+of things."
+
+861
+00:36:33,839 --> 00:36:36,720
+that's what you want to be because
+
+862
+00:36:36,720 --> 00:36:39,440
+that's what employers are looking for.
+
+863
+00:36:39,440 --> 00:36:41,599
+So for new developers, those are my top
+
+864
+00:36:41,599 --> 00:36:44,160
+three things for your goals. Now for job
+
+865
+00:36:44,160 --> 00:36:46,800
+seekers, maybe you've already been a
+
+866
+00:36:46,800 --> 00:36:48,240
+software developer for a bit or maybe
+
+867
+00:36:48,240 --> 00:36:50,240
+you're just starting off off looking for
+
+868
+00:36:50,240 --> 00:36:52,240
+a job. You now have the qualifications
+
+869
+00:36:52,240 --> 00:36:54,320
+you'd think to be a software developer.
+
+870
+00:36:54,320 --> 00:36:56,560
+Either way, if you're looking for a job,
+
+871
+00:36:56,560 --> 00:36:59,680
+here are some goals for you. Stand out
+
+872
+00:36:59,680 --> 00:37:01,839
+from the crowd.
+
+873
+00:37:01,839 --> 00:37:04,480
+Too often I have people argue with me
+
+874
+00:37:04,480 --> 00:37:06,400
+and say,"Well, I don't want to do that.
+
+875
+00:37:06,400 --> 00:37:08,240
+That's a whole lot of work." Or, "I
+
+876
+00:37:08,240 --> 00:37:09,760
+don't want to, you know, put in that
+
+877
+00:37:09,760 --> 00:37:12,320
+extra effort." And so what they tell me
+
+878
+00:37:12,320 --> 00:37:14,560
+is, "I'm going to do the same exact
+
+879
+00:37:14,560 --> 00:37:17,760
+thing as every other job seeker out
+
+880
+00:37:17,760 --> 00:37:20,160
+there, but I'm going to expect different
+
+881
+00:37:20,160 --> 00:37:21,760
+results."
+
+882
+00:37:21,760 --> 00:37:24,880
+Does that sound logical to you? If the
+
+883
+00:37:24,880 --> 00:37:27,920
+job market is full of developers looking
+
+884
+00:37:27,920 --> 00:37:30,000
+for jobs, and there's a lot of
+
+885
+00:37:30,000 --> 00:37:31,680
+developers looking for jobs right now,
+
+886
+00:37:31,680 --> 00:37:35,040
+and if the job market isn't booming like
+
+887
+00:37:35,040 --> 00:37:37,920
+it was 5 years ago, and it's not, even
+
+888
+00:37:37,920 --> 00:37:39,839
+though there's still jobs there, it's
+
+889
+00:37:39,839 --> 00:37:43,839
+just not nearly as as uh you know, empty
+
+890
+00:37:43,839 --> 00:37:47,839
+as it used to be. Well, if there's less
+
+891
+00:37:47,839 --> 00:37:50,079
+job openings and lots of people looking
+
+892
+00:37:50,079 --> 00:37:52,960
+for jobs, you can't do the same thing as
+
+893
+00:37:52,960 --> 00:37:54,880
+everybody else and expect different
+
+894
+00:37:54,880 --> 00:37:58,240
+results. You have to figure out how to
+
+895
+00:37:58,240 --> 00:38:00,800
+be the person that stands out from the
+
+896
+00:38:00,800 --> 00:38:04,240
+crowd from the get-go. That means
+
+897
+00:38:04,240 --> 00:38:06,880
+standing out just with your resume.
+
+898
+00:38:06,880 --> 00:38:09,119
+Standing out the very first time you
+
+899
+00:38:09,119 --> 00:38:11,920
+interview, standing out when you do a
+
+900
+00:38:11,920 --> 00:38:13,920
+technical interview. You need to stand
+
+901
+00:38:13,920 --> 00:38:17,280
+out when you talk to an employer. These
+
+902
+00:38:17,280 --> 00:38:18,720
+are all things that you need to figure
+
+903
+00:38:18,720 --> 00:38:21,440
+out how to do to stand out from the
+
+904
+00:38:21,440 --> 00:38:24,560
+crowd. That means doing things that
+
+905
+00:38:24,560 --> 00:38:26,800
+other people are not doing. This does
+
+906
+00:38:26,800 --> 00:38:29,200
+not mean wacky shenanigans. This does
+
+907
+00:38:29,200 --> 00:38:31,680
+not mean making your resume into this
+
+908
+00:38:31,680 --> 00:38:34,560
+multicolored clown themed, you know,
+
+909
+00:38:34,560 --> 00:38:36,160
+thing where you open up the piece of
+
+910
+00:38:36,160 --> 00:38:37,760
+paper and balloons fly out. That is not
+
+911
+00:38:37,760 --> 00:38:39,599
+what I'm talking about. What I'm talking
+
+912
+00:38:39,599 --> 00:38:43,280
+about is ways to show off that you are a
+
+913
+00:38:43,280 --> 00:38:45,839
+better developer, that you are more
+
+914
+00:38:45,839 --> 00:38:48,400
+experienced, that you can do more, you
+
+915
+00:38:48,400 --> 00:38:50,400
+can offer more to the company than
+
+916
+00:38:50,400 --> 00:38:53,920
+anybody else who is applying.
+
+917
+00:38:53,920 --> 00:38:56,640
+Number two, show off what you can do.
+
+918
+00:38:56,640 --> 00:38:59,440
+This is one way to stand out is to show
+
+919
+00:38:59,440 --> 00:39:02,000
+off what you can do. And that means you
+
+920
+00:39:02,000 --> 00:39:04,240
+have to have built something. That's
+
+921
+00:39:04,240 --> 00:39:05,760
+that's what you're doing already, right?
+
+922
+00:39:05,760 --> 00:39:08,480
+like these are things you need to do.
+
+923
+00:39:08,480 --> 00:39:11,440
+Number three, make connections.
+
+924
+00:39:11,440 --> 00:39:14,560
+We'll talk more about this, but as a
+
+925
+00:39:14,560 --> 00:39:17,359
+software developer, yes, it's important
+
+926
+00:39:17,359 --> 00:39:19,920
+that you make connections
+
+927
+00:39:19,920 --> 00:39:23,680
+because that will make your job seeking
+
+928
+00:39:23,680 --> 00:39:27,040
+ability easier. It will make that
+
+929
+00:39:27,040 --> 00:39:30,320
+process quicker. It will give you more
+
+930
+00:39:30,320 --> 00:39:33,200
+opportunities to move up and move around
+
+931
+00:39:33,200 --> 00:39:36,240
+in software development because of the
+
+932
+00:39:36,240 --> 00:39:39,920
+fact it's who you know now. You don't
+
+933
+00:39:39,920 --> 00:39:41,760
+have to know anybody in order to become
+
+934
+00:39:41,760 --> 00:39:44,960
+a software developer and get hired, but
+
+935
+00:39:44,960 --> 00:39:48,160
+it makes it a whole lot easier.
+
+936
+00:39:48,160 --> 00:39:51,520
+And so, yeah, statistically,
+
+937
+00:39:51,520 --> 00:39:54,000
+generally speaking, software developers
+
+938
+00:39:54,000 --> 00:39:57,040
+are introverts. That's kind of how you
+
+939
+00:39:57,040 --> 00:39:59,920
+know what type of person is attracted to
+
+940
+00:39:59,920 --> 00:40:02,560
+this field. People who expect that
+
+941
+00:40:02,560 --> 00:40:04,079
+they're going to keep their head down
+
+942
+00:40:04,079 --> 00:40:06,079
+and just work on their computer and no
+
+943
+00:40:06,079 --> 00:40:07,839
+one's going to talk to them. That's not
+
+944
+00:40:07,839 --> 00:40:10,480
+really how the job works, but that's the
+
+945
+00:40:10,480 --> 00:40:12,960
+expectation and that's what a lot of
+
+946
+00:40:12,960 --> 00:40:15,200
+software developers are is introverts.
+
+947
+00:40:15,200 --> 00:40:18,160
+I'm not saying everybody is, but you
+
+948
+00:40:18,160 --> 00:40:21,040
+need to figure out how to overcome that.
+
+949
+00:40:21,040 --> 00:40:24,240
+I'm an introvert. That's at my core.
+
+950
+00:40:24,240 --> 00:40:27,920
+That's who I am. I have learned through
+
+951
+00:40:27,920 --> 00:40:32,240
+hard work how to make connections. So,
+
+952
+00:40:32,240 --> 00:40:34,560
+working to, you know, connect with
+
+953
+00:40:34,560 --> 00:40:37,599
+people, it's really hard, but you need
+
+954
+00:40:37,599 --> 00:40:39,359
+to put the effort in in order to make
+
+955
+00:40:39,359 --> 00:40:42,160
+those connections because that will make
+
+956
+00:40:42,160 --> 00:40:46,240
+your life easier. So, work to make those
+
+957
+00:40:46,240 --> 00:40:48,240
+connections.
+
+958
+00:40:48,240 --> 00:40:51,119
+Uh, practice interviewing. That's really
+
+959
+00:40:51,119 --> 00:40:53,760
+important. Practice interviewing.
+
+960
+00:40:53,760 --> 00:40:55,760
+interview with a person who knows
+
+961
+00:40:55,760 --> 00:40:56,960
+nothing about software development
+
+962
+00:40:56,960 --> 00:40:58,960
+because guess what? Your first interview
+
+963
+00:40:58,960 --> 00:41:01,119
+will probably be with a person who knows
+
+964
+00:41:01,119 --> 00:41:03,760
+nothing about software development.
+
+965
+00:41:03,760 --> 00:41:06,480
+So give your friend who has no clue or
+
+966
+00:41:06,480 --> 00:41:09,200
+your your spouse or your your brother or
+
+967
+00:41:09,200 --> 00:41:12,079
+sister, your parent, give them the job
+
+968
+00:41:12,079 --> 00:41:14,319
+description and your resume and say,
+
+969
+00:41:14,319 --> 00:41:17,040
+"Can you interview me for this role?"
+
+970
+00:41:17,040 --> 00:41:18,640
+And then have them ask questions. And
+
+971
+00:41:18,640 --> 00:41:20,400
+they're going to ask bad questions.
+
+972
+00:41:20,400 --> 00:41:23,280
+Guess what? So is HR. and then ask them,
+
+973
+00:41:23,280 --> 00:41:24,960
+"How do I come across? Do you think I I
+
+974
+00:41:24,960 --> 00:41:26,560
+meet these expectations? What do you
+
+975
+00:41:26,560 --> 00:41:28,960
+think I could do better to meet these
+
+976
+00:41:28,960 --> 00:41:31,200
+expectations more?" And they're going to
+
+977
+00:41:31,200 --> 00:41:32,800
+say things that you're going to want to
+
+978
+00:41:32,800 --> 00:41:35,680
+push back against. For example, they may
+
+979
+00:41:35,680 --> 00:41:37,200
+say, "Well, this role is for a .NET
+
+980
+00:41:37,200 --> 00:41:38,560
+developer." And you say you're a C#
+
+981
+00:41:38,560 --> 00:41:39,760
+developer. I don't I don't see how that
+
+982
+00:41:39,760 --> 00:41:41,440
+aligns. And you might go, "Oh my
+
+983
+00:41:41,440 --> 00:41:44,960
+goodness, C isnet." Don't get angry
+
+984
+00:41:44,960 --> 00:41:46,400
+because that's exactly what's going the
+
+985
+00:41:46,400 --> 00:41:48,240
+HR person is going to say. Only they're
+
+986
+00:41:48,240 --> 00:41:50,240
+not going to say it to you. They're
+
+987
+00:41:50,240 --> 00:41:52,319
+going to think that as they put you
+
+988
+00:41:52,319 --> 00:41:56,400
+through a filter. So, learn how to make
+
+989
+00:41:56,400 --> 00:41:58,400
+adjustments based upon that. Learn from
+
+990
+00:41:58,400 --> 00:42:00,400
+those experiences.
+
+991
+00:42:00,400 --> 00:42:01,920
+Do practice interviews where you do
+
+992
+00:42:01,920 --> 00:42:03,839
+technical interviews. I did a whole
+
+993
+00:42:03,839 --> 00:42:05,520
+course on this. This is not a well it's
+
+994
+00:42:05,520 --> 00:42:08,000
+kind of a plug but um I did a course on
+
+995
+00:42:08,000 --> 00:42:10,160
+this where I did gave you a 100
+
+996
+00:42:10,160 --> 00:42:13,839
+questions and allowed you to take the
+
+997
+00:42:13,839 --> 00:42:17,280
+time to answer five questions at a time
+
+998
+00:42:17,280 --> 00:42:19,839
+20 times where I gave you five questions
+
+999
+00:42:19,839 --> 00:42:21,520
+and I give you five answers that I would
+
+1000
+00:42:21,520 --> 00:42:24,079
+answer like but that gives you the
+
+1001
+00:42:24,079 --> 00:42:26,480
+opportunity to practice the interview
+
+1002
+00:42:26,480 --> 00:42:28,560
+process but I think it's important
+
+1003
+00:42:28,560 --> 00:42:31,280
+you'll notice that the courses that I do
+
+1004
+00:42:31,280 --> 00:42:33,280
+I feel are really important for software
+
+1005
+00:42:33,280 --> 00:42:34,480
+developers
+
+1006
+00:42:34,480 --> 00:42:37,040
+I'm not here to try to, you know, trick
+
+1007
+00:42:37,040 --> 00:42:39,119
+you into doing things that are not good
+
+1008
+00:42:39,119 --> 00:42:41,119
+for you. I'm here to give you the tools
+
+1009
+00:42:41,119 --> 00:42:44,079
+necessary to do the things that you need
+
+1010
+00:42:44,079 --> 00:42:46,400
+to in order to become a better software
+
+1011
+00:42:46,400 --> 00:42:47,760
+developer. That's why I have so many
+
+1012
+00:42:47,760 --> 00:42:49,440
+courses that are building real
+
+1013
+00:42:49,440 --> 00:42:52,319
+applications. I have courses that are,
+
+1014
+00:42:52,319 --> 00:42:54,800
+you know, let's dive deep into beyond
+
+1015
+00:42:54,800 --> 00:42:57,839
+just the syntax of C or web development
+
+1016
+00:42:57,839 --> 00:43:01,040
+because I want you to know more. I want
+
+1017
+00:43:01,040 --> 00:43:03,760
+you to become a better developer. And
+
+1018
+00:43:03,760 --> 00:43:06,880
+part of this is practicing every part of
+
+1019
+00:43:06,880 --> 00:43:09,440
+the process from when you first learn
+
+1020
+00:43:09,440 --> 00:43:11,920
+the first bit of C# syntax all the way
+
+1021
+00:43:11,920 --> 00:43:16,400
+through practicing your interviewing.
+
+1022
+00:43:16,400 --> 00:43:17,040
+So [snorts]
+
+1023
+00:43:17,040 --> 00:43:20,240
+next up, customize your resume. Again,
+
+1024
+00:43:20,240 --> 00:43:22,160
+going back to that first point, stand
+
+1025
+00:43:22,160 --> 00:43:24,400
+out from the crowd. Too often people
+
+1026
+00:43:24,400 --> 00:43:27,920
+turn in generic résumés to hundreds of
+
+1027
+00:43:27,920 --> 00:43:30,319
+jobs and go, "Man, nobody's hired
+
+1028
+00:43:30,319 --> 00:43:32,720
+because nobody even contacted me." Guess
+
+1029
+00:43:32,720 --> 00:43:35,200
+what? If they didn't contact you, your
+
+1030
+00:43:35,200 --> 00:43:39,119
+resume wasn't good enough. Now, it may
+
+1031
+00:43:39,119 --> 00:43:41,359
+be that you don't have the skills
+
+1032
+00:43:41,359 --> 00:43:44,000
+necessary for that job. That may be, but
+
+1033
+00:43:44,000 --> 00:43:47,040
+more likely it's the fact that you did
+
+1034
+00:43:47,040 --> 00:43:50,800
+not put in a good enough job on making
+
+1035
+00:43:50,800 --> 00:43:53,359
+your resume fit the job that you're
+
+1036
+00:43:53,359 --> 00:43:56,560
+applying to. Make it easy for them to
+
+1037
+00:43:56,560 --> 00:43:58,400
+say yes.
+
+1038
+00:43:58,400 --> 00:44:00,480
+Okay? When you just give a generic
+
+1039
+00:44:00,480 --> 00:44:02,079
+resume and say, "Well, it's just too
+
+1040
+00:44:02,079 --> 00:44:04,079
+hard to customize." Yep. And you know
+
+1041
+00:44:04,079 --> 00:44:06,240
+what? You're not going to have a job
+
+1042
+00:44:06,240 --> 00:44:07,680
+because you're not going to get the
+
+1043
+00:44:07,680 --> 00:44:10,160
+interviews. If you're going through a
+
+1044
+00:44:10,160 --> 00:44:12,720
+100 plus applications and getting one or
+
+1045
+00:44:12,720 --> 00:44:15,280
+less interviews,
+
+1046
+00:44:15,280 --> 00:44:18,160
+it's probably on you. I I'm sorry that's
+
+1047
+00:44:18,160 --> 00:44:20,240
+harsh. It's direct, but it's probably on
+
+1048
+00:44:20,240 --> 00:44:22,640
+you because
+
+1049
+00:44:22,640 --> 00:44:24,720
+this is not a matter of, oh, they're
+
+1050
+00:44:24,720 --> 00:44:27,680
+fake jobs. Most likely not. Most likely
+
+1051
+00:44:27,680 --> 00:44:29,920
+not. Um the fake jobs, they're trying to
+
+1052
+00:44:29,920 --> 00:44:31,680
+scam you in some way. These aren't
+
+1053
+00:44:31,680 --> 00:44:33,839
+scams. When it's on Indeed, it's not a
+
+1054
+00:44:33,839 --> 00:44:36,560
+scam. what they're trying to do is
+
+1055
+00:44:36,560 --> 00:44:38,800
+trying to find the best people for the
+
+1056
+00:44:38,800 --> 00:44:42,560
+job and your resume isn't matching that.
+
+1057
+00:44:42,560 --> 00:44:45,119
+I know because I've read thousands of
+
+1058
+00:44:45,119 --> 00:44:48,240
+them and I can tell you that when I've
+
+1059
+00:44:48,240 --> 00:44:51,680
+had thousands of résumés for one job
+
+1060
+00:44:51,680 --> 00:44:54,800
+that the vast majority of them were
+
+1061
+00:44:54,800 --> 00:44:58,000
+easily rejected in round one before I
+
+1062
+00:44:58,000 --> 00:45:00,319
+even talked to the person because they
+
+1063
+00:45:00,319 --> 00:45:05,040
+had no match to what I was saying this
+
+1064
+00:45:05,040 --> 00:45:07,200
+is what I'm looking for.
+
+1065
+00:45:07,200 --> 00:45:09,119
+So figure out how to make your resume
+
+1066
+00:45:09,119 --> 00:45:11,520
+match because you can't expect an
+
+1067
+00:45:11,520 --> 00:45:13,760
+employer to talk to every person or
+
+1068
+00:45:13,760 --> 00:45:16,160
+evaluate in depth every particular
+
+1069
+00:45:16,160 --> 00:45:18,000
+person and tease the information out of
+
+1070
+00:45:18,000 --> 00:45:20,560
+you. That's not how it works. You need
+
+1071
+00:45:20,560 --> 00:45:22,319
+to stand out from the crowd. So
+
+1072
+00:45:22,319 --> 00:45:24,400
+customize your resume. So those are the
+
+1073
+00:45:24,400 --> 00:45:26,960
+goals for job seekers. Let's talk about
+
+1074
+00:45:26,960 --> 00:45:28,880
+current developers. Maybe you're in a
+
+1075
+00:45:28,880 --> 00:45:30,240
+role you're like, you know what, I'm
+
+1076
+00:45:30,240 --> 00:45:32,319
+set. I got a job. I can probably skip
+
+1077
+00:45:32,319 --> 00:45:34,400
+this whole thing. No, you can't. Don't
+
+1078
+00:45:34,400 --> 00:45:37,920
+skip this. So here's your goals
+
+1079
+00:45:37,920 --> 00:45:40,240
+supplement with AI. This is where I
+
+1080
+00:45:40,240 --> 00:45:44,560
+first would say that AI can be valuable
+
+1081
+00:45:44,560 --> 00:45:46,640
+is when you're in a current role when
+
+1082
+00:45:46,640 --> 00:45:48,480
+you are skilled. You're not a junior
+
+1083
+00:45:48,480 --> 00:45:49,599
+developer anymore. Maybe you're a
+
+1084
+00:45:49,599 --> 00:45:51,520
+midlevel or hopefully more towards
+
+1085
+00:45:51,520 --> 00:45:53,920
+senior developer. Supplement your
+
+1086
+00:45:53,920 --> 00:45:56,319
+development with AI. Again, don't let it
+
+1087
+00:45:56,319 --> 00:45:58,560
+lead, but supplement your development
+
+1088
+00:45:58,560 --> 00:46:02,160
+with AI. It can be really valuable.
+
+1089
+00:46:02,160 --> 00:46:04,960
+Number two, continue to grow. And that
+
+1090
+00:46:04,960 --> 00:46:08,720
+doesn't mean let the AI teach you. What
+
+1091
+00:46:08,720 --> 00:46:12,240
+it means is continue to add new skills,
+
+1092
+00:46:12,240 --> 00:46:14,640
+continue to practice and go back to the
+
+1093
+00:46:14,640 --> 00:46:18,880
+basics. Again, don't let AI be anywhere
+
+1094
+00:46:18,880 --> 00:46:21,760
+involved in the growth process because
+
+1095
+00:46:21,760 --> 00:46:25,200
+it can leave gaps. It will leave gaps.
+
+1096
+00:46:25,200 --> 00:46:27,599
+It will leave you a bad understanding of
+
+1097
+00:46:27,599 --> 00:46:30,400
+a topic. Even though it looks great and
+
+1098
+00:46:30,400 --> 00:46:33,119
+maybe 95% of what it will teach you
+
+1099
+00:46:33,119 --> 00:46:36,240
+would be great, that 5% oo there's some
+
+1100
+00:46:36,240 --> 00:46:37,760
+bad gaps there that can cause some
+
+1101
+00:46:37,760 --> 00:46:40,480
+serious problems that make it almost not
+
+1102
+00:46:40,480 --> 00:46:43,200
+worth it to learn it at all. So get AI
+
+1103
+00:46:43,200 --> 00:46:46,720
+out of the process. Continue to grow in
+
+1104
+00:46:46,720 --> 00:46:49,440
+new areas.
+
+1105
+00:46:49,440 --> 00:46:52,000
+Put in the hard work.
+
+1106
+00:46:52,000 --> 00:46:53,520
+It's going to take some hard work.
+
+1107
+00:46:53,520 --> 00:46:55,359
+You're going to have to probably work
+
+1108
+00:46:55,359 --> 00:46:58,720
+outside of your nto-five job. And I know
+
+1109
+00:46:58,720 --> 00:47:00,560
+people don't love to do that. But here's
+
+1110
+00:47:00,560 --> 00:47:03,200
+the deal. Is your career important?
+
+1111
+00:47:03,200 --> 00:47:07,520
+Because this field is hard. This field
+
+1112
+00:47:07,520 --> 00:47:10,160
+is not just a bed of roses where if you
+
+1113
+00:47:10,160 --> 00:47:12,079
+just put in your time and punch the time
+
+1114
+00:47:12,079 --> 00:47:13,920
+clock that they will somehow give you
+
+1115
+00:47:13,920 --> 00:47:16,079
+magically lots of money. That's not how
+
+1116
+00:47:16,079 --> 00:47:17,680
+it works. Companies are always looking
+
+1117
+00:47:17,680 --> 00:47:21,119
+for more. And so if you don't put the
+
+1118
+00:47:21,119 --> 00:47:23,920
+work in, you're going to find that you
+
+1119
+00:47:23,920 --> 00:47:26,319
+are unemployed. I know a lot of people
+
+1120
+00:47:26,319 --> 00:47:28,400
+who are senior developers or say they
+
+1121
+00:47:28,400 --> 00:47:31,520
+are who don't have a job and they're
+
+1122
+00:47:31,520 --> 00:47:32,800
+struggling to get the next job because
+
+1123
+00:47:32,800 --> 00:47:34,800
+they got laid off and all of a sudden
+
+1124
+00:47:34,800 --> 00:47:37,920
+now they don't have the skills necessary
+
+1125
+00:47:37,920 --> 00:47:41,040
+for the current market and they're
+
+1126
+00:47:41,040 --> 00:47:42,480
+struggling struggling because they don't
+
+1127
+00:47:42,480 --> 00:47:43,920
+they have not kept up. They didn't put
+
+1128
+00:47:43,920 --> 00:47:46,480
+the hard work in. Now they're faced with
+
+1129
+00:47:46,480 --> 00:47:50,240
+either I do a lot of hard work or I
+
+1130
+00:47:50,240 --> 00:47:51,760
+don't get a job. And even when I do the
+
+1131
+00:47:51,760 --> 00:47:53,200
+hard work, it's kind I sat down at that
+
+1132
+00:47:53,200 --> 00:47:55,760
+five mile marker in the in the marathon.
+
+1133
+00:47:55,760 --> 00:47:58,079
+There's a lot of people ahead of me. So,
+
+1134
+00:47:58,079 --> 00:48:00,079
+put in the hard work even in your
+
+1135
+00:48:00,079 --> 00:48:03,760
+current role and prepare for a change.
+
+1136
+00:48:03,760 --> 00:48:07,280
+Your job may not be there forever.
+
+1137
+00:48:07,280 --> 00:48:09,119
+In fact, most jobs probably won't be
+
+1138
+00:48:09,119 --> 00:48:10,880
+there forever. It doesn't matter if you
+
+1139
+00:48:10,880 --> 00:48:13,440
+work for a huge company or a tiny little
+
+1140
+00:48:13,440 --> 00:48:15,680
+company. Your job probably won't be
+
+1141
+00:48:15,680 --> 00:48:18,880
+there forever. So, those are your goals
+
+1142
+00:48:18,880 --> 00:48:21,040
+as a current developer.
+
+1143
+00:48:21,040 --> 00:48:23,680
+Let's talk now about technology and what
+
+1144
+00:48:23,680 --> 00:48:25,839
+technologies you should know. So whether
+
+1145
+00:48:25,839 --> 00:48:28,240
+you're a brand new developer or you're a
+
+1146
+00:48:28,240 --> 00:48:30,480
+seasoned senior developer, these are
+
+1147
+00:48:30,480 --> 00:48:31,839
+things you should know and maybe you'll
+
+1148
+00:48:31,839 --> 00:48:34,160
+find yourself on different parts of this
+
+1149
+00:48:34,160 --> 00:48:36,319
+spectrum. So first let's talk about the
+
+1150
+00:48:36,319 --> 00:48:37,839
+language and primarily we're going to
+
+1151
+00:48:37,839 --> 00:48:41,920
+talk C here. So um this is all about net
+
+1152
+00:48:41,920 --> 00:48:44,319
+but specifically C.
+
+1153
+00:48:44,319 --> 00:48:47,280
+LearnNet 6 through 10. Okay, you don't
+
+1154
+00:48:47,280 --> 00:48:49,200
+have to know every net, but you should
+
+1155
+00:48:49,200 --> 00:48:52,000
+be comfortable working not just in the
+
+1156
+00:48:52,000 --> 00:48:55,680
+cutting edge but in older versions of
+
+1157
+00:48:55,680 --> 00:48:57,920
+net as well. So just spin up older
+
+1158
+00:48:57,920 --> 00:48:59,440
+projects, make sure you know how to
+
+1159
+00:48:59,440 --> 00:49:01,520
+navigate them and how to work with them
+
+1160
+00:49:01,520 --> 00:49:04,160
+because not every company is going to
+
+1161
+00:49:04,160 --> 00:49:06,000
+upgrade to the latest cuttingedge
+
+1162
+00:49:06,000 --> 00:49:08,240
+version of net. I highly encourage if
+
+1163
+00:49:08,240 --> 00:49:12,079
+you're on net to be on net 10, but not
+
+1164
+00:49:12,079 --> 00:49:15,760
+every company will do that. Also learn
+
+1165
+00:49:15,760 --> 00:49:18,400
+net framework. I know you may not want
+
+1166
+00:49:18,400 --> 00:49:20,160
+to and you may say, I I'm not going to
+
+1167
+00:49:20,160 --> 00:49:21,839
+work on .NET Framework, so I'm not going
+
+1168
+00:49:21,839 --> 00:49:24,240
+to even worry about it. You are limiting
+
+1169
+00:49:24,240 --> 00:49:27,599
+your career. That's just how it is
+
+1170
+00:49:27,599 --> 00:49:29,280
+because there's a lot of companies out
+
+1171
+00:49:29,280 --> 00:49:30,880
+there that are working on .NET
+
+1172
+00:49:30,880 --> 00:49:32,400
+Framework. There's a lot of companies
+
+1173
+00:49:32,400 --> 00:49:34,559
+out there that are using Windforms in
+
+1174
+00:49:34,559 --> 00:49:37,760
+.NET Framework and Web Forms as well.
+
+1175
+00:49:37,760 --> 00:49:40,559
+Guess what? Those aren't fun frameworks,
+
+1176
+00:49:40,559 --> 00:49:42,640
+but you know what? That gets you a foot
+
+1177
+00:49:42,640 --> 00:49:44,800
+in the door. It gets you experience and
+
+1178
+00:49:44,800 --> 00:49:47,359
+it allows you to be the hero in that
+
+1179
+00:49:47,359 --> 00:49:49,520
+company where you can start moving them
+
+1180
+00:49:49,520 --> 00:49:51,359
+migrating them towards .NET 10 and
+
+1181
+00:49:51,359 --> 00:49:53,839
+beyond. So
+
+1182
+00:49:53,839 --> 00:49:56,240
+learn net framework,
+
+1183
+00:49:56,240 --> 00:49:58,960
+learn how to work with APIs. That's the
+
+1184
+00:49:58,960 --> 00:50:01,599
+web is increasingly valuable. We're
+
+1185
+00:50:01,599 --> 00:50:03,359
+increasingly connected with every
+
+1186
+00:50:03,359 --> 00:50:05,280
+application we build. And so knowing how
+
+1187
+00:50:05,280 --> 00:50:08,000
+to build an API is important. And part
+
+1188
+00:50:08,000 --> 00:50:09,599
+of that has to do with the fact that if
+
+1189
+00:50:09,599 --> 00:50:11,680
+you have an API, you can connect it to
+
+1190
+00:50:11,680 --> 00:50:15,599
+other services, including AIS, and
+
+1191
+00:50:15,599 --> 00:50:16,880
+that's going to be something that you're
+
+1192
+00:50:16,880 --> 00:50:18,240
+going to have to work with more. And
+
+1193
+00:50:18,240 --> 00:50:20,720
+with that, learn how to integrate AI
+
+1194
+00:50:20,720 --> 00:50:22,880
+into your applications. It's a great
+
+1195
+00:50:22,880 --> 00:50:25,680
+skill to have in your back pocket. Now,
+
+1196
+00:50:25,680 --> 00:50:28,160
+this is not a skill you add if you're a
+
+1197
+00:50:28,160 --> 00:50:30,400
+brand new C# developer, but if you're a
+
+1198
+00:50:30,400 --> 00:50:32,559
+mid-level or above developer, yeah,
+
+1199
+00:50:32,559 --> 00:50:36,240
+learn how to embed a AI into your app,
+
+1200
+00:50:36,240 --> 00:50:38,640
+your C# application. I did a whole
+
+1201
+00:50:38,640 --> 00:50:41,440
+course on this. Again, I do courses to
+
+1202
+00:50:41,440 --> 00:50:45,760
+help you meet the needs of today. So,
+
+1203
+00:50:45,760 --> 00:50:47,839
+learn how to integrate an AI into your
+
+1204
+00:50:47,839 --> 00:50:49,280
+application. You may not love it. You
+
+1205
+00:50:49,280 --> 00:50:51,040
+may not think that it's valuable. And
+
+1206
+00:50:51,040 --> 00:50:53,680
+for the most part, I do think there is
+
+1207
+00:50:53,680 --> 00:50:57,119
+limited value in integrating AI into an
+
+1208
+00:50:57,119 --> 00:51:00,160
+application. But what are you trying to
+
+1209
+00:51:00,160 --> 00:51:03,680
+do? Are you trying to make a moral stand
+
+1210
+00:51:03,680 --> 00:51:06,559
+or a a stand about, you know, what is
+
+1211
+00:51:06,559 --> 00:51:08,000
+right? [snorts]
+
+1212
+00:51:08,000 --> 00:51:10,480
+Or are you trying to get a job? Are you
+
+1213
+00:51:10,480 --> 00:51:11,599
+trying to work with an employer? An
+
+1214
+00:51:11,599 --> 00:51:12,960
+employer might say, "We want to do
+
+1215
+00:51:12,960 --> 00:51:14,640
+this." Or you might say, "Well, yeah, I
+
+1216
+00:51:14,640 --> 00:51:17,119
+can I can integrate an AI into a C#
+
+1217
+00:51:17,119 --> 00:51:19,280
+application." And that might be the
+
+1218
+00:51:19,280 --> 00:51:21,920
+added push that a company needs. They
+
+1219
+00:51:21,920 --> 00:51:23,680
+might say, "You know what? We want to do
+
+1220
+00:51:23,680 --> 00:51:25,200
+that at some point." So having a person
+
+1221
+00:51:25,200 --> 00:51:26,400
+on staff that can do that, that'd be
+
+1222
+00:51:26,400 --> 00:51:28,880
+great. All of a sudden, you have put
+
+1223
+00:51:28,880 --> 00:51:30,400
+yourself ahead of your competition.
+
+1224
+00:51:30,400 --> 00:51:33,680
+You're standing out.
+
+1225
+00:51:33,680 --> 00:51:36,880
+Learn ASP.Core. And too many people
+
+1226
+00:51:36,880 --> 00:51:40,480
+don't understand what ASP..NET Core is.
+
+1227
+00:51:40,480 --> 00:51:43,680
+That is API. That's also MVC. That's
+
+1228
+00:51:43,680 --> 00:51:46,319
+also Razer Pages. But it's also Blazer
+
+1229
+00:51:46,319 --> 00:51:48,800
+Web Apps. and Blaze Webb Assembly. All
+
+1230
+00:51:48,800 --> 00:51:51,920
+of those are built on the same core of
+
+1231
+00:51:51,920 --> 00:51:55,040
+ASP.NET Core. So, learn it. Learn how to
+
+1232
+00:51:55,040 --> 00:51:56,800
+use it. Learn how to integrate different
+
+1233
+00:51:56,800 --> 00:51:58,720
+pieces together. Learn how to put a
+
+1234
+00:51:58,720 --> 00:52:02,480
+Blazer Bit into an MVC application
+
+1235
+00:52:02,480 --> 00:52:05,119
+because you may work in a company that
+
+1236
+00:52:05,119 --> 00:52:07,359
+has MBC. They may say, "Well, we want
+
+1237
+00:52:07,359 --> 00:52:09,280
+to, you know, just have a little bit of
+
+1238
+00:52:09,280 --> 00:52:11,200
+client side functionality." Well, you
+
+1239
+00:52:11,200 --> 00:52:15,119
+really don't want to have this whole uh
+
+1240
+00:52:15,119 --> 00:52:18,400
+JavaScript system in place with npm and
+
+1241
+00:52:18,400 --> 00:52:21,040
+all the rest in order to just put a
+
+1242
+00:52:21,040 --> 00:52:22,640
+little client side interactivity on a
+
+1243
+00:52:22,640 --> 00:52:25,680
+form or two. This is where a blazer bit
+
+1244
+00:52:25,680 --> 00:52:27,119
+would be really helpful. You just drop
+
+1245
+00:52:27,119 --> 00:52:29,040
+that in, use the same language, and
+
+1246
+00:52:29,040 --> 00:52:31,760
+you're done. So, learning how those
+
+1247
+00:52:31,760 --> 00:52:33,440
+things interact with each other really
+
+1248
+00:52:33,440 --> 00:52:34,960
+important.
+
+1249
+00:52:34,960 --> 00:52:36,960
+Learn crossplatform.
+
+1250
+00:52:36,960 --> 00:52:39,280
+more and more I think we're going to see
+
+1251
+00:52:39,280 --> 00:52:41,760
+that people are moving away from just
+
+1252
+00:52:41,760 --> 00:52:43,760
+Windows. I mean I think that Windows is
+
+1253
+00:52:43,760 --> 00:52:45,359
+pushing people pretty hard away from
+
+1254
+00:52:45,359 --> 00:52:47,920
+Windows and so learning how to do
+
+1255
+00:52:47,920 --> 00:52:49,839
+cross-platform development with C#
+
+1256
+00:52:49,839 --> 00:52:52,319
+really important. Um you know there's
+
+1257
+00:52:52,319 --> 00:52:53,920
+different ways of doing that. So,
+
+1258
+00:52:53,920 --> 00:52:56,559
+Microsoft has their own with Maui and
+
+1259
+00:52:56,559 --> 00:53:00,880
+you can either use a uh a ZAML syntax or
+
+1260
+00:53:00,880 --> 00:53:04,240
+you can use a blazer syntax and build
+
+1261
+00:53:04,240 --> 00:53:07,680
+for Windows and Mac desktop as well as
+
+1262
+00:53:07,680 --> 00:53:10,559
+iOS and Android or you can use a
+
+1263
+00:53:10,559 --> 00:53:14,160
+third-party tool like Uno or Avalonia
+
+1264
+00:53:14,160 --> 00:53:17,119
+and you can build crossplatform on
+
+1265
+00:53:17,119 --> 00:53:19,680
+Windows and Mac and Linux desktops as
+
+1266
+00:53:19,680 --> 00:53:23,119
+well as iOS and Android and the web. So,
+
+1267
+00:53:23,119 --> 00:53:25,280
+you get to choose which works for you.
+
+1268
+00:53:25,280 --> 00:53:28,000
+Personally, I lean towards Uno a lot
+
+1269
+00:53:28,000 --> 00:53:29,440
+because of the fact that it does deploy
+
+1270
+00:53:29,440 --> 00:53:32,000
+to more platforms and it does have the
+
+1271
+00:53:32,000 --> 00:53:33,680
+complete vertical integration with all
+
+1272
+00:53:33,680 --> 00:53:35,680
+the different tooling that it has. Um,
+
+1273
+00:53:35,680 --> 00:53:36,800
+I've done a video on that. We'll
+
+1274
+00:53:36,800 --> 00:53:39,200
+probably do more videos on that. Um, but
+
+1275
+00:53:39,200 --> 00:53:41,839
+learn crossplatform because it opens up
+
+1276
+00:53:41,839 --> 00:53:44,559
+more possibilities. It makes you more
+
+1277
+00:53:44,559 --> 00:53:46,960
+valuable. That's the whole point here is
+
+1278
+00:53:46,960 --> 00:53:48,720
+to get you to stand out from the crowd.
+
+1279
+00:53:48,720 --> 00:53:51,680
+So when an interviewer says, you know,
+
+1280
+00:53:51,680 --> 00:53:53,359
+you you've worked on C#, so you probably
+
+1281
+00:53:53,359 --> 00:53:54,640
+haven't done much, you know, except for
+
+1282
+00:53:54,640 --> 00:53:56,160
+on Windows. You could say, I actually
+
+1283
+00:53:56,160 --> 00:53:59,119
+built for for Linux desktop before, they
+
+1284
+00:53:59,119 --> 00:54:01,440
+might say, really? Yeah. Yeah, I used
+
+1285
+00:54:01,440 --> 00:54:04,720
+Uno to do that, and this is what I did.
+
+1286
+00:54:04,720 --> 00:54:07,280
+All of a sudden, you stand out. Okay,
+
+1287
+00:54:07,280 --> 00:54:10,960
+learn Aspire. Um, Aspire is a tool from
+
+1288
+00:54:10,960 --> 00:54:13,359
+Microsoft that I've done an intro video.
+
+1289
+00:54:13,359 --> 00:54:15,040
+We'll do more videos on in this coming
+
+1290
+00:54:15,040 --> 00:54:18,160
+year. Um, but it's a tool for helping
+
+1291
+00:54:18,160 --> 00:54:21,920
+you work with these complex applications
+
+1292
+00:54:21,920 --> 00:54:26,079
+locally and learning how to see all the
+
+1293
+00:54:26,079 --> 00:54:28,640
+interactions with with the the tracing
+
+1294
+00:54:28,640 --> 00:54:30,400
+and the the logging and and all these
+
+1295
+00:54:30,400 --> 00:54:33,680
+other things in one place locally. So,
+
+1296
+00:54:33,680 --> 00:54:35,599
+it makes working with complex
+
+1297
+00:54:35,599 --> 00:54:38,400
+applications easier. So I would
+
+1298
+00:54:38,400 --> 00:54:40,720
+encourage you learn it, learn how to
+
+1299
+00:54:40,720 --> 00:54:44,240
+work with it because it will make your
+
+1300
+00:54:44,240 --> 00:54:46,400
+your life easier as a developer, but
+
+1301
+00:54:46,400 --> 00:54:48,720
+it's also going to again help you stand
+
+1302
+00:54:48,720 --> 00:54:52,720
+out in a a crowded marketplace.
+
+1303
+00:54:52,720 --> 00:54:54,480
+Next up, let's talk about supporting
+
+1304
+00:54:54,480 --> 00:54:58,559
+tooling. So DevOps, um, deploying
+
+1305
+00:54:58,559 --> 00:55:00,559
+applications in general, knowing how to
+
+1306
+00:55:00,559 --> 00:55:02,240
+do that. Again, we talked before the
+
+1307
+00:55:02,240 --> 00:55:04,640
+accidental DBA. I think the new term is
+
+1308
+00:55:04,640 --> 00:55:07,280
+probably accidental DevOps engineer. Um
+
+1309
+00:55:07,280 --> 00:55:11,119
+because as developers we kind of know
+
+1310
+00:55:11,119 --> 00:55:14,559
+our way around technology and one of the
+
+1311
+00:55:14,559 --> 00:55:17,440
+areas that's become more and more on the
+
+1312
+00:55:17,440 --> 00:55:19,760
+developers is deploying our
+
+1313
+00:55:19,760 --> 00:55:23,680
+applications. So knowing how to you know
+
+1314
+00:55:23,680 --> 00:55:27,359
+work with GitHub actions or uh work with
+
+1315
+00:55:27,359 --> 00:55:30,800
+other tooling to get your software from
+
+1316
+00:55:30,800 --> 00:55:33,040
+the source code all the way to
+
+1317
+00:55:33,040 --> 00:55:35,359
+production is important. learning how to
+
+1318
+00:55:35,359 --> 00:55:38,000
+do CI/CD, learning how to work with
+
+1319
+00:55:38,000 --> 00:55:39,520
+actions and work with the YAML and
+
+1320
+00:55:39,520 --> 00:55:41,680
+figure out how that all works. It's a
+
+1321
+00:55:41,680 --> 00:55:43,760
+valuable thing to know how to do and it
+
+1322
+00:55:43,760 --> 00:55:45,839
+adds more value.
+
+1323
+00:55:45,839 --> 00:55:48,319
+Uh, number two, containers. Whether you
+
+1324
+00:55:48,319 --> 00:55:50,720
+like them or not, containers are the
+
+1325
+00:55:50,720 --> 00:55:53,839
+future for the cloud. And because of
+
+1326
+00:55:53,839 --> 00:55:55,760
+that, they're also the future for
+
+1327
+00:55:55,760 --> 00:55:58,319
+development in general. In fact, if you
+
+1328
+00:55:58,319 --> 00:56:00,880
+deploy an Azure web app where you say,
+
+1329
+00:56:00,880 --> 00:56:03,520
+"Here's my source code. deploy that to a
+
+1330
+00:56:03,520 --> 00:56:05,359
+web server in Azure. What you're
+
+1331
+00:56:05,359 --> 00:56:07,359
+actually doing is deploying to a
+
+1332
+00:56:07,359 --> 00:56:09,040
+container.
+
+1333
+00:56:09,040 --> 00:56:10,799
+Even if you don't use a containerized
+
+1334
+00:56:10,799 --> 00:56:13,839
+version, it's still container because
+
+1335
+00:56:13,839 --> 00:56:16,799
+that's how the cloud works. And as an
+
+1336
+00:56:16,799 --> 00:56:19,520
+extension, that's how development will
+
+1337
+00:56:19,520 --> 00:56:21,359
+work in general because of the fact that
+
+1338
+00:56:21,359 --> 00:56:23,280
+you're often deploying to the cloud. And
+
+1339
+00:56:23,280 --> 00:56:24,559
+even if you're not deploying to the
+
+1340
+00:56:24,559 --> 00:56:27,119
+cloud, it makes life easier. I've done a
+
+1341
+00:56:27,119 --> 00:56:28,799
+number of videos, a number of different
+
+1342
+00:56:28,799 --> 00:56:30,799
+ways where you can run one line, two
+
+1343
+00:56:30,799 --> 00:56:33,760
+lines, three lines of of code and all of
+
+1344
+00:56:33,760 --> 00:56:35,680
+a sudden you could have a SQL server or
+
+1345
+00:56:35,680 --> 00:56:38,079
+a MongoDB database or you can have a
+
+1346
+00:56:38,079 --> 00:56:39,920
+Reddis cache or whatever else you want
+
+1347
+00:56:39,920 --> 00:56:42,480
+locally running on your machine with
+
+1348
+00:56:42,480 --> 00:56:45,359
+very little work and at the end of it
+
+1349
+00:56:45,359 --> 00:56:47,760
+you can turn it off and it goes away.
+
+1350
+00:56:47,760 --> 00:56:49,760
+Super valuable. Learn how to work with
+
+1351
+00:56:49,760 --> 00:56:52,400
+them. It will add value to your
+
+1352
+00:56:52,400 --> 00:56:56,559
+employer. databases. Too often databases
+
+1353
+00:56:56,559 --> 00:56:58,880
+get overlooked as yeah, we store data
+
+1354
+00:56:58,880 --> 00:57:01,839
+there and people will work really hard
+
+1355
+00:57:01,839 --> 00:57:04,240
+to optimize, you know, their for loops
+
+1356
+00:57:04,240 --> 00:57:06,400
+and optimize, you know, this specific
+
+1357
+00:57:06,400 --> 00:57:08,319
+code and try to figure out how to save,
+
+1358
+00:57:08,319 --> 00:57:11,760
+you know, half a nancond off of working
+
+1359
+00:57:11,760 --> 00:57:14,640
+with this bit of code and they forget
+
+1360
+00:57:14,640 --> 00:57:17,440
+that they're accessing a data from a
+
+1361
+00:57:17,440 --> 00:57:19,599
+database.
+
+1362
+00:57:19,599 --> 00:57:22,559
+That's where the vast majority of your
+
+1363
+00:57:22,559 --> 00:57:25,520
+performance will be won or lost is
+
+1364
+00:57:25,520 --> 00:57:27,760
+talking to your database, getting the
+
+1365
+00:57:27,760 --> 00:57:32,160
+data out. Learn how to let the database
+
+1366
+00:57:32,160 --> 00:57:35,119
+do database work. Too often developers
+
+1367
+00:57:35,119 --> 00:57:37,200
+want to just dump all the data down to
+
+1368
+00:57:37,200 --> 00:57:38,799
+their application and then do filtering
+
+1369
+00:57:38,799 --> 00:57:41,599
+and sorting. That's not efficient.
+
+1370
+00:57:41,599 --> 00:57:44,960
+learn how to let let's say SQL do SQL
+
+1371
+00:57:44,960 --> 00:57:48,480
+work and learn what work SQL should do
+
+1372
+00:57:48,480 --> 00:57:50,640
+on its side versus what work you should
+
+1373
+00:57:50,640 --> 00:57:53,920
+do on your side. Learn how to optimize.
+
+1374
+00:57:53,920 --> 00:57:55,839
+Learn how to secure your data. And
+
+1375
+00:57:55,839 --> 00:57:58,160
+that's not just password security.
+
+1376
+00:57:58,160 --> 00:57:59,920
+That's also making sure you don't
+
+1377
+00:57:59,920 --> 00:58:01,839
+cross-contaminate data, making sure
+
+1378
+00:58:01,839 --> 00:58:03,520
+queries can't access more than they
+
+1379
+00:58:03,520 --> 00:58:05,680
+should, making sure that your connection
+
+1380
+00:58:05,680 --> 00:58:07,920
+strings are locked down, and so many
+
+1381
+00:58:07,920 --> 00:58:11,680
+other things. So learn how to work with
+
+1382
+00:58:11,680 --> 00:58:14,880
+databases and not just one multiple
+
+1383
+00:58:14,880 --> 00:58:17,359
+cloud management. This is a similar
+
+1384
+00:58:17,359 --> 00:58:20,000
+thing here. Learning how to work with a
+
+1385
+00:58:20,000 --> 00:58:21,680
+cloud is going to add a lot of value
+
+1386
+00:58:21,680 --> 00:58:24,720
+because the fact that the cloud can be
+
+1387
+00:58:24,720 --> 00:58:27,920
+wildly expensive for employers, wildly
+
+1388
+00:58:27,920 --> 00:58:31,680
+expensive. Or it can be much much
+
+1389
+00:58:31,680 --> 00:58:35,520
+cheaper than doing it yourself. So learn
+
+1390
+00:58:35,520 --> 00:58:39,599
+how to work with the cloud. Learn how to
+
+1391
+00:58:39,599 --> 00:58:42,319
+manage resources. Learn when the cloud
+
+1392
+00:58:42,319 --> 00:58:44,799
+is the right choice. Learn when it's the
+
+1393
+00:58:44,799 --> 00:58:49,280
+wrong choice. Learn how to optimize your
+
+1394
+00:58:49,280 --> 00:58:51,599
+performance in the cloud as well as your
+
+1395
+00:58:51,599 --> 00:58:53,839
+monetary performance. Learn how to
+
+1396
+00:58:53,839 --> 00:58:56,400
+monitor how much you're spending and so
+
+1397
+00:58:56,400 --> 00:58:58,960
+many other things. Cloud management is
+
+1398
+00:58:58,960 --> 00:59:01,599
+really important because if you come to
+
+1399
+00:59:01,599 --> 00:59:03,359
+your employer and say, "I want to work
+
+1400
+00:59:03,359 --> 00:59:05,599
+with Azure. Let's deploy to Azure." your
+
+1401
+00:59:05,599 --> 00:59:07,680
+employer rightfully is going to say, "E,
+
+1402
+00:59:07,680 --> 00:59:10,160
+that sounds expensive. We we got our our
+
+1403
+00:59:10,160 --> 00:59:12,960
+self-hosting here. It's fine." Um, you
+
+1404
+00:59:12,960 --> 00:59:15,520
+can come back with, "Here is why it's
+
+1405
+00:59:15,520 --> 00:59:17,760
+cheaper." I've done this for companies
+
+1406
+00:59:17,760 --> 00:59:19,359
+where, you know, one company I worked
+
+1407
+00:59:19,359 --> 00:59:22,160
+for, they had uh their servers, it was
+
+1408
+00:59:22,160 --> 00:59:24,480
+actually they were uh renting full
+
+1409
+00:59:24,480 --> 00:59:27,040
+servers from, I believe, Rackspace. Um,
+
+1410
+00:59:27,040 --> 00:59:28,480
+so it was actually somebody else's
+
+1411
+00:59:28,480 --> 00:59:29,760
+server, but they were renting the full
+
+1412
+00:59:29,760 --> 00:59:31,520
+thing, doing the Windows updates
+
+1413
+00:59:31,520 --> 00:59:33,599
+themselves, etc.
+
+1414
+00:59:33,599 --> 00:59:36,960
+We went from that to fully in the cloud
+
+1415
+00:59:36,960 --> 00:59:39,599
+with a redundant zone, with more
+
+1416
+00:59:39,599 --> 00:59:41,839
+resources, with more performance, with
+
+1417
+00:59:41,839 --> 00:59:44,000
+more everything
+
+1418
+00:59:44,000 --> 00:59:48,160
+for a fraction of the cost
+
+1419
+00:59:48,160 --> 00:59:50,319
+because I knew how to make the cloud
+
+1420
+00:59:50,319 --> 00:59:53,280
+work for my employer. Guess what? My
+
+1421
+00:59:53,280 --> 00:59:55,920
+employer was thrilled. And I've done
+
+1422
+00:59:55,920 --> 00:59:58,079
+that multiple times because if you know
+
+1423
+00:59:58,079 --> 01:00:00,400
+what you're doing, you can stand out
+
+1424
+01:00:00,400 --> 01:00:04,480
+from the crowd by providing value and
+
+1425
+01:00:04,480 --> 01:00:07,520
+not just danger and cost and all the
+
+1426
+01:00:07,520 --> 01:00:10,240
+rest.
+
+1427
+01:00:10,240 --> 01:00:13,920
+Learn AI dev tools. Okay. At some point,
+
+1428
+01:00:13,920 --> 01:00:15,760
+and this is not when you're a rookie
+
+1429
+01:00:15,760 --> 01:00:18,559
+developer, this is when you are
+
+1430
+01:00:18,559 --> 01:00:20,720
+solidified as a software developer.
+
+1431
+01:00:20,720 --> 01:00:23,839
+Learn dev tools. Now right now AI
+
+1432
+01:00:23,839 --> 01:00:26,079
+development tools like uh Claude or
+
+1433
+01:00:26,079 --> 01:00:28,559
+Copilot etc. these tools are moving very
+
+1434
+01:00:28,559 --> 01:00:30,720
+very fast and they're constantly
+
+1435
+01:00:30,720 --> 01:00:33,839
+changing u which LLM they're using and
+
+1436
+01:00:33,839 --> 01:00:35,520
+and how they're working and the tooling
+
+1437
+01:00:35,520 --> 01:00:38,640
+and it's it's a moving target right now.
+
+1438
+01:00:38,640 --> 01:00:41,599
+Don't worry about diving too deep into
+
+1439
+01:00:41,599 --> 01:00:43,839
+the tooling because it's just changing.
+
+1440
+01:00:43,839 --> 01:00:47,040
+But learn how to use them. learn how to
+
+1441
+01:00:47,040 --> 01:00:49,359
+get value out of them because again
+
+1442
+01:00:49,359 --> 01:00:51,359
+you're looking to provide value for your
+
+1443
+01:00:51,359 --> 01:00:53,520
+employer. And so when you're, you know,
+
+1444
+01:00:53,520 --> 01:00:56,000
+talking to a a person who's, you know,
+
+1445
+01:00:56,000 --> 01:00:57,359
+interviewing you for a technical
+
+1446
+01:00:57,359 --> 01:01:00,799
+interview, you can talk about the the AI
+
+1447
+01:01:00,799 --> 01:01:03,040
+tooling and talk about what you know and
+
+1448
+01:01:03,040 --> 01:01:04,960
+how you've worked with it and what
+
+1449
+01:01:04,960 --> 01:01:07,920
+pitfalls you found as well as how you've
+
+1450
+01:01:07,920 --> 01:01:10,400
+learned to work around those because
+
+1451
+01:01:10,400 --> 01:01:12,160
+employers don't want to hear, "Oh, it's
+
+1452
+01:01:12,160 --> 01:01:13,680
+great. I just tell what to do and it
+
+1453
+01:01:13,680 --> 01:01:15,520
+just does it and does my job for me.
+
+1454
+01:01:15,520 --> 01:01:16,720
+That's not what employers want to hear
+
+1455
+01:01:16,720 --> 01:01:17,680
+because what they're what they're
+
+1456
+01:01:17,680 --> 01:01:20,640
+hearing is you provide no value. But
+
+1457
+01:01:20,640 --> 01:01:22,960
+instead, if you say this is what I found
+
+1458
+01:01:22,960 --> 01:01:24,559
+and this is how I've I've learned to
+
+1459
+01:01:24,559 --> 01:01:26,720
+optimize it. What you're saying is
+
+1460
+01:01:26,720 --> 01:01:30,720
+here's how I drive the AI to make me
+
+1461
+01:01:30,720 --> 01:01:33,200
+more efficient and effective while still
+
+1462
+01:01:33,200 --> 01:01:35,520
+providing value. So learn how to do
+
+1463
+01:01:35,520 --> 01:01:37,599
+that. So those are the supporting tools.
+
+1464
+01:01:37,599 --> 01:01:39,040
+Let's talk about the supporting
+
+1465
+01:01:39,040 --> 01:01:42,319
+languages because yes, when you learn a
+
+1466
+01:01:42,319 --> 01:01:44,960
+language and I encourage you to learn C,
+
+1467
+01:01:44,960 --> 01:01:46,720
+if that's your primary language, learn
+
+1468
+01:01:46,720 --> 01:01:49,680
+it really well. Again, syntax is not
+
+1469
+01:01:49,680 --> 01:01:52,400
+enough. Learn how to actually implement
+
+1470
+01:01:52,400 --> 01:01:54,640
+it, learn how to build things with it.
+
+1471
+01:01:54,640 --> 01:01:56,319
+But
+
+1472
+01:01:56,319 --> 01:01:59,280
+after you do that to an extent, you're
+
+1473
+01:01:59,280 --> 01:02:02,160
+going to have to learn other languages.
+
+1474
+01:02:02,160 --> 01:02:04,400
+That's what developers do. And in fact,
+
+1475
+01:02:04,400 --> 01:02:06,160
+someday maybe you'll find you're not
+
+1476
+01:02:06,160 --> 01:02:09,680
+even developing C anymore. But while you
+
+1477
+01:02:09,680 --> 01:02:13,119
+are, even still, you'll be learning more
+
+1478
+01:02:13,119 --> 01:02:15,680
+languages than just C.
+
+1479
+01:02:15,680 --> 01:02:18,480
+HTML and CSS, those are two, and you can
+
+1480
+01:02:18,480 --> 01:02:19,599
+debate, you know, well, it's not a
+
+1481
+01:02:19,599 --> 01:02:21,280
+programming language. It kind of is. Uh
+
+1482
+01:02:21,280 --> 01:02:23,440
+either way, they're languages. Either
+
+1483
+01:02:23,440 --> 01:02:25,280
+way, you need to know them more than
+
+1484
+01:02:25,280 --> 01:02:27,839
+just I know how to do a div and I know
+
+1485
+01:02:27,839 --> 01:02:31,920
+how to change the the font color.
+
+1486
+01:02:31,920 --> 01:02:33,599
+You need to learn them a whole lot more
+
+1487
+01:02:33,599 --> 01:02:37,119
+deeply than that. Learn them well with
+
+1488
+01:02:37,119 --> 01:02:39,200
+that JavaScript. And here's a pitfall
+
+1489
+01:02:39,200 --> 01:02:40,960
+that a lot of people jump into. They
+
+1490
+01:02:40,960 --> 01:02:43,040
+say, "I haven't learned JavaScript, but
+
+1491
+01:02:43,040 --> 01:02:45,359
+I use Angular."
+
+1492
+01:02:45,359 --> 01:02:48,960
+Don't do that. Learn JavaScript first.
+
+1493
+01:02:48,960 --> 01:02:50,880
+Vanilla JavaScript, meaning just
+
+1494
+01:02:50,880 --> 01:02:53,440
+JavaScript, not a framework. Learn
+
+1495
+01:02:53,440 --> 01:02:56,000
+JavaScript because those frameworks
+
+1496
+01:02:56,000 --> 01:02:58,319
+change all the time and they're built on
+
+1497
+01:02:58,319 --> 01:03:01,839
+a foundation of JavaScript. So when you
+
+1498
+01:03:01,839 --> 01:03:03,920
+know JavaScript, know how it works, you
+
+1499
+01:03:03,920 --> 01:03:07,200
+know what hoisting is, you know how um
+
+1500
+01:03:07,200 --> 01:03:09,119
+it interacts with other things, you know
+
+1501
+01:03:09,119 --> 01:03:11,680
+what let versus const versus var means,
+
+1502
+01:03:11,680 --> 01:03:13,440
+you know these things and why they're
+
+1503
+01:03:13,440 --> 01:03:15,920
+important, then you can make wise
+
+1504
+01:03:15,920 --> 01:03:19,680
+choices around what you do. And this the
+
+1505
+01:03:19,680 --> 01:03:21,039
+same thing is true if you're going to go
+
+1506
+01:03:21,039 --> 01:03:22,720
+into TypeScript. That's fine. Great.
+
+1507
+01:03:22,720 --> 01:03:24,880
+Typescript is can be great. But learn
+
+1508
+01:03:24,880 --> 01:03:26,799
+JavaScript first so you know what it's
+
+1509
+01:03:26,799 --> 01:03:30,079
+doing. Otherwise, what you end up with
+
+1510
+01:03:30,079 --> 01:03:33,520
+is a a knowledge base that's full of
+
+1511
+01:03:33,520 --> 01:03:36,160
+holes that you don't provide an
+
+1512
+01:03:36,160 --> 01:03:40,880
+effective um query against your code to
+
+1513
+01:03:40,880 --> 01:03:42,960
+go, hey, there's some problems here or
+
+1514
+01:03:42,960 --> 01:03:45,760
+hey, let's there's a bug. You don't know
+
+1515
+01:03:45,760 --> 01:03:47,520
+how to do that very well because of the
+
+1516
+01:03:47,520 --> 01:03:49,200
+fact that you got a whole bunch of holes
+
+1517
+01:03:49,200 --> 01:03:51,039
+in your knowledge. And again, what
+
+1518
+01:03:51,039 --> 01:03:52,319
+you're gonna end up doing is letting the
+
+1519
+01:03:52,319 --> 01:03:55,520
+AI lead and you're back to you're not
+
+1520
+01:03:55,520 --> 01:03:58,880
+very valuable as a developer. So, learn
+
+1521
+01:03:58,880 --> 01:04:02,160
+JavaScript. Well, TSQL
+
+1522
+01:04:02,160 --> 01:04:04,640
+um learning this is kind of standin for
+
+1523
+01:04:04,640 --> 01:04:07,920
+any uh database query language. Okay, if
+
+1524
+01:04:07,920 --> 01:04:10,319
+you're using u MongoDB, there's a you
+
+1525
+01:04:10,319 --> 01:04:12,640
+know MongoDB syntax. Whatever the syntax
+
+1526
+01:04:12,640 --> 01:04:15,599
+is, learn how to use it. Well, so TSQL
+
+1527
+01:04:15,599 --> 01:04:17,280
+is what we use for a lot of different
+
+1528
+01:04:17,280 --> 01:04:20,000
+SQL engines, but um you know, Microsoft
+
+1529
+01:04:20,000 --> 01:04:23,280
+SQL Server. Learn the TSQL. Learn more
+
+1530
+01:04:23,280 --> 01:04:26,559
+than just the the select from um and
+
+1531
+01:04:26,559 --> 01:04:28,960
+where query. Learn a lot deeper than
+
+1532
+01:04:28,960 --> 01:04:32,960
+that. Learn how to effectively use TSQL
+
+1533
+01:04:32,960 --> 01:04:36,160
+to optimize your query. Again, this is
+
+1534
+01:04:36,160 --> 01:04:37,359
+where the performance of your
+
+1535
+01:04:37,359 --> 01:04:39,920
+application is won or lost.
+
+1536
+01:04:39,920 --> 01:04:41,680
+And finally, I'm putting this in here as
+
+1537
+01:04:41,680 --> 01:04:44,880
+a as a language. Um, too often people
+
+1538
+01:04:44,880 --> 01:04:48,640
+avoid the command line interface CLI.
+
+1539
+01:04:48,640 --> 01:04:50,559
+Too often people will avoid it because
+
+1540
+01:04:50,559 --> 01:04:52,559
+they say, "Well, that's just so old."
+
+1541
+01:04:52,559 --> 01:04:54,960
+It's not. We talked earlier about
+
+1542
+01:04:54,960 --> 01:04:56,400
+DevOps. Do you know what you're going to
+
+1543
+01:04:56,400 --> 01:04:57,839
+have to do in DevOps? You're going to
+
+1544
+01:04:57,839 --> 01:05:01,440
+have to perform a series of command line
+
+1545
+01:05:01,440 --> 01:05:05,119
+arguments, a command line statements.
+
+1546
+01:05:05,119 --> 01:05:06,960
+How do you know how to do that? by
+
+1547
+01:05:06,960 --> 01:05:08,880
+knowing what the command line is and how
+
+1548
+01:05:08,880 --> 01:05:11,839
+it works. Knowing the command line can
+
+1549
+01:05:11,839 --> 01:05:14,720
+make you faster.
+
+1550
+01:05:14,720 --> 01:05:17,599
+All every git tool is based upon the
+
+1551
+01:05:17,599 --> 01:05:20,960
+command line. And too often what happens
+
+1552
+01:05:20,960 --> 01:05:23,119
+is you'll get to use a git tool. It's
+
+1553
+01:05:23,119 --> 01:05:25,039
+great and it works great, but this one
+
+1554
+01:05:25,039 --> 01:05:27,119
+little edge case where you're like, oh,
+
+1555
+01:05:27,119 --> 01:05:28,799
+it takes like five steps and you know,
+
+1556
+01:05:28,799 --> 01:05:30,400
+doing things all over in order to do
+
+1557
+01:05:30,400 --> 01:05:33,440
+this one thing. [snorts] And more often
+
+1558
+01:05:33,440 --> 01:05:35,520
+than not, it's a oneliner in the command
+
+1559
+01:05:35,520 --> 01:05:39,280
+line. And if you know that you can
+
+1560
+01:05:39,280 --> 01:05:43,920
+supplement your your git guey with git
+
+1561
+01:05:43,920 --> 01:05:47,280
+cli and just do the oneliner and done. I
+
+1562
+01:05:47,280 --> 01:05:50,079
+have done this for years where I've I've
+
+1563
+01:05:50,079 --> 01:05:52,559
+got a a git tool that I like and I use
+
+1564
+01:05:52,559 --> 01:05:53,920
+for the most things but there's one
+
+1565
+01:05:53,920 --> 01:05:55,680
+thing I just don't like and so I'll drop
+
+1566
+01:05:55,680 --> 01:05:58,079
+down that CLI make that one command and
+
+1567
+01:05:58,079 --> 01:06:00,319
+and back up I'm go. The same thing is
+
+1568
+01:06:00,319 --> 01:06:02,799
+true for you know net. You can do almost
+
+1569
+01:06:02,799 --> 01:06:06,160
+any net command as far as uh you know
+
+1570
+01:06:06,160 --> 01:06:08,000
+creating new files or adding new
+
+1571
+01:06:08,000 --> 01:06:10,240
+projects or linking things together,
+
+1572
+01:06:10,240 --> 01:06:12,720
+adding uh packages and so on. You can do
+
+1573
+01:06:12,720 --> 01:06:15,359
+all those things with the command line
+
+1574
+01:06:15,359 --> 01:06:18,640
+that can be much faster. But also having
+
+1575
+01:06:18,640 --> 01:06:20,960
+those skills allows you better at
+
+1576
+01:06:20,960 --> 01:06:22,319
+DevOps. It allows you better at
+
+1577
+01:06:22,319 --> 01:06:25,039
+automation. And so again it helps you
+
+1578
+01:06:25,039 --> 01:06:28,640
+stand out from your peers. Okay. So
+
+1579
+01:06:28,640 --> 01:06:30,640
+those are the kind of the the the goals
+
+1580
+01:06:30,640 --> 01:06:34,880
+things to things to um learn and know.
+
+1581
+01:06:34,880 --> 01:06:38,079
+Let's talk now about your career. Your
+
+1582
+01:06:38,079 --> 01:06:40,319
+career is important and managing your
+
+1583
+01:06:40,319 --> 01:06:43,440
+career is very important. So first of
+
+1584
+01:06:43,440 --> 01:06:46,000
+all key characteristics
+
+1585
+01:06:46,000 --> 01:06:47,920
+you need to be broadly knowledgeable.
+
+1586
+01:06:47,920 --> 01:06:51,119
+Okay. So as a developer, yes, you should
+
+1587
+01:06:51,119 --> 01:06:54,480
+be deeply knowledgeable about C if
+
+1588
+01:06:54,480 --> 01:06:56,799
+you're a C# developer, but you also need
+
+1589
+01:06:56,799 --> 01:06:58,480
+to be broadly knowledgeable. You should
+
+1590
+01:06:58,480 --> 01:07:01,039
+be able to understand what's going on in
+
+1591
+01:07:01,039 --> 01:07:02,319
+the industry around us, you should
+
+1592
+01:07:02,319 --> 01:07:04,240
+understand what is a container and how
+
+1593
+01:07:04,240 --> 01:07:06,160
+does it work. Even if you don't use it
+
+1594
+01:07:06,160 --> 01:07:08,559
+every day, even if you don't use it at
+
+1595
+01:07:08,559 --> 01:07:10,160
+all, you should know what it is and why
+
+1596
+01:07:10,160 --> 01:07:12,720
+it's valuable. At least at that level,
+
+1597
+01:07:12,720 --> 01:07:14,960
+be broadly knowledgeable. So you have a
+
+1598
+01:07:14,960 --> 01:07:17,119
+conversation and B and able to say you
+
+1599
+01:07:17,119 --> 01:07:18,559
+know what I don't use this but I
+
+1600
+01:07:18,559 --> 01:07:20,079
+understand that you know this is
+
+1601
+01:07:20,079 --> 01:07:23,200
+valuable for this and so I don't do that
+
+1602
+01:07:23,200 --> 01:07:25,359
+area of things but you know if I were
+
+1603
+01:07:25,359 --> 01:07:27,760
+going to this is what I would do. Uh
+
+1604
+01:07:27,760 --> 01:07:30,799
+number two be skilled at identifying
+
+1605
+01:07:30,799 --> 01:07:34,480
+flaws and AI suggestions. If you work
+
+1606
+01:07:34,480 --> 01:07:36,319
+with the AI and it builds something and
+
+1607
+01:07:36,319 --> 01:07:39,119
+if you can't find a flaw, the flaw is
+
+1608
+01:07:39,119 --> 01:07:41,039
+probably you're not yet skilled enough
+
+1609
+01:07:41,039 --> 01:07:44,160
+to work with the AI because the AI is
+
+1610
+01:07:44,160 --> 01:07:48,079
+almost always inserting little flaws or
+
+1611
+01:07:48,079 --> 01:07:50,400
+inserting little problems. The big one
+
+1612
+01:07:50,400 --> 01:07:52,400
+here is that when you're working with
+
+1613
+01:07:52,400 --> 01:07:54,640
+any size codebase at all, it's not going
+
+1614
+01:07:54,640 --> 01:07:56,880
+to take the larger picture in mind. It
+
+1615
+01:07:56,880 --> 01:07:58,000
+just can't. it doesn't have enough
+
+1616
+01:07:58,000 --> 01:08:00,000
+tokens to put the entire application in
+
+1617
+01:08:00,000 --> 01:08:03,039
+its memory, which means it's going to
+
+1618
+01:08:03,039 --> 01:08:05,119
+not realize that certain methods aren't
+
+1619
+01:08:05,119 --> 01:08:07,119
+there, or it's going to hallucinate that
+
+1620
+01:08:07,119 --> 01:08:09,119
+certain methods are there. Um, or it's
+
+1621
+01:08:09,119 --> 01:08:11,440
+not going to follow the same patterns as
+
+1622
+01:08:11,440 --> 01:08:13,039
+the rest of your application, or it's
+
+1623
+01:08:13,039 --> 01:08:15,440
+going to miss certain things. You need
+
+1624
+01:08:15,440 --> 01:08:18,159
+to be able to evaluate that and identify
+
+1625
+01:08:18,159 --> 01:08:21,359
+those flaws. And as those flaws get
+
+1626
+01:08:21,359 --> 01:08:22,719
+bigger, you need to make sure that you
+
+1627
+01:08:22,719 --> 01:08:24,719
+identify those because too many
+
+1628
+01:08:24,719 --> 01:08:26,480
+applications that I've seen launched
+
+1629
+01:08:26,480 --> 01:08:29,199
+recently have had major security
+
+1630
+01:08:29,199 --> 01:08:32,560
+problems that make your application
+
+1631
+01:08:32,560 --> 01:08:35,440
+vulnerable and by extension anyone who
+
+1632
+01:08:35,440 --> 01:08:37,679
+is a client of your application. Every
+
+1633
+01:08:37,679 --> 01:08:39,839
+one of your customers becomes vulnerable
+
+1634
+01:08:39,839 --> 01:08:43,920
+and that can be business killing. So you
+
+1635
+01:08:43,920 --> 01:08:46,159
+need to be absolutely certain you
+
+1636
+01:08:46,159 --> 01:08:48,960
+understand how to identify flaws in any
+
+1637
+01:08:48,960 --> 01:08:50,640
+AI suggestion you take or you shouldn't
+
+1638
+01:08:50,640 --> 01:08:53,440
+use AI. Number three, you should be
+
+1639
+01:08:53,440 --> 01:08:55,279
+aware of the big picture. When you're
+
+1640
+01:08:55,279 --> 01:08:57,440
+working on an application, too often you
+
+1641
+01:08:57,440 --> 01:08:59,359
+get heads down and focus on this one
+
+1642
+01:08:59,359 --> 01:09:01,600
+little bug. You need to be able to pick
+
+1643
+01:09:01,600 --> 01:09:03,920
+your head up and understand the big
+
+1644
+01:09:03,920 --> 01:09:07,359
+picture because when you do, you can
+
+1645
+01:09:07,359 --> 01:09:10,640
+make better decisions about what the
+
+1646
+01:09:10,640 --> 01:09:13,600
+right choice is for that particular
+
+1647
+01:09:13,600 --> 01:09:16,400
+situation. Because maybe you can make a
+
+1648
+01:09:16,400 --> 01:09:19,120
+a simple change here that does this and
+
+1649
+01:09:19,120 --> 01:09:21,440
+that's fine in the context of just that
+
+1650
+01:09:21,440 --> 01:09:23,120
+little bit. But if you look at the
+
+1651
+01:09:23,120 --> 01:09:25,199
+bigger picture, you realize that doesn't
+
+1652
+01:09:25,199 --> 01:09:28,159
+serve the overall. And by being better
+
+1653
+01:09:28,159 --> 01:09:30,640
+at being big picture aware, you can be
+
+1654
+01:09:30,640 --> 01:09:31,920
+better in meetings when you're talking
+
+1655
+01:09:31,920 --> 01:09:33,759
+to your boss and say, "Hey, that sounds
+
+1656
+01:09:33,759 --> 01:09:35,120
+great, but here's why it's going to
+
+1657
+01:09:35,120 --> 01:09:37,040
+impact something else over there." And
+
+1658
+01:09:37,040 --> 01:09:40,480
+you become more of a leader in software
+
+1659
+01:09:40,480 --> 01:09:42,880
+development,
+
+1660
+01:09:42,880 --> 01:09:45,279
+be hardworking.
+
+1661
+01:09:45,279 --> 01:09:47,520
+When an employer is thinking about their
+
+1662
+01:09:47,520 --> 01:09:49,920
+best employees, they don't think of the
+
+1663
+01:09:49,920 --> 01:09:53,920
+employees that slack off. They don't
+
+1664
+01:09:53,920 --> 01:09:55,520
+think, you know what, I want more of
+
+1665
+01:09:55,520 --> 01:09:56,800
+those people.
+
+1666
+01:09:56,800 --> 01:10:00,640
+What they think is that that that Jill,
+
+1667
+01:10:00,640 --> 01:10:03,280
+she works really hard. I like that. Even
+
+1668
+01:10:03,280 --> 01:10:06,320
+if she punches in at 8:00 and punches
+
+1669
+01:10:06,320 --> 01:10:08,640
+out at 5:00, she works really hard when
+
+1670
+01:10:08,640 --> 01:10:11,120
+she's here. You know what? Be that
+
+1671
+01:10:11,120 --> 01:10:13,199
+person. Show off that you can be that
+
+1672
+01:10:13,199 --> 01:10:15,920
+person because that's what an employer
+
+1673
+01:10:15,920 --> 01:10:18,159
+is going to value. Even if they don't
+
+1674
+01:10:18,159 --> 01:10:21,840
+say it, even if it feels like they are
+
+1675
+01:10:21,840 --> 01:10:24,480
+not paying attention to you, still be
+
+1676
+01:10:24,480 --> 01:10:28,480
+hardwork. it will pay off. And then
+
+1677
+01:10:28,480 --> 01:10:32,719
+don't be a whiner. Okay? Um, too often I
+
+1678
+01:10:32,719 --> 01:10:34,960
+see people that are just complainers.
+
+1679
+01:10:34,960 --> 01:10:36,239
+You know, they complain to their boss,
+
+1680
+01:10:36,239 --> 01:10:37,840
+they complain to their co-workers, they
+
+1681
+01:10:37,840 --> 01:10:39,120
+complain about the problems and all the
+
+1682
+01:10:39,120 --> 01:10:41,679
+rest. Guess what? That doesn't leave a
+
+1683
+01:10:41,679 --> 01:10:43,840
+good taste in anybody's mouth. When you
+
+1684
+01:10:43,840 --> 01:10:45,520
+think about, hey, you know what? We've
+
+1685
+01:10:45,520 --> 01:10:47,280
+got layoffs coming off coming soon and
+
+1686
+01:10:47,280 --> 01:10:48,640
+we're going to have to lay off half the
+
+1687
+01:10:48,640 --> 01:10:51,440
+people. Who do you think is getting laid
+
+1688
+01:10:51,440 --> 01:10:53,920
+off? the person who is whining all the
+
+1689
+01:10:53,920 --> 01:10:56,080
+time, the person is a hard worker. And
+
+1690
+01:10:56,080 --> 01:10:58,560
+yes, there's more that goes into that
+
+1691
+01:10:58,560 --> 01:11:01,120
+decision, but if it comes down to that,
+
+1692
+01:11:01,120 --> 01:11:02,239
+you want to be a person that's
+
+1693
+01:11:02,239 --> 01:11:03,520
+hardworking. You want to be a person
+
+1694
+01:11:03,520 --> 01:11:05,360
+that is just known for being a
+
+1695
+01:11:05,360 --> 01:11:07,520
+complainer because a complainer takes
+
+1696
+01:11:07,520 --> 01:11:09,679
+energy away.
+
+1697
+01:11:09,679 --> 01:11:12,000
+Don't just take energy away. Put energy
+
+1698
+01:11:12,000 --> 01:11:16,000
+into everyone around you. Okay, let's
+
+1699
+01:11:16,000 --> 01:11:17,920
+talk about an improvement plan. Uh,
+
+1700
+01:11:17,920 --> 01:11:21,280
+number one, solve a real problem with an
+
+1701
+01:11:21,280 --> 01:11:23,199
+application. So, if you're looking to
+
+1702
+01:11:23,199 --> 01:11:26,400
+improve your career, number one, solve a
+
+1703
+01:11:26,400 --> 01:11:29,280
+real problem with an application.
+
+1704
+01:11:29,280 --> 01:11:31,760
+Find some problem that you have and
+
+1705
+01:11:31,760 --> 01:11:35,040
+solve it. Okay? There are so many
+
+1706
+01:11:35,040 --> 01:11:36,400
+problems. I have people tell me all the
+
+1707
+01:11:36,400 --> 01:11:38,159
+time, "Oh, I I can't figure out a
+
+1708
+01:11:38,159 --> 01:11:40,000
+problem." Maybe you're not building
+
+1709
+01:11:40,000 --> 01:11:41,280
+enough applications. Maybe you're not,
+
+1710
+01:11:41,280 --> 01:11:42,480
+you know, working enough with with
+
+1711
+01:11:42,480 --> 01:11:44,880
+software development. Because the more
+
+1712
+01:11:44,880 --> 01:11:46,320
+you start working with software
+
+1713
+01:11:46,320 --> 01:11:47,600
+development, the more you start actually
+
+1714
+01:11:47,600 --> 01:11:48,960
+building real things and the more you
+
+1715
+01:11:48,960 --> 01:11:51,120
+start, you know, working through
+
+1716
+01:11:51,120 --> 01:11:52,400
+training and all the rest, you're going
+
+1717
+01:11:52,400 --> 01:11:54,640
+to find things. Maybe it's just you
+
+1718
+01:11:54,640 --> 01:11:57,040
+figure out a way to track your training.
+
+1719
+01:11:57,040 --> 01:12:00,719
+Maybe it is that you you find a flaw in
+
+1720
+01:12:00,719 --> 01:12:02,080
+something that you don't like and you do
+
+1721
+01:12:02,080 --> 01:12:04,080
+something better. Okay. Um, I did a
+
+1722
+01:12:04,080 --> 01:12:06,880
+video not that long ago about how um I
+
+1723
+01:12:06,880 --> 01:12:10,560
+built a a little this image viewer
+
+1724
+01:12:10,560 --> 01:12:12,719
+because I found that there wasn't good
+
+1725
+01:12:12,719 --> 01:12:14,400
+solutions out there that fit exactly
+
+1726
+01:12:14,400 --> 01:12:16,640
+what I needed. I solved the real
+
+1727
+01:12:16,640 --> 01:12:18,560
+problem. Wasn't a big problem, but I
+
+1728
+01:12:18,560 --> 01:12:20,640
+solved the real problem and that made me
+
+1729
+01:12:20,640 --> 01:12:23,760
+faster at doing my recording and doing
+
+1730
+01:12:23,760 --> 01:12:25,920
+and doing this work. Well, guess what?
+
+1731
+01:12:25,920 --> 01:12:27,360
+If I had a boss looking over my
+
+1732
+01:12:27,360 --> 01:12:28,560
+shoulder, I could show them that and
+
+1733
+01:12:28,560 --> 01:12:30,400
+say, "Hey, this is what I built." And it
+
+1734
+01:12:30,400 --> 01:12:33,040
+saves me a few minutes every time I I do
+
+1735
+01:12:33,040 --> 01:12:37,280
+a video, that can be of value.
+
+1736
+01:12:37,280 --> 01:12:40,239
+Attend a meetup. Software developers
+
+1737
+01:12:40,239 --> 01:12:44,080
+tend to be introverted. They tend to
+
+1738
+01:12:44,080 --> 01:12:46,400
+focus on, hey, you know, I I don't want
+
+1739
+01:12:46,400 --> 01:12:47,920
+to talk to people. I want to just put my
+
+1740
+01:12:47,920 --> 01:12:50,800
+head down. Don't do that. Attend a
+
+1741
+01:12:50,800 --> 01:12:53,440
+meetup. Meet other developers. You will
+
+1742
+01:12:53,440 --> 01:12:56,560
+find that it puts your career forward
+
+1743
+01:12:56,560 --> 01:12:58,560
+just by meeting other people because
+
+1744
+01:12:58,560 --> 01:13:00,960
+you'll start talking about what you're
+
+1745
+01:13:00,960 --> 01:13:03,199
+doing and what they're doing and you
+
+1746
+01:13:03,199 --> 01:13:05,280
+will learn new things and you will you
+
+1747
+01:13:05,280 --> 01:13:08,880
+will just grow by talking to others and
+
+1748
+01:13:08,880 --> 01:13:11,040
+getting an outside perspective and and
+
+1749
+01:13:11,040 --> 01:13:13,760
+seeing how they do things. So just that
+
+1750
+01:13:13,760 --> 01:13:17,120
+alone will be of value. But then if you
+
+1751
+01:13:17,120 --> 01:13:19,520
+do need a job, you have a network of
+
+1752
+01:13:19,520 --> 01:13:21,920
+people that are working as developers
+
+1753
+01:13:21,920 --> 01:13:24,800
+who would know of any openings for jobs.
+
+1754
+01:13:24,800 --> 01:13:26,400
+And you'll have someone that can say,
+
+1755
+01:13:26,400 --> 01:13:29,440
+"Hey, I know Tim and he's a developer."
+
+1756
+01:13:29,440 --> 01:13:31,840
+And, you know, pass that on to their
+
+1757
+01:13:31,840 --> 01:13:33,760
+boss. All of a sudden, you've bypassed
+
+1758
+01:13:33,760 --> 01:13:36,320
+round one of the interview process. You
+
+1759
+01:13:36,320 --> 01:13:37,280
+still have to go through the rest of the
+
+1760
+01:13:37,280 --> 01:13:40,640
+rounds, but you've at least gotten a leg
+
+1761
+01:13:40,640 --> 01:13:42,960
+up against all the rest of your
+
+1762
+01:13:42,960 --> 01:13:45,280
+competition. you have stood out from the
+
+1763
+01:13:45,280 --> 01:13:48,080
+crowd. So attend a meetup. It's also
+
+1764
+01:13:48,080 --> 01:13:49,360
+just good for your career because you're
+
+1765
+01:13:49,360 --> 01:13:51,679
+going to start learning and growing in
+
+1766
+01:13:51,679 --> 01:13:53,360
+just what you're learning in that meetup
+
+1767
+01:13:53,360 --> 01:13:58,719
+as well. So please do that. Also keep
+
+1768
+01:13:58,719 --> 01:14:01,600
+your resume current. Keep working on how
+
+1769
+01:14:01,600 --> 01:14:03,040
+many years experience do you have? What
+
+1770
+01:14:03,040 --> 01:14:04,400
+skills have you learned? What things
+
+1771
+01:14:04,400 --> 01:14:06,640
+should drop off your resume? And keep
+
+1772
+01:14:06,640 --> 01:14:08,800
+that master resume that that main resume
+
+1773
+01:14:08,800 --> 01:14:11,440
+that you have fresh with all the
+
+1774
+01:14:11,440 --> 01:14:12,560
+information. Remember, you're going to
+
+1775
+01:14:12,560 --> 01:14:15,040
+customize that resumeé to just the
+
+1776
+01:14:15,040 --> 01:14:16,400
+important bits for any given
+
+1777
+01:14:16,400 --> 01:14:18,960
+application, any given uh job
+
+1778
+01:14:18,960 --> 01:14:21,520
+application, but you want to have that
+
+1779
+01:14:21,520 --> 01:14:24,320
+that main resume up to date at all
+
+1780
+01:14:24,320 --> 01:14:26,880
+times. It's just you're ready to go. It
+
+1781
+01:14:26,880 --> 01:14:29,120
+also helps you go, I haven't really done
+
+1782
+01:14:29,120 --> 01:14:31,520
+anything recently. And that's your kind
+
+1783
+01:14:31,520 --> 01:14:32,960
+of kick in the pants and go do
+
+1784
+01:14:32,960 --> 01:14:34,960
+something.
+
+1785
+01:14:34,960 --> 01:14:37,840
+Add three new skills. Add three new
+
+1786
+01:14:37,840 --> 01:14:41,280
+skills to your list of skills and things
+
+1787
+01:14:41,280 --> 01:14:42,719
+that you know about. You don't have to
+
+1788
+01:14:42,719 --> 01:14:45,199
+go in depth yet, but learn three new
+
+1789
+01:14:45,199 --> 01:14:48,480
+things. Push yourself to go beyond just
+
+1790
+01:14:48,480 --> 01:14:51,679
+what you do at your day job. Expand your
+
+1791
+01:14:51,679 --> 01:14:53,679
+abilities
+
+1792
+01:14:53,679 --> 01:14:56,080
+and then experiment.
+
+1793
+01:14:56,080 --> 01:14:58,960
+So, experiment with new things, try new
+
+1794
+01:14:58,960 --> 01:15:00,560
+things, figure out what works and what
+
+1795
+01:15:00,560 --> 01:15:02,719
+doesn't work. work on an improvement
+
+1796
+01:15:02,719 --> 01:15:06,960
+plan so that you are improving as a
+
+1797
+01:15:06,960 --> 01:15:09,120
+developer and you are learning what you
+
+1798
+01:15:09,120 --> 01:15:10,960
+like, what you don't like, what works,
+
+1799
+01:15:10,960 --> 01:15:13,679
+what doesn't work. So even if you didn't
+
+1800
+01:15:13,679 --> 01:15:15,600
+add a new skill to your resume, but you
+
+1801
+01:15:15,600 --> 01:15:17,679
+try it out, you can have a conversation
+
+1802
+01:15:17,679 --> 01:15:19,040
+about that. Say, you know what? I tried
+
+1803
+01:15:19,040 --> 01:15:20,480
+that out. It just didn't work for me.
+
+1804
+01:15:20,480 --> 01:15:24,159
+Here's why. And have that conversation.
+
+1805
+01:15:24,159 --> 01:15:26,880
+Okay. Next up, the bottom line. So,
+
+1806
+01:15:26,880 --> 01:15:28,960
+here's the bottom line for this whole
+
+1807
+01:15:28,960 --> 01:15:30,960
+video, and that is that software
+
+1808
+01:15:30,960 --> 01:15:33,679
+development is changing. You need to be
+
+1809
+01:15:33,679 --> 01:15:36,320
+able to be more than just a prompt
+
+1810
+01:15:36,320 --> 01:15:41,199
+engineer to get and maintain a job. It's
+
+1811
+01:15:41,199 --> 01:15:43,120
+going to take work. It's going to take
+
+1812
+01:15:43,120 --> 01:15:46,560
+effort on your part to get your job, to
+
+1813
+01:15:46,560 --> 01:15:47,840
+maintain your job, to be better at your
+
+1814
+01:15:47,840 --> 01:15:51,520
+job, but it's worth it. This career,
+
+1815
+01:15:51,520 --> 01:15:54,880
+this field is awesome. And if you like
+
+1816
+01:15:54,880 --> 01:15:56,480
+being in here, then you're going to need
+
+1817
+01:15:56,480 --> 01:15:58,320
+to have put the work in to stay here.
+
+1818
+01:15:58,320 --> 01:16:00,800
+But it's going to pay off. It's going to
+
+1819
+01:16:00,800 --> 01:16:03,600
+be rewarding. So follow this. I hope you
+
+1820
+01:16:03,600 --> 01:16:07,199
+have a great 2026. Dive in and make this
+
+1821
+01:16:07,199 --> 01:16:09,760
+the best year ever for your software
+
+1822
+01:16:09,760 --> 01:16:13,239
+development career.
+
+1823
+01:16:15,882 --> 01:16:17,902
+[music]
+
+1824
+01:16:25,052 --> 01:16:27,073
+>> [music]
