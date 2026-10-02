@@ -10,7 +10,8 @@ Experienced developer Danny Adams created this course.
 
 Welcome to Mastering Design Patterns and SOLID Principles in C#.
 
-So, let me first give you a quick introduction to what you will learn in this course and what you need to know before getting started.
+So, let me first give you a quick introduction to what you will learn in this course 
+and what you need to know before getting started.
 
 The aim of this course is to teach you how to design maintainable and reusable object-oriented software. And this is achieved, first of all, by learning the object-oriented programming principles, such as encapsulation, abstraction, inheritance, polymorphism, and coupling.
 
